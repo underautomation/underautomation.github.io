@@ -12,7 +12,7 @@ The archive is made of 2 folders :
 
 <center>
 <div class="btn-container">
-      <button title="Download it now !" onclick="window.open('https://github.com/underautomation/UniversalRobots/releases/latest/download/UniversalRobotsAPI.zip', '_blank')" class="btn-pill">
+      <button title="Download it now !" onclick="window.open('https://github.com/underautomation/UniversalRobots/releases', '_blank')" class="btn-pill">
         <span><img src="/assets/download.png" style="margin-right:20px;" />Try latest version</span>
       </button>
 </div>
