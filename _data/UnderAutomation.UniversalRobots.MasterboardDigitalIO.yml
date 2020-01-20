@@ -1,0 +1,1141 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  commentId: T:UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  id: MasterboardDigitalIO
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1
+  - UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value
+  langs:
+  - csharp
+  - vb
+  name: MasterboardDigitalIO
+  nameWithType: MasterboardDigitalIO
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  type: Class
+  source:
+    id: MasterboardDigitalIO
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1326
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public class MasterboardDigitalIO
+    content.vb: Public Class MasterboardDigitalIO
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value
+  id: Value
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MasterboardDigitalIO.Value
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value
+  type: Property
+  source:
+    id: Value
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1330
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRegister value\n"
+  example: []
+  syntax:
+    content: public int Value { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Value As Integer
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray
+  id: BitArray
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: BitArray
+  nameWithType: MasterboardDigitalIO.BitArray
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray
+  type: Property
+  source:
+    id: BitArray
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1335
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRegister value seen as a bool array\n"
+  example: []
+  syntax:
+    content: public BitArray BitArray { get; }
+    parameters: []
+    return:
+      type: System.Collections.BitArray
+    content.vb: Public ReadOnly Property BitArray As BitArray
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0
+  id: Digital0
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital0
+  nameWithType: MasterboardDigitalIO.Digital0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0
+  type: Property
+  source:
+    id: Digital0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1342
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital0 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital0 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1
+  id: Digital1
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital1
+  nameWithType: MasterboardDigitalIO.Digital1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1
+  type: Property
+  source:
+    id: Digital1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1348
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital1 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital1 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2
+  id: Digital2
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital2
+  nameWithType: MasterboardDigitalIO.Digital2
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2
+  type: Property
+  source:
+    id: Digital2
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1354
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital2 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital2 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3
+  id: Digital3
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital3
+  nameWithType: MasterboardDigitalIO.Digital3
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3
+  type: Property
+  source:
+    id: Digital3
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1360
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital3 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital3 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4
+  id: Digital4
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital4
+  nameWithType: MasterboardDigitalIO.Digital4
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4
+  type: Property
+  source:
+    id: Digital4
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1366
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital4 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital4 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5
+  id: Digital5
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital5
+  nameWithType: MasterboardDigitalIO.Digital5
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5
+  type: Property
+  source:
+    id: Digital5
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1372
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital5 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital5 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6
+  id: Digital6
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital6
+  nameWithType: MasterboardDigitalIO.Digital6
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6
+  type: Property
+  source:
+    id: Digital6
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1378
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital6 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital6 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7
+  id: Digital7
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Digital7
+  nameWithType: MasterboardDigitalIO.Digital7
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7
+  type: Property
+  source:
+    id: Digital7
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1384
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Digital7 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Digital7 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0
+  id: Configurable0
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable0
+  nameWithType: MasterboardDigitalIO.Configurable0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0
+  type: Property
+  source:
+    id: Configurable0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1390
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable0 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable0 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1
+  id: Configurable1
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable1
+  nameWithType: MasterboardDigitalIO.Configurable1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1
+  type: Property
+  source:
+    id: Configurable1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1395
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable1 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable1 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2
+  id: Configurable2
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable2
+  nameWithType: MasterboardDigitalIO.Configurable2
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2
+  type: Property
+  source:
+    id: Configurable2
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1400
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable2 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable2 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3
+  id: Configurable3
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable3
+  nameWithType: MasterboardDigitalIO.Configurable3
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3
+  type: Property
+  source:
+    id: Configurable3
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1405
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable3 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable3 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4
+  id: Configurable4
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable4
+  nameWithType: MasterboardDigitalIO.Configurable4
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4
+  type: Property
+  source:
+    id: Configurable4
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1410
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable4 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable4 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5
+  id: Configurable5
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable5
+  nameWithType: MasterboardDigitalIO.Configurable5
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5
+  type: Property
+  source:
+    id: Configurable5
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1415
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable5 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable5 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6
+  id: Configurable6
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable6
+  nameWithType: MasterboardDigitalIO.Configurable6
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6
+  type: Property
+  source:
+    id: Configurable6
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1420
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable6 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable6 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7
+  id: Configurable7
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: Configurable7
+  nameWithType: MasterboardDigitalIO.Configurable7
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7
+  type: Property
+  source:
+    id: Configurable7
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1425
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool Configurable7 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Configurable7 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0
+  id: ToolDigital0
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: ToolDigital0
+  nameWithType: MasterboardDigitalIO.ToolDigital0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0
+  type: Property
+  source:
+    id: ToolDigital0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1431
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool ToolDigital0 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ToolDigital0 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1
+  id: ToolDigital1
+  parent: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  langs:
+  - csharp
+  - vb
+  name: ToolDigital1
+  nameWithType: MasterboardDigitalIO.ToolDigital1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1
+  type: Property
+  source:
+    id: ToolDigital1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1437
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public bool ToolDigital1 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ToolDigital1 As Boolean
+  overload: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value
+  name: Value
+  nameWithType: MasterboardDigitalIO.Value
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Value
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray
+  name: BitArray
+  nameWithType: MasterboardDigitalIO.BitArray
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0
+  name: Digital0
+  nameWithType: MasterboardDigitalIO.Digital0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital0
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1
+  name: Digital1
+  nameWithType: MasterboardDigitalIO.Digital1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital1
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2
+  name: Digital2
+  nameWithType: MasterboardDigitalIO.Digital2
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital2
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3
+  name: Digital3
+  nameWithType: MasterboardDigitalIO.Digital3
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital3
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4
+  name: Digital4
+  nameWithType: MasterboardDigitalIO.Digital4
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital4
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5
+  name: Digital5
+  nameWithType: MasterboardDigitalIO.Digital5
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital5
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6
+  name: Digital6
+  nameWithType: MasterboardDigitalIO.Digital6
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital6
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7
+  name: Digital7
+  nameWithType: MasterboardDigitalIO.Digital7
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Digital7
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0
+  name: Configurable0
+  nameWithType: MasterboardDigitalIO.Configurable0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable0
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1
+  name: Configurable1
+  nameWithType: MasterboardDigitalIO.Configurable1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable1
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2
+  name: Configurable2
+  nameWithType: MasterboardDigitalIO.Configurable2
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable2
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3
+  name: Configurable3
+  nameWithType: MasterboardDigitalIO.Configurable3
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable3
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4
+  name: Configurable4
+  nameWithType: MasterboardDigitalIO.Configurable4
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable4
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5
+  name: Configurable5
+  nameWithType: MasterboardDigitalIO.Configurable5
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable5
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6
+  name: Configurable6
+  nameWithType: MasterboardDigitalIO.Configurable6
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable6
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7
+  name: Configurable7
+  nameWithType: MasterboardDigitalIO.Configurable7
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.Configurable7
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0
+  name: ToolDigital0
+  nameWithType: MasterboardDigitalIO.ToolDigital0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital0
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1
+  name: ToolDigital1
+  nameWithType: MasterboardDigitalIO.ToolDigital1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO.ToolDigital1

@@ -1,0 +1,879 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  id: CartesianInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y
+  - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z
+  langs:
+  - csharp
+  - vb
+  name: CartesianInfoPackageEventArgs
+  nameWithType: CartesianInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  type: Class
+  source:
+    id: CartesianInfoPackageEventArgs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1504
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public class CartesianInfoPackageEventArgs : PackageEventArgs'
+    content.vb: >-
+      Public Class CartesianInfoPackageEventArgs
+          Inherits PackageEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - UnderAutomation.UniversalRobots.PackageEventArgs
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X
+  id: X
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: CartesianInfoPackageEventArgs.X
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X
+  type: Property
+  source:
+    id: X
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1510
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nX axis coordinate in mm of the TCP in the current frame \n"
+  example: []
+  syntax:
+    content: public double X { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property X As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y
+  id: Y
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: CartesianInfoPackageEventArgs.Y
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y
+  type: Property
+  source:
+    id: Y
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1515
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nY axis coordinate in mm of the TCP in the current frame \n"
+  example: []
+  syntax:
+    content: public double Y { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Y As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z
+  id: Z
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: CartesianInfoPackageEventArgs.Z
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z
+  type: Property
+  source:
+    id: Z
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1520
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nZ axis coordinate in mm of the TCP in the current frame \n"
+  example: []
+  syntax:
+    content: public double Z { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Z As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx
+  id: Rx
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Rx
+  nameWithType: CartesianInfoPackageEventArgs.Rx
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx
+  type: Property
+  source:
+    id: Rx
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1525
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRX axis coordinate in degrees of the TCP in the current frame \n"
+  example: []
+  syntax:
+    content: public double Rx { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Rx As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry
+  id: Ry
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Ry
+  nameWithType: CartesianInfoPackageEventArgs.Ry
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry
+  type: Property
+  source:
+    id: Ry
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1530
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRY axis coordinate in degrees of the TCP in the current frame \n"
+  example: []
+  syntax:
+    content: public double Ry { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Ry As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz
+  id: Rz
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Rz
+  nameWithType: CartesianInfoPackageEventArgs.Rz
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz
+  type: Property
+  source:
+    id: Rz
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1535
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRZ axis coordinate in degrees of the TCP in the current frame \n"
+  example: []
+  syntax:
+    content: public double Rz { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Rz As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX
+  id: TCPOffsetX
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TCPOffsetX
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetX
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX
+  type: Property
+  source:
+    id: TCPOffsetX
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1541
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nX position of the TCP in the flange frame\n"
+  example: []
+  syntax:
+    content: public double TCPOffsetX { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TCPOffsetX As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY
+  id: TCPOffsetY
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TCPOffsetY
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetY
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY
+  type: Property
+  source:
+    id: TCPOffsetY
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1546
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nY position of the TCP in the flange frame\n"
+  example: []
+  syntax:
+    content: public double TCPOffsetY { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TCPOffsetY As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ
+  id: TCPOffsetZ
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TCPOffsetZ
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetZ
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ
+  type: Property
+  source:
+    id: TCPOffsetZ
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1551
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nZ position of the TCP in the flange frame\n"
+  example: []
+  syntax:
+    content: public double TCPOffsetZ { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TCPOffsetZ As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX
+  id: TCPOffsetRX
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TCPOffsetRX
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetRX
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX
+  type: Property
+  source:
+    id: TCPOffsetRX
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1556
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRX position of the TCP in the flange frame\n"
+  example: []
+  syntax:
+    content: public double TCPOffsetRX { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TCPOffsetRX As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY
+  id: TCPOffsetRY
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TCPOffsetRY
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetRY
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY
+  type: Property
+  source:
+    id: TCPOffsetRY
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1561
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRY position of the TCP in the flange frame\n"
+  example: []
+  syntax:
+    content: public double TCPOffsetRY { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TCPOffsetRY As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ
+  commentId: P:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ
+  id: TCPOffsetRZ
+  parent: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TCPOffsetRZ
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetRZ
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ
+  type: Property
+  source:
+    id: TCPOffsetRZ
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1566
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRZ position of the TCP in the flange frame\n"
+  example: []
+  syntax:
+    content: public double TCPOffsetRZ { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TCPOffsetRZ As Double
+  overload: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  parent: UnderAutomation.UniversalRobots.PackageEventArgs
+  name: ReceiveDate
+  nameWithType: PackageEventArgs.ReceiveDate
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X
+  name: X
+  nameWithType: CartesianInfoPackageEventArgs.X
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.X
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y
+  name: Y
+  nameWithType: CartesianInfoPackageEventArgs.Y
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Y
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z
+  name: Z
+  nameWithType: CartesianInfoPackageEventArgs.Z
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Z
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx
+  name: Rx
+  nameWithType: CartesianInfoPackageEventArgs.Rx
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rx
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry
+  name: Ry
+  nameWithType: CartesianInfoPackageEventArgs.Ry
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Ry
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz
+  name: Rz
+  nameWithType: CartesianInfoPackageEventArgs.Rz
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.Rz
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX
+  name: TCPOffsetX
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetX
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetX
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY
+  name: TCPOffsetY
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetY
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetY
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ
+  name: TCPOffsetZ
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetZ
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetZ
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX
+  name: TCPOffsetRX
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetRX
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRX
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY
+  name: TCPOffsetRY
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetRY
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRY
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ*
+  commentId: Overload:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ
+  name: TCPOffsetRZ
+  nameWithType: CartesianInfoPackageEventArgs.TCPOffsetRZ
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs.TCPOffsetRZ

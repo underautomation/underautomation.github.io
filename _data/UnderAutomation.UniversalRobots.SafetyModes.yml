@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.SafetyModes
+  commentId: T:UnderAutomation.UniversalRobots.SafetyModes
+  id: SafetyModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.SafetyModes.Fault
+  - UnderAutomation.UniversalRobots.SafetyModes.Normal
+  - UnderAutomation.UniversalRobots.SafetyModes.ProtectiveStop
+  - UnderAutomation.UniversalRobots.SafetyModes.Recovery
+  - UnderAutomation.UniversalRobots.SafetyModes.Reduced
+  - UnderAutomation.UniversalRobots.SafetyModes.RobotEmergencyStop
+  - UnderAutomation.UniversalRobots.SafetyModes.SafeguardStop
+  - UnderAutomation.UniversalRobots.SafetyModes.SystemEmergencyStop
+  - UnderAutomation.UniversalRobots.SafetyModes.Violation
+  langs:
+  - csharp
+  - vb
+  name: SafetyModes
+  nameWithType: SafetyModes
+  fullName: UnderAutomation.UniversalRobots.SafetyModes
+  type: Enum
+  source:
+    id: SafetyModes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1451
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSafety modes\n"
+  example: []
+  syntax:
+    content: 'public enum SafetyModes : byte'
+    content.vb: Public Enum SafetyModes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.SafetyModes.Normal
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.Normal
+  id: Normal
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: SafetyModes.Normal
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.Normal
+  type: Field
+  source:
+    id: Normal
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1456
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSafety is in normal operating conditions\n"
+  example: []
+  syntax:
+    content: Normal = 1
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.Reduced
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.Reduced
+  id: Reduced
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: Reduced
+  nameWithType: SafetyModes.Reduced
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.Reduced
+  type: Field
+  source:
+    id: Reduced
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1461
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSpeed is reduced\n"
+  example: []
+  syntax:
+    content: Reduced = 2
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.ProtectiveStop
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.ProtectiveStop
+  id: ProtectiveStop
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: ProtectiveStop
+  nameWithType: SafetyModes.ProtectiveStop
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.ProtectiveStop
+  type: Field
+  source:
+    id: ProtectiveStop
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1466
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nProtective safeguard Stop. This safety function is triggeredby an external protective device using safety inputs which will trigger a Cat 2 stop3per IEC 60204-1.\n"
+  example: []
+  syntax:
+    content: ProtectiveStop = 3
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.Recovery
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.Recovery
+  id: Recovery
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: Recovery
+  nameWithType: SafetyModes.Recovery
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.Recovery
+  type: Field
+  source:
+    id: Recovery
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1471
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nWhen a safety limit is violated, the safety system must be restarted.\n"
+  example: []
+  syntax:
+    content: Recovery = 4
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.SafeguardStop
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.SafeguardStop
+  id: SafeguardStop
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: SafeguardStop
+  nameWithType: SafetyModes.SafeguardStop
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.SafeguardStop
+  type: Field
+  source:
+    id: SafeguardStop
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1476
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\n(SI0 + SI1 + SBUS) Physical s-stop interface input	\n"
+  example: []
+  syntax:
+    content: SafeguardStop = 5
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.SystemEmergencyStop
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.SystemEmergencyStop
+  id: SystemEmergencyStop
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: SystemEmergencyStop
+  nameWithType: SafetyModes.SystemEmergencyStop
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.SystemEmergencyStop
+  type: Field
+  source:
+    id: SystemEmergencyStop
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1481
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\n(EA + EB + SBUS->Euromap67) Physical e-stop interface input activated		\n"
+  example: []
+  syntax:
+    content: SystemEmergencyStop = 6
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.RobotEmergencyStop
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.RobotEmergencyStop
+  id: RobotEmergencyStop
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: RobotEmergencyStop
+  nameWithType: SafetyModes.RobotEmergencyStop
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.RobotEmergencyStop
+  type: Field
+  source:
+    id: RobotEmergencyStop
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1486
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\n(EA + EB + SBUS->Screen) Physical e-stop interface input activated		\n"
+  example: []
+  syntax:
+    content: RobotEmergencyStop = 7
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.Violation
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.Violation
+  id: Violation
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: Violation
+  nameWithType: SafetyModes.Violation
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.Violation
+  type: Field
+  source:
+    id: Violation
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1491
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSafety is in violation mode (for example, violation of the allowed delay between redundant signals)\n"
+  example: []
+  syntax:
+    content: Violation = 8
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.SafetyModes.Fault
+  commentId: F:UnderAutomation.UniversalRobots.SafetyModes.Fault
+  id: Fault
+  parent: UnderAutomation.UniversalRobots.SafetyModes
+  langs:
+  - csharp
+  - vb
+  name: Fault
+  nameWithType: SafetyModes.Fault
+  fullName: UnderAutomation.UniversalRobots.SafetyModes.Fault
+  type: Field
+  source:
+    id: Fault
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1496
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSafety is in fault mode \n"
+  example: []
+  syntax:
+    content: Fault = 9
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.SafetyModes
+  commentId: T:UnderAutomation.UniversalRobots.SafetyModes
+  parent: UnderAutomation.UniversalRobots
+  name: SafetyModes
+  nameWithType: SafetyModes
+  fullName: UnderAutomation.UniversalRobots.SafetyModes

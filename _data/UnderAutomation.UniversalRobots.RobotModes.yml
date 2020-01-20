@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.RobotModes
+  commentId: T:UnderAutomation.UniversalRobots.RobotModes
+  id: RobotModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.RobotModes.BackDrive
+  - UnderAutomation.UniversalRobots.RobotModes.Booting
+  - UnderAutomation.UniversalRobots.RobotModes.ConfirmSafety
+  - UnderAutomation.UniversalRobots.RobotModes.Disconnected
+  - UnderAutomation.UniversalRobots.RobotModes.Idle
+  - UnderAutomation.UniversalRobots.RobotModes.PowerOff
+  - UnderAutomation.UniversalRobots.RobotModes.PowerOn
+  - UnderAutomation.UniversalRobots.RobotModes.Running
+  - UnderAutomation.UniversalRobots.RobotModes.UpdatingFirmware
+  langs:
+  - csharp
+  - vb
+  name: RobotModes
+  nameWithType: RobotModes
+  fullName: UnderAutomation.UniversalRobots.RobotModes
+  type: Enum
+  source:
+    id: RobotModes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 940
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot running modes\n"
+  example: []
+  syntax:
+    content: public enum RobotModes
+    content.vb: Public Enum RobotModes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.RobotModes.Disconnected
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.Disconnected
+  id: Disconnected
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: Disconnected
+  nameWithType: RobotModes.Disconnected
+  fullName: UnderAutomation.UniversalRobots.RobotModes.Disconnected
+  type: Field
+  source:
+    id: Disconnected
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 944
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is not connected to its controller\n"
+  example: []
+  syntax:
+    content: Disconnected = 0
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.ConfirmSafety
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.ConfirmSafety
+  id: ConfirmSafety
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: ConfirmSafety
+  nameWithType: RobotModes.ConfirmSafety
+  fullName: UnderAutomation.UniversalRobots.RobotModes.ConfirmSafety
+  type: Field
+  source:
+    id: ConfirmSafety
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 949
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot has stopped due to a Safety Stop\n"
+  example: []
+  syntax:
+    content: ConfirmSafety = 1
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.Booting
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.Booting
+  id: Booting
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: Booting
+  nameWithType: RobotModes.Booting
+  fullName: UnderAutomation.UniversalRobots.RobotModes.Booting
+  type: Field
+  source:
+    id: Booting
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 954
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe robot controller is booting\n"
+  example: []
+  syntax:
+    content: Booting = 2
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.PowerOff
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.PowerOff
+  id: PowerOff
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: PowerOff
+  nameWithType: RobotModes.PowerOff
+  fullName: UnderAutomation.UniversalRobots.RobotModes.PowerOff
+  type: Field
+  source:
+    id: PowerOff
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 959
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe robot is powered off\n"
+  example: []
+  syntax:
+    content: PowerOff = 3
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.PowerOn
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.PowerOn
+  id: PowerOn
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: PowerOn
+  nameWithType: RobotModes.PowerOn
+  fullName: UnderAutomation.UniversalRobots.RobotModes.PowerOn
+  type: Field
+  source:
+    id: PowerOn
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 964
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe robot is powered on\n"
+  example: []
+  syntax:
+    content: PowerOn = 4
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.Idle
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.Idle
+  id: Idle
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: RobotModes.Idle
+  fullName: UnderAutomation.UniversalRobots.RobotModes.Idle
+  type: Field
+  source:
+    id: Idle
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 969
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPower is on but breaks are not released\n"
+  example: []
+  syntax:
+    content: Idle = 5
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.BackDrive
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.BackDrive
+  id: BackDrive
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: BackDrive
+  nameWithType: RobotModes.BackDrive
+  fullName: UnderAutomation.UniversalRobots.RobotModes.BackDrive
+  type: Field
+  source:
+    id: BackDrive
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 974
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe robot is hand guided  by pushing teached button\n"
+  example: []
+  syntax:
+    content: BackDrive = 6
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.Running
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.Running
+  id: Running
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: RobotModes.Running
+  fullName: UnderAutomation.UniversalRobots.RobotModes.Running
+  type: Field
+  source:
+    id: Running
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 979
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is in normal mode\n"
+  example: []
+  syntax:
+    content: Running = 7
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModes.UpdatingFirmware
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.UpdatingFirmware
+  id: UpdatingFirmware
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: UpdatingFirmware
+  nameWithType: RobotModes.UpdatingFirmware
+  fullName: UnderAutomation.UniversalRobots.RobotModes.UpdatingFirmware
+  type: Field
+  source:
+    id: UpdatingFirmware
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 984
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nFirmware is upgrading\n"
+  example: []
+  syntax:
+    content: UpdatingFirmware = 8
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.RobotModes
+  commentId: T:UnderAutomation.UniversalRobots.RobotModes
+  parent: UnderAutomation.UniversalRobots
+  name: RobotModes
+  nameWithType: RobotModes
+  fullName: UnderAutomation.UniversalRobots.RobotModes

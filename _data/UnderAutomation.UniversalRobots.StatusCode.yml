@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.StatusCode
+  commentId: T:UnderAutomation.UniversalRobots.StatusCode
+  id: StatusCode
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.StatusCode.DecodageError
+  - UnderAutomation.UniversalRobots.StatusCode.OK
+  - UnderAutomation.UniversalRobots.StatusCode.ReadThreadAborted
+  - UnderAutomation.UniversalRobots.StatusCode.SendCommandInternalError
+  - UnderAutomation.UniversalRobots.StatusCode.SentCommandIsEmpty
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: StatusCode
+  fullName: UnderAutomation.UniversalRobots.StatusCode
+  type: Enum
+  source:
+    id: StatusCode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 398
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStatus code that describes an internal error or an internal action\n"
+  example: []
+  syntax:
+    content: public enum StatusCode
+    content.vb: Public Enum StatusCode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.StatusCode.OK
+  commentId: F:UnderAutomation.UniversalRobots.StatusCode.OK
+  id: OK
+  parent: UnderAutomation.UniversalRobots.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: OK
+  nameWithType: StatusCode.OK
+  fullName: UnderAutomation.UniversalRobots.StatusCode.OK
+  type: Field
+  source:
+    id: OK
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 402
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe action succeeded\n"
+  example: []
+  syntax:
+    content: OK = 0
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.StatusCode.ReadThreadAborted
+  commentId: F:UnderAutomation.UniversalRobots.StatusCode.ReadThreadAborted
+  id: ReadThreadAborted
+  parent: UnderAutomation.UniversalRobots.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: ReadThreadAborted
+  nameWithType: StatusCode.ReadThreadAborted
+  fullName: UnderAutomation.UniversalRobots.StatusCode.ReadThreadAborted
+  type: Field
+  source:
+    id: ReadThreadAborted
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 407
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe read threat has stopped due to an internal exception. No more data event will be raised.\n"
+  example: []
+  syntax:
+    content: ReadThreadAborted = 1
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.StatusCode.DecodageError
+  commentId: F:UnderAutomation.UniversalRobots.StatusCode.DecodageError
+  id: DecodageError
+  parent: UnderAutomation.UniversalRobots.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: DecodageError
+  nameWithType: StatusCode.DecodageError
+  fullName: UnderAutomation.UniversalRobots.StatusCode.DecodageError
+  type: Field
+  source:
+    id: DecodageError
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 412
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe data received are inconsistent and it not possible to decode it.\n"
+  example: []
+  syntax:
+    content: DecodageError = 2
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.StatusCode.SendCommandInternalError
+  commentId: F:UnderAutomation.UniversalRobots.StatusCode.SendCommandInternalError
+  id: SendCommandInternalError
+  parent: UnderAutomation.UniversalRobots.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: SendCommandInternalError
+  nameWithType: StatusCode.SendCommandInternalError
+  fullName: UnderAutomation.UniversalRobots.StatusCode.SendCommandInternalError
+  type: Field
+  source:
+    id: SendCommandInternalError
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 418
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnable to send URScript because of an internal error.\n"
+  example: []
+  syntax:
+    content: SendCommandInternalError = 3
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.StatusCode.SentCommandIsEmpty
+  commentId: F:UnderAutomation.UniversalRobots.StatusCode.SentCommandIsEmpty
+  id: SentCommandIsEmpty
+  parent: UnderAutomation.UniversalRobots.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: SentCommandIsEmpty
+  nameWithType: StatusCode.SentCommandIsEmpty
+  fullName: UnderAutomation.UniversalRobots.StatusCode.SentCommandIsEmpty
+  type: Field
+  source:
+    id: SentCommandIsEmpty
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 423
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnable to send URScript because the script sent is empty.\n"
+  example: []
+  syntax:
+    content: SentCommandIsEmpty = 4
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.StatusCode
+  commentId: T:UnderAutomation.UniversalRobots.StatusCode
+  parent: UnderAutomation.UniversalRobots
+  name: StatusCode
+  nameWithType: StatusCode
+  fullName: UnderAutomation.UniversalRobots.StatusCode

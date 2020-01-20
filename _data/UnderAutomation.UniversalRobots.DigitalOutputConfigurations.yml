@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  commentId: T:UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  id: DigitalOutputConfigurations
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.DigitalOutputConfigurations.PushPull
+  - UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SinkingNPN
+  - UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SourcingPNP
+  langs:
+  - csharp
+  - vb
+  name: DigitalOutputConfigurations
+  nameWithType: DigitalOutputConfigurations
+  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  type: Enum
+  source:
+    id: DigitalOutputConfigurations
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2047
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nDigital output configuration (NPN, PNP, Push/Pull)\n"
+  example: []
+  syntax:
+    content: public enum DigitalOutputConfigurations
+    content.vb: Public Enum DigitalOutputConfigurations
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SinkingNPN
+  commentId: F:UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SinkingNPN
+  id: SinkingNPN
+  parent: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  langs:
+  - csharp
+  - vb
+  name: SinkingNPN
+  nameWithType: DigitalOutputConfigurations.SinkingNPN
+  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SinkingNPN
+  type: Field
+  source:
+    id: SinkingNPN
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2051
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSinking (NOPN)\n"
+  example: []
+  syntax:
+    content: SinkingNPN = 1
+    return:
+      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SourcingPNP
+  commentId: F:UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SourcingPNP
+  id: SourcingPNP
+  parent: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  langs:
+  - csharp
+  - vb
+  name: SourcingPNP
+  nameWithType: DigitalOutputConfigurations.SourcingPNP
+  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations.SourcingPNP
+  type: Field
+  source:
+    id: SourcingPNP
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2056
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSourcing (PNP)\n"
+  example: []
+  syntax:
+    content: SourcingPNP = 2
+    return:
+      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations.PushPull
+  commentId: F:UnderAutomation.UniversalRobots.DigitalOutputConfigurations.PushPull
+  id: PushPull
+  parent: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  langs:
+  - csharp
+  - vb
+  name: PushPull
+  nameWithType: DigitalOutputConfigurations.PushPull
+  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations.PushPull
+  type: Field
+  source:
+    id: PushPull
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2061
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPush / Pull\n"
+  example: []
+  syntax:
+    content: PushPull = 3
+    return:
+      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  commentId: T:UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+  parent: UnderAutomation.UniversalRobots
+  name: DigitalOutputConfigurations
+  nameWithType: DigitalOutputConfigurations
+  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations

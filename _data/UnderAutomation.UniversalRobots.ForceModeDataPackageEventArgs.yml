@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  id: ForceModeDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y
+  - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z
+  langs:
+  - csharp
+  - vb
+  name: ForceModeDataPackageEventArgs
+  nameWithType: ForceModeDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  type: Class
+  source:
+    id: ForceModeDataPackageEventArgs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1842
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nForce mode data\n"
+  example: []
+  syntax:
+    content: 'public class ForceModeDataPackageEventArgs : PackageEventArgs'
+    content.vb: >-
+      Public Class ForceModeDataPackageEventArgs
+          Inherits PackageEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - UnderAutomation.UniversalRobots.PackageEventArgs
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X
+  id: X
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: ForceModeDataPackageEventArgs.X
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X
+  type: Property
+  source:
+    id: X
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1849
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nX force in tool frame in N\n"
+  example: []
+  syntax:
+    content: public double X { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property X As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y
+  id: Y
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: ForceModeDataPackageEventArgs.Y
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y
+  type: Property
+  source:
+    id: Y
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1854
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nY force in tool frame in N\n"
+  example: []
+  syntax:
+    content: public double Y { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Y As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z
+  id: Z
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: ForceModeDataPackageEventArgs.Z
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z
+  type: Property
+  source:
+    id: Z
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1859
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nZ force in tool frame in N\n"
+  example: []
+  syntax:
+    content: public double Z { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Z As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx
+  id: Rx
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Rx
+  nameWithType: ForceModeDataPackageEventArgs.Rx
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx
+  type: Property
+  source:
+    id: Rx
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1864
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRx torque in tool frame in Nm\n"
+  example: []
+  syntax:
+    content: public double Rx { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Rx As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry
+  id: Ry
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Ry
+  nameWithType: ForceModeDataPackageEventArgs.Ry
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry
+  type: Property
+  source:
+    id: Ry
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1869
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRy torque in tool frame in Nm\n"
+  example: []
+  syntax:
+    content: public double Ry { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Ry As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz
+  id: Rz
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Rz
+  nameWithType: ForceModeDataPackageEventArgs.Rz
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz
+  type: Property
+  source:
+    id: Rz
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1874
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRz torque in tool frame in Nm\n"
+  example: []
+  syntax:
+    content: public double Rz { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Rz As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity
+  commentId: P:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity
+  id: RobotDexterity
+  parent: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RobotDexterity
+  nameWithType: ForceModeDataPackageEventArgs.RobotDexterity
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity
+  type: Property
+  source:
+    id: RobotDexterity
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1879
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nDexterity of the robot\n"
+  example: []
+  syntax:
+    content: public double RobotDexterity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RobotDexterity As Double
+  overload: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  parent: UnderAutomation.UniversalRobots.PackageEventArgs
+  name: ReceiveDate
+  nameWithType: PackageEventArgs.ReceiveDate
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X
+  name: X
+  nameWithType: ForceModeDataPackageEventArgs.X
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.X
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y
+  name: Y
+  nameWithType: ForceModeDataPackageEventArgs.Y
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Y
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z
+  name: Z
+  nameWithType: ForceModeDataPackageEventArgs.Z
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Z
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx
+  name: Rx
+  nameWithType: ForceModeDataPackageEventArgs.Rx
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rx
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry
+  name: Ry
+  nameWithType: ForceModeDataPackageEventArgs.Ry
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Ry
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz
+  name: Rz
+  nameWithType: ForceModeDataPackageEventArgs.Rz
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.Rz
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity*
+  commentId: Overload:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity
+  name: RobotDexterity
+  nameWithType: ForceModeDataPackageEventArgs.RobotDexterity
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs.RobotDexterity

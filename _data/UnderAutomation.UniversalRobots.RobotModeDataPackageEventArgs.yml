@@ -1,0 +1,944 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  id: RobotModeDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp
+  langs:
+  - csharp
+  - vb
+  name: RobotModeDataPackageEventArgs
+  nameWithType: RobotModeDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  type: Class
+  source:
+    id: RobotModeDataPackageEventArgs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 868
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nInformation about current robot mode\n"
+  example: []
+  syntax:
+    content: 'public class RobotModeDataPackageEventArgs : PackageEventArgs'
+    content.vb: >-
+      Public Class RobotModeDataPackageEventArgs
+          Inherits PackageEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - UnderAutomation.UniversalRobots.PackageEventArgs
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp
+  id: Timestamp
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: RobotModeDataPackageEventArgs.Timestamp
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp
+  type: Property
+  source:
+    id: Timestamp
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 874
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTimespan since the robot controller as started\n"
+  example: []
+  syntax:
+    content: public TimeSpan Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Property Timestamp As TimeSpan
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  id: PhysicalRobotConnected
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: PhysicalRobotConnected
+  nameWithType: RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  type: Property
+  source:
+    id: PhysicalRobotConnected
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 879
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is connected to its controller\n"
+  example: []
+  syntax:
+    content: public bool PhysicalRobotConnected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhysicalRobotConnected As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled
+  id: RealRobotEnabled
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RealRobotEnabled
+  nameWithType: RobotModeDataPackageEventArgs.RealRobotEnabled
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled
+  type: Property
+  source:
+    id: RealRobotEnabled
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 884
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReal robot mode active. False if robot is in simulation\n"
+  example: []
+  syntax:
+    content: public bool RealRobotEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RealRobotEnabled As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn
+  id: RobotPowerOn
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RobotPowerOn
+  nameWithType: RobotModeDataPackageEventArgs.RobotPowerOn
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn
+  type: Property
+  source:
+    id: RobotPowerOn
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 889
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is powered on and boot is completed. If false, you need to press &quot;ON&quot; button to power it on.\n"
+  example: []
+  syntax:
+    content: public bool RobotPowerOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RobotPowerOn As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped
+  id: EmergencyStopped
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: EmergencyStopped
+  nameWithType: RobotModeDataPackageEventArgs.EmergencyStopped
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped
+  type: Property
+  source:
+    id: EmergencyStopped
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 894
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe button Emergency Stop is pressed\n"
+  example: []
+  syntax:
+    content: public bool EmergencyStopped { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EmergencyStopped As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped
+  id: ProtectiveStopped
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ProtectiveStopped
+  nameWithType: RobotModeDataPackageEventArgs.ProtectiveStopped
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped
+  type: Property
+  source:
+    id: ProtectiveStopped
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 899
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nA stop occured due to a fault detection.\n"
+  example: []
+  syntax:
+    content: public bool ProtectiveStopped { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ProtectiveStopped As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning
+  id: ProgramRunning
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ProgramRunning
+  nameWithType: RobotModeDataPackageEventArgs.ProgramRunning
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning
+  type: Property
+  source:
+    id: ProgramRunning
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 904
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nA program is running\n"
+  example: []
+  syntax:
+    content: public bool ProgramRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ProgramRunning As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused
+  id: ProgramPaused
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ProgramPaused
+  nameWithType: RobotModeDataPackageEventArgs.ProgramPaused
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused
+  type: Property
+  source:
+    id: ProgramPaused
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 909
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe running program is paused\n"
+  example: []
+  syntax:
+    content: public bool ProgramPaused { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ProgramPaused As Boolean
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode
+  id: RobotMode
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RobotMode
+  nameWithType: RobotModeDataPackageEventArgs.RobotMode
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode
+  type: Property
+  source:
+    id: RobotMode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 914
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCurrent robot running mode\n"
+  example: []
+  syntax:
+    content: public RobotModes RobotMode { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+    content.vb: Public Property RobotMode As RobotModes
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode
+  id: ControlMode
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ControlMode
+  nameWithType: RobotModeDataPackageEventArgs.ControlMode
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode
+  type: Property
+  source:
+    id: ControlMode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 919
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCurrent robot control mode\n"
+  example: []
+  syntax:
+    content: public ControlModes ControlMode { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ControlModes
+    content.vb: Public Property ControlMode As ControlModes
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction
+  id: TargetSpeedFraction
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TargetSpeedFraction
+  nameWithType: RobotModeDataPackageEventArgs.TargetSpeedFraction
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction
+  type: Property
+  source:
+    id: TargetSpeedFraction
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 924
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nOverriden speed ratio between 0 (0%) and 1 (100%)\n"
+  example: []
+  syntax:
+    content: public double TargetSpeedFraction { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TargetSpeedFraction As Double
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling
+  id: SpeedScaling
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SpeedScaling
+  nameWithType: RobotModeDataPackageEventArgs.SpeedScaling
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling
+  type: Property
+  source:
+    id: SpeedScaling
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 929
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSpeed scaling\n"
+  example: []
+  syntax:
+    content: public double SpeedScaling { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property SpeedScaling As Double
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  commentId: P:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  id: TargetSpeedFractionLimit
+  parent: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TargetSpeedFractionLimit
+  nameWithType: RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  type: Property
+  source:
+    id: TargetSpeedFractionLimit
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 934
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nMaximum target speed fraction\n"
+  example: []
+  syntax:
+    content: public double TargetSpeedFractionLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TargetSpeedFractionLimit As Double
+  overload: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  parent: UnderAutomation.UniversalRobots.PackageEventArgs
+  name: ReceiveDate
+  nameWithType: PackageEventArgs.ReceiveDate
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp
+  name: Timestamp
+  nameWithType: RobotModeDataPackageEventArgs.Timestamp
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.Timestamp
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  name: PhysicalRobotConnected
+  nameWithType: RobotModeDataPackageEventArgs.PhysicalRobotConnected
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.PhysicalRobotConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled
+  name: RealRobotEnabled
+  nameWithType: RobotModeDataPackageEventArgs.RealRobotEnabled
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RealRobotEnabled
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn
+  name: RobotPowerOn
+  nameWithType: RobotModeDataPackageEventArgs.RobotPowerOn
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotPowerOn
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped
+  name: EmergencyStopped
+  nameWithType: RobotModeDataPackageEventArgs.EmergencyStopped
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.EmergencyStopped
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped
+  name: ProtectiveStopped
+  nameWithType: RobotModeDataPackageEventArgs.ProtectiveStopped
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProtectiveStopped
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning
+  name: ProgramRunning
+  nameWithType: RobotModeDataPackageEventArgs.ProgramRunning
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramRunning
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused
+  name: ProgramPaused
+  nameWithType: RobotModeDataPackageEventArgs.ProgramPaused
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ProgramPaused
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode
+  name: RobotMode
+  nameWithType: RobotModeDataPackageEventArgs.RobotMode
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.RobotMode
+- uid: UnderAutomation.UniversalRobots.RobotModes
+  commentId: T:UnderAutomation.UniversalRobots.RobotModes
+  parent: UnderAutomation.UniversalRobots
+  name: RobotModes
+  nameWithType: RobotModes
+  fullName: UnderAutomation.UniversalRobots.RobotModes
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode
+  name: ControlMode
+  nameWithType: RobotModeDataPackageEventArgs.ControlMode
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.ControlMode
+- uid: UnderAutomation.UniversalRobots.ControlModes
+  commentId: T:UnderAutomation.UniversalRobots.ControlModes
+  parent: UnderAutomation.UniversalRobots
+  name: ControlModes
+  nameWithType: ControlModes
+  fullName: UnderAutomation.UniversalRobots.ControlModes
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction
+  name: TargetSpeedFraction
+  nameWithType: RobotModeDataPackageEventArgs.TargetSpeedFraction
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFraction
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling
+  name: SpeedScaling
+  nameWithType: RobotModeDataPackageEventArgs.SpeedScaling
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.SpeedScaling
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit*
+  commentId: Overload:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  name: TargetSpeedFractionLimit
+  nameWithType: RobotModeDataPackageEventArgs.TargetSpeedFractionLimit
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs.TargetSpeedFractionLimit

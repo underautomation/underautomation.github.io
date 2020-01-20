@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.AnalogRanges
+  commentId: T:UnderAutomation.UniversalRobots.AnalogRanges
+  id: AnalogRanges
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.AnalogRanges.Current
+  - UnderAutomation.UniversalRobots.AnalogRanges.Voltage
+  langs:
+  - csharp
+  - vb
+  name: AnalogRanges
+  nameWithType: AnalogRanges
+  fullName: UnderAutomation.UniversalRobots.AnalogRanges
+  type: Enum
+  source:
+    id: AnalogRanges
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1167
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAnalog units of analog inputs and outputs\n"
+  example: []
+  syntax:
+    content: public enum AnalogRanges
+    content.vb: Public Enum AnalogRanges
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.AnalogRanges.Current
+  commentId: F:UnderAutomation.UniversalRobots.AnalogRanges.Current
+  id: Current
+  parent: UnderAutomation.UniversalRobots.AnalogRanges
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: AnalogRanges.Current
+  fullName: UnderAutomation.UniversalRobots.AnalogRanges.Current
+  type: Field
+  source:
+    id: Current
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1172
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe analog value is in Amps (A)\n"
+  example: []
+  syntax:
+    content: Current = 0
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.AnalogRanges.Voltage
+  commentId: F:UnderAutomation.UniversalRobots.AnalogRanges.Voltage
+  id: Voltage
+  parent: UnderAutomation.UniversalRobots.AnalogRanges
+  langs:
+  - csharp
+  - vb
+  name: Voltage
+  nameWithType: AnalogRanges.Voltage
+  fullName: UnderAutomation.UniversalRobots.AnalogRanges.Voltage
+  type: Field
+  source:
+    id: Voltage
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1177
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe analog value is in Volts (V)\n"
+  example: []
+  syntax:
+    content: Voltage = 1
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.AnalogRanges
+  commentId: T:UnderAutomation.UniversalRobots.AnalogRanges
+  parent: UnderAutomation.UniversalRobots
+  name: AnalogRanges
+  nameWithType: AnalogRanges
+  fullName: UnderAutomation.UniversalRobots.AnalogRanges

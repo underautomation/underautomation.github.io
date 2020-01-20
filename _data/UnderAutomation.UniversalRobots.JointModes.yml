@@ -1,0 +1,421 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.JointModes
+  commentId: T:UnderAutomation.UniversalRobots.JointModes
+  id: JointModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.JointModes.Backdrive
+  - UnderAutomation.UniversalRobots.JointModes.Booting
+  - UnderAutomation.UniversalRobots.JointModes.Bootloder
+  - UnderAutomation.UniversalRobots.JointModes.Calibration
+  - UnderAutomation.UniversalRobots.JointModes.Fault
+  - UnderAutomation.UniversalRobots.JointModes.Idle
+  - UnderAutomation.UniversalRobots.JointModes.MotorInitialisation
+  - UnderAutomation.UniversalRobots.JointModes.NotResponding
+  - UnderAutomation.UniversalRobots.JointModes.PartDCalibration
+  - UnderAutomation.UniversalRobots.JointModes.PartDCalibrationError
+  - UnderAutomation.UniversalRobots.JointModes.PowerOff
+  - UnderAutomation.UniversalRobots.JointModes.Running
+  - UnderAutomation.UniversalRobots.JointModes.ShuttingDown
+  langs:
+  - csharp
+  - vb
+  name: JointModes
+  nameWithType: JointModes
+  fullName: UnderAutomation.UniversalRobots.JointModes
+  type: Enum
+  source:
+    id: JointModes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1094
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nJoint modes\n"
+  example: []
+  syntax:
+    content: 'public enum JointModes : byte'
+    content.vb: Public Enum JointModes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.JointModes.ShuttingDown
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.ShuttingDown
+  id: ShuttingDown
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: ShuttingDown
+  nameWithType: JointModes.ShuttingDown
+  fullName: UnderAutomation.UniversalRobots.JointModes.ShuttingDown
+  type: Field
+  source:
+    id: ShuttingDown
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1095
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: ShuttingDown = 236
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.PartDCalibration
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.PartDCalibration
+  id: PartDCalibration
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: PartDCalibration
+  nameWithType: JointModes.PartDCalibration
+  fullName: UnderAutomation.UniversalRobots.JointModes.PartDCalibration
+  type: Field
+  source:
+    id: PartDCalibration
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1096
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: PartDCalibration = 237
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Backdrive
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Backdrive
+  id: Backdrive
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Backdrive
+  nameWithType: JointModes.Backdrive
+  fullName: UnderAutomation.UniversalRobots.JointModes.Backdrive
+  type: Field
+  source:
+    id: Backdrive
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1097
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Backdrive = 238
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.PowerOff
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.PowerOff
+  id: PowerOff
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: PowerOff
+  nameWithType: JointModes.PowerOff
+  fullName: UnderAutomation.UniversalRobots.JointModes.PowerOff
+  type: Field
+  source:
+    id: PowerOff
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1098
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: PowerOff = 239
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.NotResponding
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.NotResponding
+  id: NotResponding
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: NotResponding
+  nameWithType: JointModes.NotResponding
+  fullName: UnderAutomation.UniversalRobots.JointModes.NotResponding
+  type: Field
+  source:
+    id: NotResponding
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1099
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: NotResponding = 245
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.MotorInitialisation
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.MotorInitialisation
+  id: MotorInitialisation
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: MotorInitialisation
+  nameWithType: JointModes.MotorInitialisation
+  fullName: UnderAutomation.UniversalRobots.JointModes.MotorInitialisation
+  type: Field
+  source:
+    id: MotorInitialisation
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1100
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: MotorInitialisation = 246
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Booting
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Booting
+  id: Booting
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Booting
+  nameWithType: JointModes.Booting
+  fullName: UnderAutomation.UniversalRobots.JointModes.Booting
+  type: Field
+  source:
+    id: Booting
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1101
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Booting = 247
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.PartDCalibrationError
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.PartDCalibrationError
+  id: PartDCalibrationError
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: PartDCalibrationError
+  nameWithType: JointModes.PartDCalibrationError
+  fullName: UnderAutomation.UniversalRobots.JointModes.PartDCalibrationError
+  type: Field
+  source:
+    id: PartDCalibrationError
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1102
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: PartDCalibrationError = 248
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Bootloder
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Bootloder
+  id: Bootloder
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Bootloder
+  nameWithType: JointModes.Bootloder
+  fullName: UnderAutomation.UniversalRobots.JointModes.Bootloder
+  type: Field
+  source:
+    id: Bootloder
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1103
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Bootloder = 249
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Calibration
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Calibration
+  id: Calibration
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Calibration
+  nameWithType: JointModes.Calibration
+  fullName: UnderAutomation.UniversalRobots.JointModes.Calibration
+  type: Field
+  source:
+    id: Calibration
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1104
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Calibration = 250
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Fault
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Fault
+  id: Fault
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Fault
+  nameWithType: JointModes.Fault
+  fullName: UnderAutomation.UniversalRobots.JointModes.Fault
+  type: Field
+  source:
+    id: Fault
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1105
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Fault = 252
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Running
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Running
+  id: Running
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: JointModes.Running
+  fullName: UnderAutomation.UniversalRobots.JointModes.Running
+  type: Field
+  source:
+    id: Running
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1106
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Running = 253
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.JointModes.Idle
+  commentId: F:UnderAutomation.UniversalRobots.JointModes.Idle
+  id: Idle
+  parent: UnderAutomation.UniversalRobots.JointModes
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: JointModes.Idle
+  fullName: UnderAutomation.UniversalRobots.JointModes.Idle
+  type: Field
+  source:
+    id: Idle
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1107
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: Idle = 255
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.JointModes
+  commentId: T:UnderAutomation.UniversalRobots.JointModes
+  parent: UnderAutomation.UniversalRobots
+  name: JointModes
+  nameWithType: JointModes
+  fullName: UnderAutomation.UniversalRobots.JointModes

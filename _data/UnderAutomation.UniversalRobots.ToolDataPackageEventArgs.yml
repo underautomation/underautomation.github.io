@@ -1,0 +1,788 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  id: ToolDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature
+  - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V
+  langs:
+  - csharp
+  - vb
+  name: ToolDataPackageEventArgs
+  nameWithType: ToolDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  type: Class
+  source:
+    id: ToolDataPackageEventArgs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1113
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool data\n"
+  example: []
+  syntax:
+    content: 'public class ToolDataPackageEventArgs : PackageEventArgs'
+    content.vb: >-
+      Public Class ToolDataPackageEventArgs
+          Inherits PackageEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - UnderAutomation.UniversalRobots.PackageEventArgs
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2
+  id: AnalogInputRange2
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInputRange2
+  nameWithType: ToolDataPackageEventArgs.AnalogInputRange2
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2
+  type: Property
+  source:
+    id: AnalogInputRange2
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1119
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnit of analog input 2 (analog_in[2])\n"
+  example: []
+  syntax:
+    content: public AnalogRanges AnalogInputRange2 { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+    content.vb: Public Property AnalogInputRange2 As AnalogRanges
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3
+  id: AnalogInputRange3
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInputRange3
+  nameWithType: ToolDataPackageEventArgs.AnalogInputRange3
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3
+  type: Property
+  source:
+    id: AnalogInputRange3
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1124
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnit of analog input 3 (analog_in[3])\n"
+  example: []
+  syntax:
+    content: public AnalogRanges AnalogInputRange3 { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+    content.vb: Public Property AnalogInputRange3 As AnalogRanges
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2
+  id: AnalogInput2
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInput2
+  nameWithType: ToolDataPackageEventArgs.AnalogInput2
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2
+  type: Property
+  source:
+    id: AnalogInput2
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1129
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nValue of Analog input 2 (analog_in[2])\n"
+  example: []
+  syntax:
+    content: public double AnalogInput2 { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AnalogInput2 As Double
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3
+  id: AnalogInput3
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInput3
+  nameWithType: ToolDataPackageEventArgs.AnalogInput3
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3
+  type: Property
+  source:
+    id: AnalogInput3
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1134
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nValue of Analog input 3 (analog_in[3])\n"
+  example: []
+  syntax:
+    content: public double AnalogInput3 { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AnalogInput3 As Double
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V
+  id: ToolVoltage48V
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ToolVoltage48V
+  nameWithType: ToolDataPackageEventArgs.ToolVoltage48V
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V
+  type: Property
+  source:
+    id: ToolVoltage48V
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1139
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nActual robot voltage power supply\n"
+  example: []
+  syntax:
+    content: public float ToolVoltage48V { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ToolVoltage48V As Single
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage
+  id: ToolOutputVoltage
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ToolOutputVoltage
+  nameWithType: ToolDataPackageEventArgs.ToolOutputVoltage
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage
+  type: Property
+  source:
+    id: ToolOutputVoltage
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1144
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool output voltage\n"
+  example: []
+  syntax:
+    content: public sbyte ToolOutputVoltage { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property ToolOutputVoltage As SByte
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent
+  id: ToolCurrent
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ToolCurrent
+  nameWithType: ToolDataPackageEventArgs.ToolCurrent
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent
+  type: Property
+  source:
+    id: ToolCurrent
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1149
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool current in Amps\n"
+  example: []
+  syntax:
+    content: public float ToolCurrent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ToolCurrent As Single
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature
+  id: ToolTemperature
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ToolTemperature
+  nameWithType: ToolDataPackageEventArgs.ToolTemperature
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature
+  type: Property
+  source:
+    id: ToolTemperature
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1154
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool Temperature in °C\n"
+  example: []
+  syntax:
+    content: public float ToolTemperature { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ToolTemperature As Single
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode
+  commentId: P:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode
+  id: ToolMode
+  parent: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ToolMode
+  nameWithType: ToolDataPackageEventArgs.ToolMode
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode
+  type: Property
+  source:
+    id: ToolMode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1159
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool mode\n"
+  example: []
+  syntax:
+    content: public ToolModes ToolMode { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ToolModes
+    content.vb: Public Property ToolMode As ToolModes
+  overload: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  parent: UnderAutomation.UniversalRobots.PackageEventArgs
+  name: ReceiveDate
+  nameWithType: PackageEventArgs.ReceiveDate
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2
+  name: AnalogInputRange2
+  nameWithType: ToolDataPackageEventArgs.AnalogInputRange2
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange2
+- uid: UnderAutomation.UniversalRobots.AnalogRanges
+  commentId: T:UnderAutomation.UniversalRobots.AnalogRanges
+  parent: UnderAutomation.UniversalRobots
+  name: AnalogRanges
+  nameWithType: AnalogRanges
+  fullName: UnderAutomation.UniversalRobots.AnalogRanges
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3
+  name: AnalogInputRange3
+  nameWithType: ToolDataPackageEventArgs.AnalogInputRange3
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInputRange3
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2
+  name: AnalogInput2
+  nameWithType: ToolDataPackageEventArgs.AnalogInput2
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput2
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3
+  name: AnalogInput3
+  nameWithType: ToolDataPackageEventArgs.AnalogInput3
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.AnalogInput3
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V
+  name: ToolVoltage48V
+  nameWithType: ToolDataPackageEventArgs.ToolVoltage48V
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolVoltage48V
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage
+  name: ToolOutputVoltage
+  nameWithType: ToolDataPackageEventArgs.ToolOutputVoltage
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolOutputVoltage
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent
+  name: ToolCurrent
+  nameWithType: ToolDataPackageEventArgs.ToolCurrent
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolCurrent
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature
+  name: ToolTemperature
+  nameWithType: ToolDataPackageEventArgs.ToolTemperature
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolTemperature
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode
+  name: ToolMode
+  nameWithType: ToolDataPackageEventArgs.ToolMode
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs.ToolMode
+- uid: UnderAutomation.UniversalRobots.ToolModes
+  commentId: T:UnderAutomation.UniversalRobots.ToolModes
+  parent: UnderAutomation.UniversalRobots
+  name: ToolModes
+  nameWithType: ToolModes
+  fullName: UnderAutomation.UniversalRobots.ToolModes

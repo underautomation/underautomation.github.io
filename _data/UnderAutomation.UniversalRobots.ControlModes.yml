@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ControlModes
+  commentId: T:UnderAutomation.UniversalRobots.ControlModes
+  id: ControlModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ControlModes.Force
+  - UnderAutomation.UniversalRobots.ControlModes.Position
+  - UnderAutomation.UniversalRobots.ControlModes.Teach
+  - UnderAutomation.UniversalRobots.ControlModes.Torque
+  langs:
+  - csharp
+  - vb
+  name: ControlModes
+  nameWithType: ControlModes
+  fullName: UnderAutomation.UniversalRobots.ControlModes
+  type: Enum
+  source:
+    id: ControlModes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 991
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot control modes\n"
+  example: []
+  syntax:
+    content: public enum ControlModes
+    content.vb: Public Enum ControlModes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.ControlModes.Position
+  commentId: F:UnderAutomation.UniversalRobots.ControlModes.Position
+  id: Position
+  parent: UnderAutomation.UniversalRobots.ControlModes
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ControlModes.Position
+  fullName: UnderAutomation.UniversalRobots.ControlModes.Position
+  type: Field
+  source:
+    id: Position
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 995
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is position controlled\n"
+  example: []
+  syntax:
+    content: Position = 0
+    return:
+      type: UnderAutomation.UniversalRobots.ControlModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ControlModes.Teach
+  commentId: F:UnderAutomation.UniversalRobots.ControlModes.Teach
+  id: Teach
+  parent: UnderAutomation.UniversalRobots.ControlModes
+  langs:
+  - csharp
+  - vb
+  name: Teach
+  nameWithType: ControlModes.Teach
+  fullName: UnderAutomation.UniversalRobots.ControlModes.Teach
+  type: Field
+  source:
+    id: Teach
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1000
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe robot is hand guided  by pushing teached button\n"
+  example: []
+  syntax:
+    content: Teach = 1
+    return:
+      type: UnderAutomation.UniversalRobots.ControlModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ControlModes.Force
+  commentId: F:UnderAutomation.UniversalRobots.ControlModes.Force
+  id: Force
+  parent: UnderAutomation.UniversalRobots.ControlModes
+  langs:
+  - csharp
+  - vb
+  name: Force
+  nameWithType: ControlModes.Force
+  fullName: UnderAutomation.UniversalRobots.ControlModes.Force
+  type: Field
+  source:
+    id: Force
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1005
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is force controlled. (For example : URScript force_mode() function is called)\n"
+  example: []
+  syntax:
+    content: Force = 2
+    return:
+      type: UnderAutomation.UniversalRobots.ControlModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ControlModes.Torque
+  commentId: F:UnderAutomation.UniversalRobots.ControlModes.Torque
+  id: Torque
+  parent: UnderAutomation.UniversalRobots.ControlModes
+  langs:
+  - csharp
+  - vb
+  name: Torque
+  nameWithType: ControlModes.Torque
+  fullName: UnderAutomation.UniversalRobots.ControlModes.Torque
+  type: Field
+  source:
+    id: Torque
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1010
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is torque controlled\n"
+  example: []
+  syntax:
+    content: Torque = 3
+    return:
+      type: UnderAutomation.UniversalRobots.ControlModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.ControlModes
+  commentId: T:UnderAutomation.UniversalRobots.ControlModes
+  parent: UnderAutomation.UniversalRobots
+  name: ControlModes
+  nameWithType: ControlModes
+  fullName: UnderAutomation.UniversalRobots.ControlModes

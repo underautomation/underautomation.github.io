@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  id: ToolCommunicationInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate
+  - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity
+  - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits
+  - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  langs:
+  - csharp
+  - vb
+  name: ToolCommunicationInfoPackageEventArgs
+  nameWithType: ToolCommunicationInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  type: Class
+  source:
+    id: ToolCommunicationInfoPackageEventArgs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1968
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool communication info\n"
+  example: []
+  syntax:
+    content: 'public class ToolCommunicationInfoPackageEventArgs : PackageEventArgs'
+    content.vb: >-
+      Public Class ToolCommunicationInfoPackageEventArgs
+          Inherits PackageEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - UnderAutomation.UniversalRobots.PackageEventArgs
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  commentId: P:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  id: ToolCommunicationIsEnabled
+  parent: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ToolCommunicationIsEnabled
+  nameWithType: ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  type: Property
+  source:
+    id: ToolCommunicationIsEnabled
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1975
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nIs the tool communication interface enabled\n"
+  example: []
+  syntax:
+    content: public bool ToolCommunicationIsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ToolCommunicationIsEnabled As Boolean
+  overload: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate
+  commentId: P:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate
+  id: BaudRate
+  parent: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: BaudRate
+  nameWithType: ToolCommunicationInfoPackageEventArgs.BaudRate
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate
+  type: Property
+  source:
+    id: BaudRate
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1980
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nBaude rate\n"
+  example: []
+  syntax:
+    content: public int BaudRate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BaudRate As Integer
+  overload: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity
+  commentId: P:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity
+  id: Parity
+  parent: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Parity
+  nameWithType: ToolCommunicationInfoPackageEventArgs.Parity
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity
+  type: Property
+  source:
+    id: Parity
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1985
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nParity\n"
+  example: []
+  syntax:
+    content: public int Parity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Parity As Integer
+  overload: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits
+  commentId: P:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits
+  id: StopBits
+  parent: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: StopBits
+  nameWithType: ToolCommunicationInfoPackageEventArgs.StopBits
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits
+  type: Property
+  source:
+    id: StopBits
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1990
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStop bits\n"
+  example: []
+  syntax:
+    content: public int StopBits { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StopBits As Integer
+  overload: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  commentId: P:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  id: RxIdleChars
+  parent: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RxIdleChars
+  nameWithType: ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  type: Property
+  source:
+    id: RxIdleChars
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1995
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRX Idle Chars\n"
+  example: []
+  syntax:
+    content: public float RxIdleChars { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RxIdleChars As Single
+  overload: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  commentId: P:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  id: TxIdleChars
+  parent: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: TxIdleChars
+  nameWithType: ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  type: Property
+  source:
+    id: TxIdleChars
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2000
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTX Idle Chars\n"
+  example: []
+  syntax:
+    content: public float TxIdleChars { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TxIdleChars As Single
+  overload: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  parent: UnderAutomation.UniversalRobots.PackageEventArgs
+  name: ReceiveDate
+  nameWithType: PackageEventArgs.ReceiveDate
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  name: ToolCommunicationIsEnabled
+  nameWithType: ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.ToolCommunicationIsEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate
+  name: BaudRate
+  nameWithType: ToolCommunicationInfoPackageEventArgs.BaudRate
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.BaudRate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity
+  name: Parity
+  nameWithType: ToolCommunicationInfoPackageEventArgs.Parity
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.Parity
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits
+  name: StopBits
+  nameWithType: ToolCommunicationInfoPackageEventArgs.StopBits
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.StopBits
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  name: RxIdleChars
+  nameWithType: ToolCommunicationInfoPackageEventArgs.RxIdleChars
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.RxIdleChars
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars*
+  commentId: Overload:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  name: TxIdleChars
+  nameWithType: ToolCommunicationInfoPackageEventArgs.TxIdleChars
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs.TxIdleChars

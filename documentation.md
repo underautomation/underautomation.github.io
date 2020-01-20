@@ -94,5 +94,32 @@ ur.Send("movej([0,1.57,-1.57,3.14,-1.57,1.57],a=1.4, v=1.05, t=0, r=0)");
 
 Please refer to the **Script Manual** to see all the functions you can remotely call : <a href="https://www.universal-robots.com/download/?option=61790#section61549" target="_blank">Download PDF Script Manual</a>.
 
+## Robot data
 
+### Robot mode
 
+### Joint data
+
+### Tool data
+
+### Masterboard data
+
+### Cartesian information
+
+### Kinematics information
+
+### Configuration data
+
+### Force mode data
+
+### Additional information
+
+### Calibration data
+
+### Safety data
+
+### Tool communication information
+
+### Tool mode
+
+https://www.youtube.com/watch?v=rA9tm0gTln8

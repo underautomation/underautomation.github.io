@@ -1,0 +1,1354 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  id: MasterboardDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode
+  - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  langs:
+  - csharp
+  - vb
+  name: MasterboardDataPackageEventArgs
+  nameWithType: MasterboardDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  type: Class
+  source:
+    id: MasterboardDataPackageEventArgs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1206
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nMasterboard data\n"
+  example: []
+  syntax:
+    content: 'public class MasterboardDataPackageEventArgs : PackageEventArgs'
+    content.vb: >-
+      Public Class MasterboardDataPackageEventArgs
+          Inherits PackageEventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  - UnderAutomation.UniversalRobots.PackageEventArgs
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  - System.EventArgs.Empty
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0
+  id: AnalogInputRange0
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInputRange0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInputRange0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0
+  type: Property
+  source:
+    id: AnalogInputRange0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1212
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnit of analog input 0 (analog_in[0])\n"
+  example: []
+  syntax:
+    content: public AnalogRanges AnalogInputRange0 { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+    content.vb: Public Property AnalogInputRange0 As AnalogRanges
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1
+  id: AnalogInputRange1
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInputRange1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInputRange1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1
+  type: Property
+  source:
+    id: AnalogInputRange1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1217
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnit of analog input 1 (analog_in[1])\n"
+  example: []
+  syntax:
+    content: public AnalogRanges AnalogInputRange1 { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+    content.vb: Public Property AnalogInputRange1 As AnalogRanges
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0
+  id: AnalogInput0
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInput0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInput0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0
+  type: Property
+  source:
+    id: AnalogInput0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1222
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nValue of analog input 0 (analog_in[0])\n"
+  example: []
+  syntax:
+    content: public double AnalogInput0 { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AnalogInput0 As Double
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1
+  id: AnalogInput1
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogInput1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInput1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1
+  type: Property
+  source:
+    id: AnalogInput1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1227
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nValue of analog input 1 (analog_in[1])\n"
+  example: []
+  syntax:
+    content: public double AnalogInput1 { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AnalogInput1 As Double
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  id: AnalogOutputDomain0
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogOutputDomain0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  type: Property
+  source:
+    id: AnalogOutputDomain0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1232
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnit of analog output 0 (analog_out[0])\n"
+  example: []
+  syntax:
+    content: public AnalogRanges AnalogOutputDomain0 { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+    content.vb: Public Property AnalogOutputDomain0 As AnalogRanges
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  id: AnalogOutputDomain1
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogOutputDomain1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  type: Property
+  source:
+    id: AnalogOutputDomain1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1237
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUnit of analog output 1 (analog_out[1)\n"
+  example: []
+  syntax:
+    content: public AnalogRanges AnalogOutputDomain1 { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AnalogRanges
+    content.vb: Public Property AnalogOutputDomain1 As AnalogRanges
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0
+  id: AnalogOutput0
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogOutput0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutput0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0
+  type: Property
+  source:
+    id: AnalogOutput0
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1242
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nValue of analog output 0 (analog_out[0])\n"
+  example: []
+  syntax:
+    content: public double AnalogOutput0 { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AnalogOutput0 As Double
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1
+  id: AnalogOutput1
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: AnalogOutput1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutput1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1
+  type: Property
+  source:
+    id: AnalogOutput1
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1247
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nValue of analog output 1 (analog_out[1])\n"
+  example: []
+  syntax:
+    content: public double AnalogOutput1 { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AnalogOutput1 As Double
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature
+  id: MasterboardTemperature
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: MasterboardTemperature
+  nameWithType: MasterboardDataPackageEventArgs.MasterboardTemperature
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature
+  type: Property
+  source:
+    id: MasterboardTemperature
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1252
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTemperature of masterboard in °C\n"
+  example: []
+  syntax:
+    content: public float MasterboardTemperature { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MasterboardTemperature As Single
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V
+  id: RobotVoltage48V
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RobotVoltage48V
+  nameWithType: MasterboardDataPackageEventArgs.RobotVoltage48V
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V
+  type: Property
+  source:
+    id: RobotVoltage48V
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1257
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nVoltage of internal 48V power supply\n"
+  example: []
+  syntax:
+    content: public float RobotVoltage48V { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RobotVoltage48V As Single
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent
+  id: RobotCurrent
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: RobotCurrent
+  nameWithType: MasterboardDataPackageEventArgs.RobotCurrent
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent
+  type: Property
+  source:
+    id: RobotCurrent
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1262
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot current consumption in Amps\n"
+  example: []
+  syntax:
+    content: public float RobotCurrent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RobotCurrent As Single
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent
+  id: MasterIOCurrent
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: MasterIOCurrent
+  nameWithType: MasterboardDataPackageEventArgs.MasterIOCurrent
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent
+  type: Property
+  source:
+    id: MasterIOCurrent
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1267
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCurrent of all digital and analog inputs and outputs\n"
+  example: []
+  syntax:
+    content: public float MasterIOCurrent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MasterIOCurrent As Single
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode
+  id: Safetymode
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Safetymode
+  nameWithType: MasterboardDataPackageEventArgs.Safetymode
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode
+  type: Property
+  source:
+    id: Safetymode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1272
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nMasterboard safety mode\n"
+  example: []
+  syntax:
+    content: public SafetyModes Safetymode { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyModes
+    content.vb: Public Property Safetymode As SafetyModes
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode
+  id: InReducedMode
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: InReducedMode
+  nameWithType: MasterboardDataPackageEventArgs.InReducedMode
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode
+  type: Property
+  source:
+    id: InReducedMode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1277
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is in reduced speed mode\n"
+  example: []
+  syntax:
+    content: public byte InReducedMode { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property InReducedMode As Byte
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  id: OperationalModeSelectorInput
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: OperationalModeSelectorInput
+  nameWithType: MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  type: Property
+  source:
+    id: OperationalModeSelectorInput
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1282
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPosition of operational mode selector input switch\n"
+  example: []
+  syntax:
+    content: public byte OperationalModeSelectorInput { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property OperationalModeSelectorInput As Byte
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  id: ThreePositionEnablingDeviceInput
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ThreePositionEnablingDeviceInput
+  nameWithType: MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  type: Property
+  source:
+    id: ThreePositionEnablingDeviceInput
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1287
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPosition of the 3-position enabling device\n"
+  example: []
+  syntax:
+    content: public byte ThreePositionEnablingDeviceInput { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ThreePositionEnablingDeviceInput As Byte
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs
+  id: DigitalInputs
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DigitalInputs
+  nameWithType: MasterboardDataPackageEventArgs.DigitalInputs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs
+  type: Property
+  source:
+    id: DigitalInputs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1292
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRegister where each bit is a digital input value\n"
+  example: []
+  syntax:
+    content: public MasterboardDigitalIO DigitalInputs { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+    content.vb: Public Property DigitalInputs As MasterboardDigitalIO
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs
+  id: DigitalOutputs
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DigitalOutputs
+  nameWithType: MasterboardDataPackageEventArgs.DigitalOutputs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs
+  type: Property
+  source:
+    id: DigitalOutputs
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1297
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRegister where each bit is a digital output value\n"
+  example: []
+  syntax:
+    content: public MasterboardDigitalIO DigitalOutputs { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+    content.vb: Public Property DigitalOutputs As MasterboardDigitalIO
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed
+  id: Euromap67Installed
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Euromap67Installed
+  nameWithType: MasterboardDataPackageEventArgs.Euromap67Installed
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed
+  type: Property
+  source:
+    id: Euromap67Installed
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1302
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe robot is interfaced to injection molding machines Euromap 67\n"
+  example: []
+  syntax:
+    content: public sbyte Euromap67Installed { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property Euromap67Installed As SByte
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits
+  id: EuromapInputBits
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: EuromapInputBits
+  nameWithType: MasterboardDataPackageEventArgs.EuromapInputBits
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits
+  type: Property
+  source:
+    id: EuromapInputBits
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1307
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRegister where each bit is a digital Euromap input\n"
+  example: []
+  syntax:
+    content: public int EuromapInputBits { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EuromapInputBits As Integer
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits
+  id: EuromapOutputBits
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: EuromapOutputBits
+  nameWithType: MasterboardDataPackageEventArgs.EuromapOutputBits
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits
+  type: Property
+  source:
+    id: EuromapOutputBits
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1312
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRegister where each bit is a digital Euromap output\n"
+  example: []
+  syntax:
+    content: public int EuromapOutputBits { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EuromapOutputBits As Integer
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage
+  id: EuromapVoltage
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: EuromapVoltage
+  nameWithType: MasterboardDataPackageEventArgs.EuromapVoltage
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage
+  type: Property
+  source:
+    id: EuromapVoltage
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1317
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEuromap votage\n"
+  example: []
+  syntax:
+    content: public float EuromapVoltage { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property EuromapVoltage As Single
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent
+  commentId: P:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent
+  id: EuromapCurrent
+  parent: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: EuromapCurrent
+  nameWithType: MasterboardDataPackageEventArgs.EuromapCurrent
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent
+  type: Property
+  source:
+    id: EuromapCurrent
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1322
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEuromap current\n"
+  example: []
+  syntax:
+    content: public float EuromapCurrent { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property EuromapCurrent As Single
+  overload: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+  parent: UnderAutomation.UniversalRobots.PackageEventArgs
+  name: ReceiveDate
+  nameWithType: PackageEventArgs.ReceiveDate
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0
+  name: AnalogInputRange0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInputRange0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange0
+- uid: UnderAutomation.UniversalRobots.AnalogRanges
+  commentId: T:UnderAutomation.UniversalRobots.AnalogRanges
+  parent: UnderAutomation.UniversalRobots
+  name: AnalogRanges
+  nameWithType: AnalogRanges
+  fullName: UnderAutomation.UniversalRobots.AnalogRanges
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1
+  name: AnalogInputRange1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInputRange1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInputRange1
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0
+  name: AnalogInput0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInput0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput0
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1
+  name: AnalogInput1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogInput1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogInput1
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  name: AnalogOutputDomain0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutputDomain0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain0
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  name: AnalogOutputDomain1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutputDomain1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutputDomain1
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0
+  name: AnalogOutput0
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutput0
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput0
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1
+  name: AnalogOutput1
+  nameWithType: MasterboardDataPackageEventArgs.AnalogOutput1
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.AnalogOutput1
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature
+  name: MasterboardTemperature
+  nameWithType: MasterboardDataPackageEventArgs.MasterboardTemperature
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterboardTemperature
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V
+  name: RobotVoltage48V
+  nameWithType: MasterboardDataPackageEventArgs.RobotVoltage48V
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotVoltage48V
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent
+  name: RobotCurrent
+  nameWithType: MasterboardDataPackageEventArgs.RobotCurrent
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.RobotCurrent
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent
+  name: MasterIOCurrent
+  nameWithType: MasterboardDataPackageEventArgs.MasterIOCurrent
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.MasterIOCurrent
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode
+  name: Safetymode
+  nameWithType: MasterboardDataPackageEventArgs.Safetymode
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Safetymode
+- uid: UnderAutomation.UniversalRobots.SafetyModes
+  commentId: T:UnderAutomation.UniversalRobots.SafetyModes
+  parent: UnderAutomation.UniversalRobots
+  name: SafetyModes
+  nameWithType: SafetyModes
+  fullName: UnderAutomation.UniversalRobots.SafetyModes
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode
+  name: InReducedMode
+  nameWithType: MasterboardDataPackageEventArgs.InReducedMode
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.InReducedMode
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  name: OperationalModeSelectorInput
+  nameWithType: MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.OperationalModeSelectorInput
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  name: ThreePositionEnablingDeviceInput
+  nameWithType: MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.ThreePositionEnablingDeviceInput
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs
+  name: DigitalInputs
+  nameWithType: MasterboardDataPackageEventArgs.DigitalInputs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalInputs
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  commentId: T:UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  parent: UnderAutomation.UniversalRobots
+  name: MasterboardDigitalIO
+  nameWithType: MasterboardDigitalIO
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs
+  name: DigitalOutputs
+  nameWithType: MasterboardDataPackageEventArgs.DigitalOutputs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.DigitalOutputs
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed
+  name: Euromap67Installed
+  nameWithType: MasterboardDataPackageEventArgs.Euromap67Installed
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.Euromap67Installed
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits
+  name: EuromapInputBits
+  nameWithType: MasterboardDataPackageEventArgs.EuromapInputBits
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapInputBits
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits
+  name: EuromapOutputBits
+  nameWithType: MasterboardDataPackageEventArgs.EuromapOutputBits
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapOutputBits
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage
+  name: EuromapVoltage
+  nameWithType: MasterboardDataPackageEventArgs.EuromapVoltage
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapVoltage
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent*
+  commentId: Overload:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent
+  name: EuromapCurrent
+  nameWithType: MasterboardDataPackageEventArgs.EuromapCurrent
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs.EuromapCurrent

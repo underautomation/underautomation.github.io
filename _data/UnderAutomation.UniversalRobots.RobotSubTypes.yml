@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.RobotSubTypes
+  commentId: T:UnderAutomation.UniversalRobots.RobotSubTypes
+  id: RobotSubTypes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.RobotSubTypes.CB2Serie
+  - UnderAutomation.UniversalRobots.RobotSubTypes.CB3Serie
+  - UnderAutomation.UniversalRobots.RobotSubTypes.ESerie
+  langs:
+  - csharp
+  - vb
+  name: RobotSubTypes
+  nameWithType: RobotSubTypes
+  fullName: UnderAutomation.UniversalRobots.RobotSubTypes
+  type: Enum
+  source:
+    id: RobotSubTypes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1811
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot sub type (e-Serie or CB-Serie)\n"
+  example: []
+  syntax:
+    content: public enum RobotSubTypes
+    content.vb: Public Enum RobotSubTypes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.RobotSubTypes.CB2Serie
+  commentId: F:UnderAutomation.UniversalRobots.RobotSubTypes.CB2Serie
+  id: CB2Serie
+  parent: UnderAutomation.UniversalRobots.RobotSubTypes
+  langs:
+  - csharp
+  - vb
+  name: CB2Serie
+  nameWithType: RobotSubTypes.CB2Serie
+  fullName: UnderAutomation.UniversalRobots.RobotSubTypes.CB2Serie
+  type: Field
+  source:
+    id: CB2Serie
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1815
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCB2-series (Firmware 1.x)\n"
+  example: []
+  syntax:
+    content: CB2Serie = 1
+    return:
+      type: UnderAutomation.UniversalRobots.RobotSubTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotSubTypes.CB3Serie
+  commentId: F:UnderAutomation.UniversalRobots.RobotSubTypes.CB3Serie
+  id: CB3Serie
+  parent: UnderAutomation.UniversalRobots.RobotSubTypes
+  langs:
+  - csharp
+  - vb
+  name: CB3Serie
+  nameWithType: RobotSubTypes.CB3Serie
+  fullName: UnderAutomation.UniversalRobots.RobotSubTypes.CB3Serie
+  type: Field
+  source:
+    id: CB3Serie
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1820
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCB3-series (Firmware 3.x)\n"
+  example: []
+  syntax:
+    content: CB3Serie = 2
+    return:
+      type: UnderAutomation.UniversalRobots.RobotSubTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotSubTypes.ESerie
+  commentId: F:UnderAutomation.UniversalRobots.RobotSubTypes.ESerie
+  id: ESerie
+  parent: UnderAutomation.UniversalRobots.RobotSubTypes
+  langs:
+  - csharp
+  - vb
+  name: ESerie
+  nameWithType: RobotSubTypes.ESerie
+  fullName: UnderAutomation.UniversalRobots.RobotSubTypes.ESerie
+  type: Field
+  source:
+    id: ESerie
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1825
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\ne-series (Firmware 5.x)\n"
+  example: []
+  syntax:
+    content: ESerie = 3
+    return:
+      type: UnderAutomation.UniversalRobots.RobotSubTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.RobotSubTypes
+  commentId: T:UnderAutomation.UniversalRobots.RobotSubTypes
+  parent: UnderAutomation.UniversalRobots
+  name: RobotSubTypes
+  nameWithType: RobotSubTypes
+  fullName: UnderAutomation.UniversalRobots.RobotSubTypes

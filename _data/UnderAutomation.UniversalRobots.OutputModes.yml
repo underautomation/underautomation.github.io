@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.OutputModes
+  commentId: T:UnderAutomation.UniversalRobots.OutputModes
+  id: OutputModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.OutputModes.DualPinPower
+  - UnderAutomation.UniversalRobots.OutputModes.StandardOutput
+  langs:
+  - csharp
+  - vb
+  name: OutputModes
+  nameWithType: OutputModes
+  fullName: UnderAutomation.UniversalRobots.OutputModes
+  type: Enum
+  source:
+    id: OutputModes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2032
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nDigital output modes\n"
+  example: []
+  syntax:
+    content: public enum OutputModes
+    content.vb: Public Enum OutputModes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.OutputModes.StandardOutput
+  commentId: F:UnderAutomation.UniversalRobots.OutputModes.StandardOutput
+  id: StandardOutput
+  parent: UnderAutomation.UniversalRobots.OutputModes
+  langs:
+  - csharp
+  - vb
+  name: StandardOutput
+  nameWithType: OutputModes.StandardOutput
+  fullName: UnderAutomation.UniversalRobots.OutputModes.StandardOutput
+  type: Field
+  source:
+    id: StandardOutput
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2036
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStandard output\n"
+  example: []
+  syntax:
+    content: StandardOutput = 0
+    return:
+      type: UnderAutomation.UniversalRobots.OutputModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.OutputModes.DualPinPower
+  commentId: F:UnderAutomation.UniversalRobots.OutputModes.DualPinPower
+  id: DualPinPower
+  parent: UnderAutomation.UniversalRobots.OutputModes
+  langs:
+  - csharp
+  - vb
+  name: DualPinPower
+  nameWithType: OutputModes.DualPinPower
+  fullName: UnderAutomation.UniversalRobots.OutputModes.DualPinPower
+  type: Field
+  source:
+    id: DualPinPower
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2041
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nDual Pin Power\n"
+  example: []
+  syntax:
+    content: DualPinPower = 1
+    return:
+      type: UnderAutomation.UniversalRobots.OutputModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.OutputModes
+  commentId: T:UnderAutomation.UniversalRobots.OutputModes
+  parent: UnderAutomation.UniversalRobots
+  name: OutputModes
+  nameWithType: OutputModes
+  fullName: UnderAutomation.UniversalRobots.OutputModes

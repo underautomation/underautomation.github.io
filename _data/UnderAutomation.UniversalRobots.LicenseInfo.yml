@@ -1,0 +1,1036 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.LicenseInfo
+  commentId: T:UnderAutomation.UniversalRobots.LicenseInfo
+  id: LicenseInfo
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.LicenseInfo.#ctor(System.String,System.String)
+  - UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft
+  - UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate
+  - UnderAutomation.UniversalRobots.LicenseInfo.Licensee
+  - UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate
+  - UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey
+  - UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate
+  - UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears
+  - UnderAutomation.UniversalRobots.LicenseInfo.Product
+  - UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate
+  - UnderAutomation.UniversalRobots.LicenseInfo.State
+  - UnderAutomation.UniversalRobots.LicenseInfo.ToString
+  - UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate
+  langs:
+  - csharp
+  - vb
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo
+  type: Class
+  source:
+    id: LicenseInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 10
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public sealed class LicenseInfo
+    content.vb: Public NotInheritable Class LicenseInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.#ctor(System.String,System.String)
+  commentId: M:UnderAutomation.UniversalRobots.LicenseInfo.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: LicenseInfo(String, String)
+  nameWithType: LicenseInfo.LicenseInfo(String, String)
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.LicenseInfo(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 19
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCreate a new LicenseInfo instance to retrieve informations about a pair of identifier/key\nThis class should not be used to register your product. Please use static function UnderAutomation.UniversalRobot.UniversalRobotInterface.RegisterLicense to register a license.\n"
+  example: []
+  syntax:
+    content: public LicenseInfo(string licenseIdentifier, string licenseKey)
+    parameters:
+    - id: licenseIdentifier
+      type: System.String
+      description: The name of your organization (null for trial version)
+    - id: licenseKey
+      type: System.String
+      description: The key, associated to the identifier, supplied by UnderAutomation (null for trial version)
+    content.vb: Public Sub New(licenseIdentifier As String, licenseKey As String)
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey
+  id: LicenseKey
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: LicenseKey
+  nameWithType: LicenseInfo.LicenseKey
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey
+  type: Property
+  source:
+    id: LicenseKey
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 135
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe license key supplied by UnderAutomation (null for trial period)\n"
+  example: []
+  syntax:
+    content: public string LicenseKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LicenseKey As String
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.Product
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.Product
+  id: Product
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: LicenseInfo.Product
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.Product
+  type: Property
+  source:
+    id: Product
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 140
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCommercial name of this .NET Software library\n"
+  example: []
+  syntax:
+    content: public string Product { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Product As String
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.Product*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft
+  id: EvaluationDaysLeft
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: EvaluationDaysLeft
+  nameWithType: LicenseInfo.EvaluationDaysLeft
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft
+  type: Property
+  source:
+    id: EvaluationDaysLeft
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 145
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRemaining days of the trial period. Null if the product is licensed. It could be negative if the trial period is ended since several days.\n"
+  example: []
+  syntax:
+    content: public int? EvaluationDaysLeft { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public ReadOnly Property EvaluationDaysLeft As Integer?
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate
+  id: EvaluationStartDate
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: EvaluationStartDate
+  nameWithType: LicenseInfo.EvaluationStartDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate
+  type: Property
+  source:
+    id: EvaluationStartDate
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 150
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe date the trial period starts. If the product is licensed, the date of the library first use.\n"
+  example: []
+  syntax:
+    content: public DateTime EvaluationStartDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property EvaluationStartDate As Date
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.Licensee
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.Licensee
+  id: Licensee
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: Licensee
+  nameWithType: LicenseInfo.Licensee
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.Licensee
+  type: Property
+  source:
+    id: Licensee
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 155
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nName of your organisation\n"
+  example: []
+  syntax:
+    content: public string Licensee { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Licensee As String
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.Licensee*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate
+  id: TrialPeriodExpirationDate
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: TrialPeriodExpirationDate
+  nameWithType: LicenseInfo.TrialPeriodExpirationDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate
+  type: Property
+  source:
+    id: TrialPeriodExpirationDate
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 160
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe date the product will expire. Null if the product is licensed.\n"
+  example: []
+  syntax:
+    content: public DateTime? TrialPeriodExpirationDate { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public ReadOnly Property TrialPeriodExpirationDate As Date?
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.State
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.State
+  id: State
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: LicenseInfo.State
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.State
+  type: Property
+  source:
+    id: State
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 165
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe current license state\n"
+  example: []
+  syntax:
+    content: public LicenseState State { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+    content.vb: Public ReadOnly Property State As LicenseState
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.State*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate
+  id: ProductReleaseDate
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: ProductReleaseDate
+  nameWithType: LicenseInfo.ProductReleaseDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate
+  type: Property
+  source:
+    id: ProductReleaseDate
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 170
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe date this version of the product was released.\n"
+  example: []
+  syntax:
+    content: public DateTime ProductReleaseDate { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property ProductReleaseDate As Date
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears
+  id: MaintenanceYears
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: MaintenanceYears
+  nameWithType: LicenseInfo.MaintenanceYears
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears
+  type: Property
+  source:
+    id: MaintenanceYears
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 175
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nNumber of maintenance years included in your license\n"
+  example: []
+  syntax:
+    content: public int MaintenanceYears { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property MaintenanceYears As Integer
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate
+  id: LicenseIssuedDate
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: LicenseIssuedDate
+  nameWithType: LicenseInfo.LicenseIssuedDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate
+  type: Property
+  source:
+    id: LicenseIssuedDate
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 180
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe date you get the license\n"
+  example: []
+  syntax:
+    content: public DateTime? LicenseIssuedDate { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public ReadOnly Property LicenseIssuedDate As Date?
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate
+  commentId: P:UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate
+  id: MaintenanceExpirationDate
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: MaintenanceExpirationDate
+  nameWithType: LicenseInfo.MaintenanceExpirationDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate
+  type: Property
+  source:
+    id: MaintenanceExpirationDate
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 185
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe date your maintenance contract end and you no longer can use this license with newer versions.\n"
+  example: []
+  syntax:
+    content: public DateTime? MaintenanceExpirationDate { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public ReadOnly Property MaintenanceExpirationDate As Date?
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.ToString
+  commentId: M:UnderAutomation.UniversalRobots.LicenseInfo.ToString
+  id: ToString
+  parent: UnderAutomation.UniversalRobots.LicenseInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LicenseInfo.ToString()
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 190
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nA human description of the license\n"
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: UnderAutomation.UniversalRobots.LicenseInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.#ctor*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.#ctor
+  name: LicenseInfo
+  nameWithType: LicenseInfo.LicenseInfo
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.LicenseInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey
+  name: LicenseKey
+  nameWithType: LicenseInfo.LicenseKey
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.LicenseKey
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.Product*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.Product
+  name: Product
+  nameWithType: LicenseInfo.Product
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.Product
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft
+  name: EvaluationDaysLeft
+  nameWithType: LicenseInfo.EvaluationDaysLeft
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationDaysLeft
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate
+  name: EvaluationStartDate
+  nameWithType: LicenseInfo.EvaluationStartDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.EvaluationStartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.Licensee*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.Licensee
+  name: Licensee
+  nameWithType: LicenseInfo.Licensee
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.Licensee
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate
+  name: TrialPeriodExpirationDate
+  nameWithType: LicenseInfo.TrialPeriodExpirationDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.TrialPeriodExpirationDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.State*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.State
+  name: State
+  nameWithType: LicenseInfo.State
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.State
+- uid: UnderAutomation.UniversalRobots.LicenseState
+  commentId: T:UnderAutomation.UniversalRobots.LicenseState
+  parent: UnderAutomation.UniversalRobots
+  name: LicenseState
+  nameWithType: LicenseState
+  fullName: UnderAutomation.UniversalRobots.LicenseState
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate
+  name: ProductReleaseDate
+  nameWithType: LicenseInfo.ProductReleaseDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.ProductReleaseDate
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears
+  name: MaintenanceYears
+  nameWithType: LicenseInfo.MaintenanceYears
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceYears
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate
+  name: LicenseIssuedDate
+  nameWithType: LicenseInfo.LicenseIssuedDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.LicenseIssuedDate
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate
+  name: MaintenanceExpirationDate
+  nameWithType: LicenseInfo.MaintenanceExpirationDate
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.MaintenanceExpirationDate
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.LicenseInfo.ToString*
+  commentId: Overload:UnderAutomation.UniversalRobots.LicenseInfo.ToString
+  name: ToString
+  nameWithType: LicenseInfo.ToString
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo.ToString

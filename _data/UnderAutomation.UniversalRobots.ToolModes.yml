@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ToolModes
+  commentId: T:UnderAutomation.UniversalRobots.ToolModes
+  id: ToolModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ToolModes.Bootloader
+  - UnderAutomation.UniversalRobots.ToolModes.Idle
+  - UnderAutomation.UniversalRobots.ToolModes.Running
+  langs:
+  - csharp
+  - vb
+  name: ToolModes
+  nameWithType: ToolModes
+  fullName: UnderAutomation.UniversalRobots.ToolModes
+  type: Enum
+  source:
+    id: ToolModes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1184
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool modes\n"
+  example: []
+  syntax:
+    content: 'public enum ToolModes : byte'
+    content.vb: Public Enum ToolModes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.ToolModes.Bootloader
+  commentId: F:UnderAutomation.UniversalRobots.ToolModes.Bootloader
+  id: Bootloader
+  parent: UnderAutomation.UniversalRobots.ToolModes
+  langs:
+  - csharp
+  - vb
+  name: Bootloader
+  nameWithType: ToolModes.Bootloader
+  fullName: UnderAutomation.UniversalRobots.ToolModes.Bootloader
+  type: Field
+  source:
+    id: Bootloader
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1189
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nBootloader\n"
+  example: []
+  syntax:
+    content: Bootloader = 249
+    return:
+      type: UnderAutomation.UniversalRobots.ToolModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ToolModes.Running
+  commentId: F:UnderAutomation.UniversalRobots.ToolModes.Running
+  id: Running
+  parent: UnderAutomation.UniversalRobots.ToolModes
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: ToolModes.Running
+  fullName: UnderAutomation.UniversalRobots.ToolModes.Running
+  type: Field
+  source:
+    id: Running
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1194
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRunning\n"
+  example: []
+  syntax:
+    content: Running = 253
+    return:
+      type: UnderAutomation.UniversalRobots.ToolModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ToolModes.Idle
+  commentId: F:UnderAutomation.UniversalRobots.ToolModes.Idle
+  id: Idle
+  parent: UnderAutomation.UniversalRobots.ToolModes
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: ToolModes.Idle
+  fullName: UnderAutomation.UniversalRobots.ToolModes.Idle
+  type: Field
+  source:
+    id: Idle
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1199
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nIdle\n"
+  example: []
+  syntax:
+    content: Idle = 255
+    return:
+      type: UnderAutomation.UniversalRobots.ToolModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.ToolModes
+  commentId: T:UnderAutomation.UniversalRobots.ToolModes
+  parent: UnderAutomation.UniversalRobots
+  name: ToolModes
+  nameWithType: ToolModes
+  fullName: UnderAutomation.UniversalRobots.ToolModes

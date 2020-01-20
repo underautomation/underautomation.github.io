@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.LicenseState
+  commentId: T:UnderAutomation.UniversalRobots.LicenseState
+  id: LicenseState
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.LicenseState.Expired
+  - UnderAutomation.UniversalRobots.LicenseState.ExtraTrial
+  - UnderAutomation.UniversalRobots.LicenseState.Invalid
+  - UnderAutomation.UniversalRobots.LicenseState.Licensed
+  - UnderAutomation.UniversalRobots.LicenseState.MaintenanceNeeded
+  - UnderAutomation.UniversalRobots.LicenseState.Trial
+  langs:
+  - csharp
+  - vb
+  name: LicenseState
+  nameWithType: LicenseState
+  fullName: UnderAutomation.UniversalRobots.LicenseState
+  type: Enum
+  source:
+    id: LicenseState
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 218
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStates that can take a license\n"
+  example: []
+  syntax:
+    content: public enum LicenseState
+    content.vb: Public Enum LicenseState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.LicenseState.Invalid
+  commentId: F:UnderAutomation.UniversalRobots.LicenseState.Invalid
+  id: Invalid
+  parent: UnderAutomation.UniversalRobots.LicenseState
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: LicenseState.Invalid
+  fullName: UnderAutomation.UniversalRobots.LicenseState.Invalid
+  type: Field
+  source:
+    id: Invalid
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 222
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe pair License Identifier and License Key are incompatible, you cannot use the library\n"
+  example: []
+  syntax:
+    content: Invalid = 0
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.LicenseState.Trial
+  commentId: F:UnderAutomation.UniversalRobots.LicenseState.Trial
+  id: Trial
+  parent: UnderAutomation.UniversalRobots.LicenseState
+  langs:
+  - csharp
+  - vb
+  name: Trial
+  nameWithType: LicenseState.Trial
+  fullName: UnderAutomation.UniversalRobots.LicenseState.Trial
+  type: Field
+  source:
+    id: Trial
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 227
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe library is in a trial period, you can use the library\n"
+  example: []
+  syntax:
+    content: Trial = 1
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.LicenseState.ExtraTrial
+  commentId: F:UnderAutomation.UniversalRobots.LicenseState.ExtraTrial
+  id: ExtraTrial
+  parent: UnderAutomation.UniversalRobots.LicenseState
+  langs:
+  - csharp
+  - vb
+  name: ExtraTrial
+  nameWithType: LicenseState.ExtraTrial
+  fullName: UnderAutomation.UniversalRobots.LicenseState.ExtraTrial
+  type: Field
+  source:
+    id: ExtraTrial
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 232
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe library is in an extra trial period, you can use the library\n"
+  example: []
+  syntax:
+    content: ExtraTrial = 2
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.LicenseState.Expired
+  commentId: F:UnderAutomation.UniversalRobots.LicenseState.Expired
+  id: Expired
+  parent: UnderAutomation.UniversalRobots.LicenseState
+  langs:
+  - csharp
+  - vb
+  name: Expired
+  nameWithType: LicenseState.Expired
+  fullName: UnderAutomation.UniversalRobots.LicenseState.Expired
+  type: Field
+  source:
+    id: Expired
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 237
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe trial period as expired, you no more can use the library\n"
+  example: []
+  syntax:
+    content: Expired = 3
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.LicenseState.MaintenanceNeeded
+  commentId: F:UnderAutomation.UniversalRobots.LicenseState.MaintenanceNeeded
+  id: MaintenanceNeeded
+  parent: UnderAutomation.UniversalRobots.LicenseState
+  langs:
+  - csharp
+  - vb
+  name: MaintenanceNeeded
+  nameWithType: LicenseState.MaintenanceNeeded
+  fullName: UnderAutomation.UniversalRobots.LicenseState.MaintenanceNeeded
+  type: Field
+  source:
+    id: MaintenanceNeeded
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 242
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nYour license does not allow you to use such a recent release. Please buy maintenance to use this version\n"
+  example: []
+  syntax:
+    content: MaintenanceNeeded = 4
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.LicenseState.Licensed
+  commentId: F:UnderAutomation.UniversalRobots.LicenseState.Licensed
+  id: Licensed
+  parent: UnderAutomation.UniversalRobots.LicenseState
+  langs:
+  - csharp
+  - vb
+  name: Licensed
+  nameWithType: LicenseState.Licensed
+  fullName: UnderAutomation.UniversalRobots.LicenseState.Licensed
+  type: Field
+  source:
+    id: Licensed
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    startLine: 247
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCongratulations, the library is licensed.\n"
+  example: []
+  syntax:
+    content: Licensed = 5
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.LicenseState
+  commentId: T:UnderAutomation.UniversalRobots.LicenseState
+  parent: UnderAutomation.UniversalRobots
+  name: LicenseState
+  nameWithType: LicenseState
+  fullName: UnderAutomation.UniversalRobots.LicenseState

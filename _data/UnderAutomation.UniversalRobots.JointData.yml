@@ -1,0 +1,665 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.JointData
+  commentId: T:UnderAutomation.UniversalRobots.JointData
+  id: JointData
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.JointData.ActualSpeed
+  - UnderAutomation.UniversalRobots.JointData.Current
+  - UnderAutomation.UniversalRobots.JointData.JointMode
+  - UnderAutomation.UniversalRobots.JointData.Position
+  - UnderAutomation.UniversalRobots.JointData.TargetPosition
+  - UnderAutomation.UniversalRobots.JointData.Temperature
+  - UnderAutomation.UniversalRobots.JointData.Voltage
+  langs:
+  - csharp
+  - vb
+  name: JointData
+  nameWithType: JointData
+  fullName: UnderAutomation.UniversalRobots.JointData
+  type: Class
+  source:
+    id: JointData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1053
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nJoint data\n"
+  example: []
+  syntax:
+    content: public class JointData
+    content.vb: Public Class JointData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.JointData.Position
+  commentId: P:UnderAutomation.UniversalRobots.JointData.Position
+  id: Position
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: JointData.Position
+  fullName: UnderAutomation.UniversalRobots.JointData.Position
+  type: Property
+  source:
+    id: Position
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1057
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAngular joint position in radians\n"
+  example: []
+  syntax:
+    content: public double Position { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Position As Double
+  overload: UnderAutomation.UniversalRobots.JointData.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.JointData.TargetPosition
+  commentId: P:UnderAutomation.UniversalRobots.JointData.TargetPosition
+  id: TargetPosition
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: TargetPosition
+  nameWithType: JointData.TargetPosition
+  fullName: UnderAutomation.UniversalRobots.JointData.TargetPosition
+  type: Property
+  source:
+    id: TargetPosition
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1062
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAngular target position in radians\n"
+  example: []
+  syntax:
+    content: public double TargetPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property TargetPosition As Double
+  overload: UnderAutomation.UniversalRobots.JointData.TargetPosition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.JointData.ActualSpeed
+  commentId: P:UnderAutomation.UniversalRobots.JointData.ActualSpeed
+  id: ActualSpeed
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: ActualSpeed
+  nameWithType: JointData.ActualSpeed
+  fullName: UnderAutomation.UniversalRobots.JointData.ActualSpeed
+  type: Property
+  source:
+    id: ActualSpeed
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1067
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nJoint rotation speed in rad/s\n"
+  example: []
+  syntax:
+    content: public double ActualSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ActualSpeed As Double
+  overload: UnderAutomation.UniversalRobots.JointData.ActualSpeed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.JointData.Current
+  commentId: P:UnderAutomation.UniversalRobots.JointData.Current
+  id: Current
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: JointData.Current
+  fullName: UnderAutomation.UniversalRobots.JointData.Current
+  type: Property
+  source:
+    id: Current
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1072
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nMotor current in Amps\n"
+  example: []
+  syntax:
+    content: public float Current { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Current As Single
+  overload: UnderAutomation.UniversalRobots.JointData.Current*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.JointData.Voltage
+  commentId: P:UnderAutomation.UniversalRobots.JointData.Voltage
+  id: Voltage
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: Voltage
+  nameWithType: JointData.Voltage
+  fullName: UnderAutomation.UniversalRobots.JointData.Voltage
+  type: Property
+  source:
+    id: Voltage
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1077
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nMotor votage in Volts\n"
+  example: []
+  syntax:
+    content: public float Voltage { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Voltage As Single
+  overload: UnderAutomation.UniversalRobots.JointData.Voltage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.JointData.Temperature
+  commentId: P:UnderAutomation.UniversalRobots.JointData.Temperature
+  id: Temperature
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: JointData.Temperature
+  fullName: UnderAutomation.UniversalRobots.JointData.Temperature
+  type: Property
+  source:
+    id: Temperature
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1082
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nJoint temperature in °C\n"
+  example: []
+  syntax:
+    content: public float Temperature { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Temperature As Single
+  overload: UnderAutomation.UniversalRobots.JointData.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.JointData.JointMode
+  commentId: P:UnderAutomation.UniversalRobots.JointData.JointMode
+  id: JointMode
+  parent: UnderAutomation.UniversalRobots.JointData
+  langs:
+  - csharp
+  - vb
+  name: JointMode
+  nameWithType: JointData.JointMode
+  fullName: UnderAutomation.UniversalRobots.JointData.JointMode
+  type: Property
+  source:
+    id: JointMode
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1087
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nJoint mode\n"
+  example: []
+  syntax:
+    content: public JointModes JointMode { get; set; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.JointModes
+    content.vb: Public Property JointMode As JointModes
+  overload: UnderAutomation.UniversalRobots.JointData.JointMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.JointData.Position*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.Position
+  name: Position
+  nameWithType: JointData.Position
+  fullName: UnderAutomation.UniversalRobots.JointData.Position
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.JointData.TargetPosition*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.TargetPosition
+  name: TargetPosition
+  nameWithType: JointData.TargetPosition
+  fullName: UnderAutomation.UniversalRobots.JointData.TargetPosition
+- uid: UnderAutomation.UniversalRobots.JointData.ActualSpeed*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.ActualSpeed
+  name: ActualSpeed
+  nameWithType: JointData.ActualSpeed
+  fullName: UnderAutomation.UniversalRobots.JointData.ActualSpeed
+- uid: UnderAutomation.UniversalRobots.JointData.Current*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.Current
+  name: Current
+  nameWithType: JointData.Current
+  fullName: UnderAutomation.UniversalRobots.JointData.Current
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnderAutomation.UniversalRobots.JointData.Voltage*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.Voltage
+  name: Voltage
+  nameWithType: JointData.Voltage
+  fullName: UnderAutomation.UniversalRobots.JointData.Voltage
+- uid: UnderAutomation.UniversalRobots.JointData.Temperature*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.Temperature
+  name: Temperature
+  nameWithType: JointData.Temperature
+  fullName: UnderAutomation.UniversalRobots.JointData.Temperature
+- uid: UnderAutomation.UniversalRobots.JointData.JointMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.JointData.JointMode
+  name: JointMode
+  nameWithType: JointData.JointMode
+  fullName: UnderAutomation.UniversalRobots.JointData.JointMode
+- uid: UnderAutomation.UniversalRobots.JointModes
+  commentId: T:UnderAutomation.UniversalRobots.JointModes
+  parent: UnderAutomation.UniversalRobots
+  name: JointModes
+  nameWithType: JointModes
+  fullName: UnderAutomation.UniversalRobots.JointModes

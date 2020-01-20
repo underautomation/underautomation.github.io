@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  commentId: T:UnderAutomation.UniversalRobots.ControllerBoxTypes
+  id: ControllerBoxTypes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ControllerBoxTypes.UR10
+  - UnderAutomation.UniversalRobots.ControllerBoxTypes.UR16
+  - UnderAutomation.UniversalRobots.ControllerBoxTypes.UR3
+  - UnderAutomation.UniversalRobots.ControllerBoxTypes.UR5
+  langs:
+  - csharp
+  - vb
+  name: ControllerBoxTypes
+  nameWithType: ControllerBoxTypes
+  fullName: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  type: Enum
+  source:
+    id: ControllerBoxTypes
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1786
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nController box types\n"
+  example: []
+  syntax:
+    content: public enum ControllerBoxTypes
+    content.vb: Public Enum ControllerBoxTypes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR3
+  commentId: F:UnderAutomation.UniversalRobots.ControllerBoxTypes.UR3
+  id: UR3
+  parent: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  langs:
+  - csharp
+  - vb
+  name: UR3
+  nameWithType: ControllerBoxTypes.UR3
+  fullName: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR3
+  type: Field
+  source:
+    id: UR3
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1790
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUR3 controller box\n"
+  example: []
+  syntax:
+    content: UR3 = 6
+    return:
+      type: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR5
+  commentId: F:UnderAutomation.UniversalRobots.ControllerBoxTypes.UR5
+  id: UR5
+  parent: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  langs:
+  - csharp
+  - vb
+  name: UR5
+  nameWithType: ControllerBoxTypes.UR5
+  fullName: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR5
+  type: Field
+  source:
+    id: UR5
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1795
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUR5 controller box\n"
+  example: []
+  syntax:
+    content: UR5 = 4
+    return:
+      type: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR10
+  commentId: F:UnderAutomation.UniversalRobots.ControllerBoxTypes.UR10
+  id: UR10
+  parent: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  langs:
+  - csharp
+  - vb
+  name: UR10
+  nameWithType: ControllerBoxTypes.UR10
+  fullName: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR10
+  type: Field
+  source:
+    id: UR10
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1800
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUR10 controller box\n"
+  example: []
+  syntax:
+    content: UR10 = 5
+    return:
+      type: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR16
+  commentId: F:UnderAutomation.UniversalRobots.ControllerBoxTypes.UR16
+  id: UR16
+  parent: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  langs:
+  - csharp
+  - vb
+  name: UR16
+  nameWithType: ControllerBoxTypes.UR16
+  fullName: UnderAutomation.UniversalRobots.ControllerBoxTypes.UR16
+  type: Field
+  source:
+    id: UR16
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1805
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nUR16 controller box\n"
+  example: []
+  syntax:
+    content: UR16 = 16
+    return:
+      type: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.ControllerBoxTypes
+  commentId: T:UnderAutomation.UniversalRobots.ControllerBoxTypes
+  parent: UnderAutomation.UniversalRobots
+  name: ControllerBoxTypes
+  nameWithType: ControllerBoxTypes
+  fullName: UnderAutomation.UniversalRobots.ControllerBoxTypes

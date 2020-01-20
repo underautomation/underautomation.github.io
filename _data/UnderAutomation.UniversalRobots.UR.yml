@@ -1,0 +1,2311 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.UR
+  commentId: T:UnderAutomation.UniversalRobots.UR
+  id: UR
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.UR.#ctor
+  - UnderAutomation.UniversalRobots.UR.AdditionalInfo
+  - UnderAutomation.UniversalRobots.UR.AdditionalInfoReceived
+  - UnderAutomation.UniversalRobots.UR.CalibrationData
+  - UnderAutomation.UniversalRobots.UR.CalibrationDataReceived
+  - UnderAutomation.UniversalRobots.UR.CartesianInfo
+  - UnderAutomation.UniversalRobots.UR.CartesianInfoReceived
+  - UnderAutomation.UniversalRobots.UR.ConfigurationData
+  - UnderAutomation.UniversalRobots.UR.ConfigurationDataReceived
+  - UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  - UnderAutomation.UniversalRobots.UR.Connected
+  - UnderAutomation.UniversalRobots.UR.Disconnect
+  - UnderAutomation.UniversalRobots.UR.ForceModeData
+  - UnderAutomation.UniversalRobots.UR.ForceModeDataReceived
+  - UnderAutomation.UniversalRobots.UR.InternalErrorOccured
+  - UnderAutomation.UniversalRobots.UR.JointData
+  - UnderAutomation.UniversalRobots.UR.JointDataReceived
+  - UnderAutomation.UniversalRobots.UR.KinematicsInfo
+  - UnderAutomation.UniversalRobots.UR.KinematicsInfoReceived
+  - UnderAutomation.UniversalRobots.UR.LicenseInfo
+  - UnderAutomation.UniversalRobots.UR.MasterboardData
+  - UnderAutomation.UniversalRobots.UR.MasterboardDataReceived
+  - UnderAutomation.UniversalRobots.UR.RegisterLicense(System.String,System.String)
+  - UnderAutomation.UniversalRobots.UR.RobotModeData
+  - UnderAutomation.UniversalRobots.UR.RobotModeDataReceived
+  - UnderAutomation.UniversalRobots.UR.SafetyData
+  - UnderAutomation.UniversalRobots.UR.SafetyDataReceived
+  - UnderAutomation.UniversalRobots.UR.Send(System.String)
+  - UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
+  - UnderAutomation.UniversalRobots.UR.ToolCommunicationInfoReceived
+  - UnderAutomation.UniversalRobots.UR.ToolData
+  - UnderAutomation.UniversalRobots.UR.ToolDataReceived
+  - UnderAutomation.UniversalRobots.UR.ToolModeInfo
+  - UnderAutomation.UniversalRobots.UR.ToolModeInfoReceived
+  langs:
+  - csharp
+  - vb
+  name: UR
+  nameWithType: UR
+  fullName: UnderAutomation.UniversalRobots.UR
+  type: Class
+  source:
+    id: UR
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 10
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nA connection to a Universal Robot.\nAllow to retrieve the robot state (position, diagnostic information, state, ...) and also to send commands.\n"
+  example: []
+  syntax:
+    content: public class UR
+    content.vb: Public Class UR
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.UR.InternalErrorOccured
+  commentId: E:UnderAutomation.UniversalRobots.UR.InternalErrorOccured
+  id: InternalErrorOccured
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: InternalErrorOccured
+  nameWithType: UR.InternalErrorOccured
+  fullName: UnderAutomation.UniversalRobots.UR.InternalErrorOccured
+  type: Event
+  source:
+    id: InternalErrorOccured
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 33
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEvent raised when an error occured during robot communication\n"
+  example: []
+  syntax:
+    content: public event EventHandler<InternalErrorEventArgs> InternalErrorOccured
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.InternalErrorEventArgs}
+    content.vb: Public Event InternalErrorOccured As EventHandler(Of InternalErrorEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.RobotModeDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.RobotModeDataReceived
+  id: RobotModeDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: RobotModeDataReceived
+  nameWithType: UR.RobotModeDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.RobotModeDataReceived
+  type: Event
+  source:
+    id: RobotModeDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 39
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot mode data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<RobotModeDataPackageEventArgs> RobotModeDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs}
+    content.vb: Public Event RobotModeDataReceived As EventHandler(Of RobotModeDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.JointDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.JointDataReceived
+  id: JointDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: JointDataReceived
+  nameWithType: UR.JointDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.JointDataReceived
+  type: Event
+  source:
+    id: JointDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 44
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nJoint data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<JointDataPackageEventArgs> JointDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.JointDataPackageEventArgs}
+    content.vb: Public Event JointDataReceived As EventHandler(Of JointDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ToolDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.ToolDataReceived
+  id: ToolDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ToolDataReceived
+  nameWithType: UR.ToolDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.ToolDataReceived
+  type: Event
+  source:
+    id: ToolDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 49
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ToolDataPackageEventArgs> ToolDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.ToolDataPackageEventArgs}
+    content.vb: Public Event ToolDataReceived As EventHandler(Of ToolDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.MasterboardDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.MasterboardDataReceived
+  id: MasterboardDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: MasterboardDataReceived
+  nameWithType: UR.MasterboardDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.MasterboardDataReceived
+  type: Event
+  source:
+    id: MasterboardDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 54
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nMasterboard data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<MasterboardDataPackageEventArgs> MasterboardDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs}
+    content.vb: Public Event MasterboardDataReceived As EventHandler(Of MasterboardDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.CartesianInfoReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.CartesianInfoReceived
+  id: CartesianInfoReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: CartesianInfoReceived
+  nameWithType: UR.CartesianInfoReceived
+  fullName: UnderAutomation.UniversalRobots.UR.CartesianInfoReceived
+  type: Event
+  source:
+    id: CartesianInfoReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 59
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCartesian inforlation (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<CartesianInfoPackageEventArgs> CartesianInfoReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs}
+    content.vb: Public Event CartesianInfoReceived As EventHandler(Of CartesianInfoPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.KinematicsInfoReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.KinematicsInfoReceived
+  id: KinematicsInfoReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: KinematicsInfoReceived
+  nameWithType: UR.KinematicsInfoReceived
+  fullName: UnderAutomation.UniversalRobots.UR.KinematicsInfoReceived
+  type: Event
+  source:
+    id: KinematicsInfoReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 64
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nKinematics information data (Raised when connection opened)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<KinematicsInfoPackageEventArgs> KinematicsInfoReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs}
+    content.vb: Public Event KinematicsInfoReceived As EventHandler(Of KinematicsInfoPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ConfigurationDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.ConfigurationDataReceived
+  id: ConfigurationDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationDataReceived
+  nameWithType: UR.ConfigurationDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.ConfigurationDataReceived
+  type: Event
+  source:
+    id: ConfigurationDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 69
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nConfiguration data (Raised when connection opened)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ConfigurationDataPackageEventArgs> ConfigurationDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs}
+    content.vb: Public Event ConfigurationDataReceived As EventHandler(Of ConfigurationDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ForceModeDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.ForceModeDataReceived
+  id: ForceModeDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ForceModeDataReceived
+  nameWithType: UR.ForceModeDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.ForceModeDataReceived
+  type: Event
+  source:
+    id: ForceModeDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 74
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nForce mode data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ForceModeDataPackageEventArgs> ForceModeDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs}
+    content.vb: Public Event ForceModeDataReceived As EventHandler(Of ForceModeDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.AdditionalInfoReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.AdditionalInfoReceived
+  id: AdditionalInfoReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfoReceived
+  nameWithType: UR.AdditionalInfoReceived
+  fullName: UnderAutomation.UniversalRobots.UR.AdditionalInfoReceived
+  type: Event
+  source:
+    id: AdditionalInfoReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 79
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAdditional (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<AdditionalInfoPackageEventArgs> AdditionalInfoReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs}
+    content.vb: Public Event AdditionalInfoReceived As EventHandler(Of AdditionalInfoPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.CalibrationDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.CalibrationDataReceived
+  id: CalibrationDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: CalibrationDataReceived
+  nameWithType: UR.CalibrationDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.CalibrationDataReceived
+  type: Event
+  source:
+    id: CalibrationDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 84
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCalibration data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<CalibrationDataPackageEventArgs> CalibrationDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs}
+    content.vb: Public Event CalibrationDataReceived As EventHandler(Of CalibrationDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.SafetyDataReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.SafetyDataReceived
+  id: SafetyDataReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: SafetyDataReceived
+  nameWithType: UR.SafetyDataReceived
+  fullName: UnderAutomation.UniversalRobots.UR.SafetyDataReceived
+  type: Event
+  source:
+    id: SafetyDataReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 89
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nSafety data (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<SafetyDataPackageEventArgs> SafetyDataReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs}
+    content.vb: Public Event SafetyDataReceived As EventHandler(Of SafetyDataPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfoReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.ToolCommunicationInfoReceived
+  id: ToolCommunicationInfoReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ToolCommunicationInfoReceived
+  nameWithType: UR.ToolCommunicationInfoReceived
+  fullName: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfoReceived
+  type: Event
+  source:
+    id: ToolCommunicationInfoReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 94
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool communication information (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ToolCommunicationInfoPackageEventArgs> ToolCommunicationInfoReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs}
+    content.vb: Public Event ToolCommunicationInfoReceived As EventHandler(Of ToolCommunicationInfoPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ToolModeInfoReceived
+  commentId: E:UnderAutomation.UniversalRobots.UR.ToolModeInfoReceived
+  id: ToolModeInfoReceived
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ToolModeInfoReceived
+  nameWithType: UR.ToolModeInfoReceived
+  fullName: UnderAutomation.UniversalRobots.UR.ToolModeInfoReceived
+  type: Event
+  source:
+    id: ToolModeInfoReceived
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 99
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTool mode information (Raised every 100ms)\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ToolModeInfoPackageEventArgs> ToolModeInfoReceived
+    return:
+      type: System.EventHandler{UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs}
+    content.vb: Public Event ToolModeInfoReceived As EventHandler(Of ToolModeInfoPackageEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.RobotModeData
+  commentId: P:UnderAutomation.UniversalRobots.UR.RobotModeData
+  id: RobotModeData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: RobotModeData
+  nameWithType: UR.RobotModeData
+  fullName: UnderAutomation.UniversalRobots.UR.RobotModeData
+  type: Property
+  source:
+    id: RobotModeData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 105
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast Robot mode data received\n"
+  example: []
+  syntax:
+    content: public RobotModeDataPackageEventArgs RobotModeData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+    content.vb: Public ReadOnly Property RobotModeData As RobotModeDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.RobotModeData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.JointData
+  commentId: P:UnderAutomation.UniversalRobots.UR.JointData
+  id: JointData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: JointData
+  nameWithType: UR.JointData
+  fullName: UnderAutomation.UniversalRobots.UR.JointData
+  type: Property
+  source:
+    id: JointData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 110
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast joint data received\n"
+  example: []
+  syntax:
+    content: public JointDataPackageEventArgs JointData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+    content.vb: Public ReadOnly Property JointData As JointDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.JointData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.ToolData
+  commentId: P:UnderAutomation.UniversalRobots.UR.ToolData
+  id: ToolData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ToolData
+  nameWithType: UR.ToolData
+  fullName: UnderAutomation.UniversalRobots.UR.ToolData
+  type: Property
+  source:
+    id: ToolData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 115
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast tool data received\n"
+  example: []
+  syntax:
+    content: public ToolDataPackageEventArgs ToolData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+    content.vb: Public ReadOnly Property ToolData As ToolDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.ToolData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.MasterboardData
+  commentId: P:UnderAutomation.UniversalRobots.UR.MasterboardData
+  id: MasterboardData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: MasterboardData
+  nameWithType: UR.MasterboardData
+  fullName: UnderAutomation.UniversalRobots.UR.MasterboardData
+  type: Property
+  source:
+    id: MasterboardData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 120
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast masterboard data received\n"
+  example: []
+  syntax:
+    content: public MasterboardDataPackageEventArgs MasterboardData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+    content.vb: Public ReadOnly Property MasterboardData As MasterboardDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.MasterboardData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.CartesianInfo
+  commentId: P:UnderAutomation.UniversalRobots.UR.CartesianInfo
+  id: CartesianInfo
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: CartesianInfo
+  nameWithType: UR.CartesianInfo
+  fullName: UnderAutomation.UniversalRobots.UR.CartesianInfo
+  type: Property
+  source:
+    id: CartesianInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 125
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast cartesian information received\n"
+  example: []
+  syntax:
+    content: public CartesianInfoPackageEventArgs CartesianInfo { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+    content.vb: Public ReadOnly Property CartesianInfo As CartesianInfoPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.CartesianInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.KinematicsInfo
+  commentId: P:UnderAutomation.UniversalRobots.UR.KinematicsInfo
+  id: KinematicsInfo
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: KinematicsInfo
+  nameWithType: UR.KinematicsInfo
+  fullName: UnderAutomation.UniversalRobots.UR.KinematicsInfo
+  type: Property
+  source:
+    id: KinematicsInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 130
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast kinematics information received\n"
+  example: []
+  syntax:
+    content: public KinematicsInfoPackageEventArgs KinematicsInfo { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+    content.vb: Public ReadOnly Property KinematicsInfo As KinematicsInfoPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.KinematicsInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.ConfigurationData
+  commentId: P:UnderAutomation.UniversalRobots.UR.ConfigurationData
+  id: ConfigurationData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationData
+  nameWithType: UR.ConfigurationData
+  fullName: UnderAutomation.UniversalRobots.UR.ConfigurationData
+  type: Property
+  source:
+    id: ConfigurationData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 135
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast configuration data received\n"
+  example: []
+  syntax:
+    content: public ConfigurationDataPackageEventArgs ConfigurationData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+    content.vb: Public ReadOnly Property ConfigurationData As ConfigurationDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.ConfigurationData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.ForceModeData
+  commentId: P:UnderAutomation.UniversalRobots.UR.ForceModeData
+  id: ForceModeData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ForceModeData
+  nameWithType: UR.ForceModeData
+  fullName: UnderAutomation.UniversalRobots.UR.ForceModeData
+  type: Property
+  source:
+    id: ForceModeData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 140
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast force mode data received\n"
+  example: []
+  syntax:
+    content: public ForceModeDataPackageEventArgs ForceModeData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+    content.vb: Public ReadOnly Property ForceModeData As ForceModeDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.ForceModeData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.AdditionalInfo
+  commentId: P:UnderAutomation.UniversalRobots.UR.AdditionalInfo
+  id: AdditionalInfo
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: UR.AdditionalInfo
+  fullName: UnderAutomation.UniversalRobots.UR.AdditionalInfo
+  type: Property
+  source:
+    id: AdditionalInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 145
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast additional information received\n"
+  example: []
+  syntax:
+    content: public AdditionalInfoPackageEventArgs AdditionalInfo { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+    content.vb: Public ReadOnly Property AdditionalInfo As AdditionalInfoPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.CalibrationData
+  commentId: P:UnderAutomation.UniversalRobots.UR.CalibrationData
+  id: CalibrationData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: CalibrationData
+  nameWithType: UR.CalibrationData
+  fullName: UnderAutomation.UniversalRobots.UR.CalibrationData
+  type: Property
+  source:
+    id: CalibrationData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 150
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast calibration data received\n"
+  example: []
+  syntax:
+    content: public CalibrationDataPackageEventArgs CalibrationData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+    content.vb: Public ReadOnly Property CalibrationData As CalibrationDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.CalibrationData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.SafetyData
+  commentId: P:UnderAutomation.UniversalRobots.UR.SafetyData
+  id: SafetyData
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: SafetyData
+  nameWithType: UR.SafetyData
+  fullName: UnderAutomation.UniversalRobots.UR.SafetyData
+  type: Property
+  source:
+    id: SafetyData
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 155
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast safety data received\n"
+  example: []
+  syntax:
+    content: public SafetyDataPackageEventArgs SafetyData { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+    content.vb: Public ReadOnly Property SafetyData As SafetyDataPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.SafetyData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
+  commentId: P:UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
+  id: ToolCommunicationInfo
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ToolCommunicationInfo
+  nameWithType: UR.ToolCommunicationInfo
+  fullName: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
+  type: Property
+  source:
+    id: ToolCommunicationInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 160
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast tool communication information received\n"
+  example: []
+  syntax:
+    content: public ToolCommunicationInfoPackageEventArgs ToolCommunicationInfo { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+    content.vb: Public ReadOnly Property ToolCommunicationInfo As ToolCommunicationInfoPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.ToolModeInfo
+  commentId: P:UnderAutomation.UniversalRobots.UR.ToolModeInfo
+  id: ToolModeInfo
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ToolModeInfo
+  nameWithType: UR.ToolModeInfo
+  fullName: UnderAutomation.UniversalRobots.UR.ToolModeInfo
+  type: Property
+  source:
+    id: ToolModeInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 165
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLast tool mode infotmation received\n"
+  example: []
+  syntax:
+    content: public ToolModeInfoPackageEventArgs ToolModeInfo { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+    content.vb: Public ReadOnly Property ToolModeInfo As ToolModeInfoPackageEventArgs
+  overload: UnderAutomation.UniversalRobots.UR.ToolModeInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.RegisterLicense(System.String,System.String)
+  commentId: M:UnderAutomation.UniversalRobots.UR.RegisterLicense(System.String,System.String)
+  id: RegisterLicense(System.String,System.String)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: RegisterLicense(String, String)
+  nameWithType: UR.RegisterLicense(String, String)
+  fullName: UnderAutomation.UniversalRobots.UR.RegisterLicense(System.String, System.String)
+  type: Method
+  source:
+    id: RegisterLicense
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 177
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nIf you have a license and a key, please call this static method to register the product and exit the trial period\nYou can register a product even if the trial period has ended\n"
+  example: []
+  syntax:
+    content: public static LicenseInfo RegisterLicense(string licensee, string key)
+    parameters:
+    - id: licensee
+      type: System.String
+      description: Your organization name
+    - id: key
+      type: System.String
+      description: The associated key supplied by UnderAutomation
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseInfo
+      description: Information about the supplied license
+    content.vb: Public Shared Function RegisterLicense(licensee As String, key As String) As LicenseInfo
+  overload: UnderAutomation.UniversalRobots.UR.RegisterLicense*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnderAutomation.UniversalRobots.UR.LicenseInfo
+  commentId: P:UnderAutomation.UniversalRobots.UR.LicenseInfo
+  id: LicenseInfo
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: LicenseInfo
+  nameWithType: UR.LicenseInfo
+  fullName: UnderAutomation.UniversalRobots.UR.LicenseInfo
+  type: Property
+  source:
+    id: LicenseInfo
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 187
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturn information about your license\n"
+  example: []
+  syntax:
+    content: public static LicenseInfo LicenseInfo { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.LicenseInfo
+    content.vb: Public Shared ReadOnly Property LicenseInfo As LicenseInfo
+  overload: UnderAutomation.UniversalRobots.UR.LicenseInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.#ctor
+  commentId: M:UnderAutomation.UniversalRobots.UR.#ctor
+  id: '#ctor'
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: UR()
+  nameWithType: UR.UR()
+  fullName: UnderAutomation.UniversalRobots.UR.UR()
+  type: Constructor
+  source:
+    id: .ctor
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 197
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCreate a new instance of UR\n"
+  example: []
+  syntax:
+    content: public UR()
+    content.vb: Public Sub New
+  overload: UnderAutomation.UniversalRobots.UR.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Send(System.String)
+  commentId: M:UnderAutomation.UniversalRobots.UR.Send(System.String)
+  id: Send(System.String)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Send(String)
+  nameWithType: UR.Send(String)
+  fullName: UnderAutomation.UniversalRobots.UR.Send(System.String)
+  type: Method
+  source:
+    id: Send
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 204
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRemotly execute script.Please see the Universal Robot Script documentation : https://www.universal-robots.com/download/.\n"
+  example: []
+  syntax:
+    content: public StatusCode Send(string command)
+    parameters:
+    - id: command
+      type: System.String
+      description: 'The script command to execute. You can for example move the robot at a specified coordinate with the command : movej([0,1.57,-1.57,3.14,-1.57,1.57],a=1.4, v=1.05, t=0, r=0)'
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+    content.vb: Public Function Send(command As String) As StatusCode
+  overload: UnderAutomation.UniversalRobots.UR.Send*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  commentId: M:UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  id: Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Connect(String, UniversalRobotPorts)
+  nameWithType: UR.Connect(String, UniversalRobotPorts)
+  fullName: UnderAutomation.UniversalRobots.UR.Connect(System.String, UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  type: Method
+  source:
+    id: Connect
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 331
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nConnect the robot.\n"
+  example: []
+  syntax:
+    content: public void Connect(string ip, UniversalRobotPorts port = UniversalRobotPorts.PrimaryClient)
+    parameters:
+    - id: ip
+      type: System.String
+      description: Address of the robot
+    - id: port
+      type: UnderAutomation.UniversalRobots.UniversalRobotPorts
+      description: '(Optional) Connection port on the robot. Default : 30001'
+    content.vb: Public Sub Connect(ip As String, port As UniversalRobotPorts = UniversalRobotPorts.PrimaryClient)
+  overload: UnderAutomation.UniversalRobots.UR.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Disconnect
+  commentId: M:UnderAutomation.UniversalRobots.UR.Disconnect
+  id: Disconnect
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: UR.Disconnect()
+  fullName: UnderAutomation.UniversalRobots.UR.Disconnect()
+  type: Method
+  source:
+    id: Disconnect
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 347
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEnd the connection with the robot.\n"
+  example: []
+  syntax:
+    content: public void Disconnect()
+    content.vb: Public Sub Disconnect
+  overload: UnderAutomation.UniversalRobots.UR.Disconnect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Connected
+  commentId: P:UnderAutomation.UniversalRobots.UR.Connected
+  id: Connected
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Connected
+  nameWithType: UR.Connected
+  fullName: UnderAutomation.UniversalRobots.UR.Connected
+  type: Property
+  source:
+    id: Connected
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 388
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturn True if the connection to the robot is active\n"
+  example: []
+  syntax:
+    content: public bool Connected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Connected As Boolean
+  overload: UnderAutomation.UniversalRobots.UR.Connected*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.InternalErrorEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.InternalErrorEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<InternalErrorEventArgs>
+  nameWithType: EventHandler<InternalErrorEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.InternalErrorEventArgs>
+  nameWithType.vb: EventHandler(Of InternalErrorEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.InternalErrorEventArgs)
+  name.vb: EventHandler(Of InternalErrorEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.InternalErrorEventArgs
+    name: InternalErrorEventArgs
+    nameWithType: InternalErrorEventArgs
+    fullName: UnderAutomation.UniversalRobots.InternalErrorEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.InternalErrorEventArgs
+    name: InternalErrorEventArgs
+    nameWithType: InternalErrorEventArgs
+    fullName: UnderAutomation.UniversalRobots.InternalErrorEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<RobotModeDataPackageEventArgs>
+  nameWithType: EventHandler<RobotModeDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of RobotModeDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs)
+  name.vb: EventHandler(Of RobotModeDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+    name: RobotModeDataPackageEventArgs
+    nameWithType: RobotModeDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+    name: RobotModeDataPackageEventArgs
+    nameWithType: RobotModeDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.JointDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.JointDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<JointDataPackageEventArgs>
+  nameWithType: EventHandler<JointDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.JointDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of JointDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.JointDataPackageEventArgs)
+  name.vb: EventHandler(Of JointDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+    name: JointDataPackageEventArgs
+    nameWithType: JointDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+    name: JointDataPackageEventArgs
+    nameWithType: JointDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.ToolDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.ToolDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ToolDataPackageEventArgs>
+  nameWithType: EventHandler<ToolDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.ToolDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of ToolDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.ToolDataPackageEventArgs)
+  name.vb: EventHandler(Of ToolDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+    name: ToolDataPackageEventArgs
+    nameWithType: ToolDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+    name: ToolDataPackageEventArgs
+    nameWithType: ToolDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<MasterboardDataPackageEventArgs>
+  nameWithType: EventHandler<MasterboardDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of MasterboardDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs)
+  name.vb: EventHandler(Of MasterboardDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+    name: MasterboardDataPackageEventArgs
+    nameWithType: MasterboardDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+    name: MasterboardDataPackageEventArgs
+    nameWithType: MasterboardDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<CartesianInfoPackageEventArgs>
+  nameWithType: EventHandler<CartesianInfoPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs>
+  nameWithType.vb: EventHandler(Of CartesianInfoPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs)
+  name.vb: EventHandler(Of CartesianInfoPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+    name: CartesianInfoPackageEventArgs
+    nameWithType: CartesianInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+    name: CartesianInfoPackageEventArgs
+    nameWithType: CartesianInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<KinematicsInfoPackageEventArgs>
+  nameWithType: EventHandler<KinematicsInfoPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs>
+  nameWithType.vb: EventHandler(Of KinematicsInfoPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs)
+  name.vb: EventHandler(Of KinematicsInfoPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+    name: KinematicsInfoPackageEventArgs
+    nameWithType: KinematicsInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+    name: KinematicsInfoPackageEventArgs
+    nameWithType: KinematicsInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ConfigurationDataPackageEventArgs>
+  nameWithType: EventHandler<ConfigurationDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of ConfigurationDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs)
+  name.vb: EventHandler(Of ConfigurationDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+    name: ConfigurationDataPackageEventArgs
+    nameWithType: ConfigurationDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+    name: ConfigurationDataPackageEventArgs
+    nameWithType: ConfigurationDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ForceModeDataPackageEventArgs>
+  nameWithType: EventHandler<ForceModeDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of ForceModeDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs)
+  name.vb: EventHandler(Of ForceModeDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+    name: ForceModeDataPackageEventArgs
+    nameWithType: ForceModeDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+    name: ForceModeDataPackageEventArgs
+    nameWithType: ForceModeDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<AdditionalInfoPackageEventArgs>
+  nameWithType: EventHandler<AdditionalInfoPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs>
+  nameWithType.vb: EventHandler(Of AdditionalInfoPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs)
+  name.vb: EventHandler(Of AdditionalInfoPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+    name: AdditionalInfoPackageEventArgs
+    nameWithType: AdditionalInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+    name: AdditionalInfoPackageEventArgs
+    nameWithType: AdditionalInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<CalibrationDataPackageEventArgs>
+  nameWithType: EventHandler<CalibrationDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of CalibrationDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs)
+  name.vb: EventHandler(Of CalibrationDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+    name: CalibrationDataPackageEventArgs
+    nameWithType: CalibrationDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+    name: CalibrationDataPackageEventArgs
+    nameWithType: CalibrationDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<SafetyDataPackageEventArgs>
+  nameWithType: EventHandler<SafetyDataPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs>
+  nameWithType.vb: EventHandler(Of SafetyDataPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs)
+  name.vb: EventHandler(Of SafetyDataPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+    name: SafetyDataPackageEventArgs
+    nameWithType: SafetyDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+    name: SafetyDataPackageEventArgs
+    nameWithType: SafetyDataPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ToolCommunicationInfoPackageEventArgs>
+  nameWithType: EventHandler<ToolCommunicationInfoPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs>
+  nameWithType.vb: EventHandler(Of ToolCommunicationInfoPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs)
+  name.vb: EventHandler(Of ToolCommunicationInfoPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+    name: ToolCommunicationInfoPackageEventArgs
+    nameWithType: ToolCommunicationInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+    name: ToolCommunicationInfoPackageEventArgs
+    nameWithType: ToolCommunicationInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler{UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs}
+  commentId: T:System.EventHandler{UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ToolModeInfoPackageEventArgs>
+  nameWithType: EventHandler<ToolModeInfoPackageEventArgs>
+  fullName: System.EventHandler<UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs>
+  nameWithType.vb: EventHandler(Of ToolModeInfoPackageEventArgs)
+  fullName.vb: System.EventHandler(Of UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs)
+  name.vb: EventHandler(Of ToolModeInfoPackageEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+    name: ToolModeInfoPackageEventArgs
+    nameWithType: ToolModeInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+    name: ToolModeInfoPackageEventArgs
+    nameWithType: ToolModeInfoPackageEventArgs
+    fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.RobotModeData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.RobotModeData
+  name: RobotModeData
+  nameWithType: UR.RobotModeData
+  fullName: UnderAutomation.UniversalRobots.UR.RobotModeData
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: RobotModeDataPackageEventArgs
+  nameWithType: RobotModeDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.JointData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.JointData
+  name: JointData
+  nameWithType: UR.JointData
+  fullName: UnderAutomation.UniversalRobots.UR.JointData
+- uid: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: JointDataPackageEventArgs
+  nameWithType: JointDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.ToolData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ToolData
+  name: ToolData
+  nameWithType: UR.ToolData
+  fullName: UnderAutomation.UniversalRobots.UR.ToolData
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ToolDataPackageEventArgs
+  nameWithType: ToolDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.MasterboardData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.MasterboardData
+  name: MasterboardData
+  nameWithType: UR.MasterboardData
+  fullName: UnderAutomation.UniversalRobots.UR.MasterboardData
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: MasterboardDataPackageEventArgs
+  nameWithType: MasterboardDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.CartesianInfo*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.CartesianInfo
+  name: CartesianInfo
+  nameWithType: UR.CartesianInfo
+  fullName: UnderAutomation.UniversalRobots.UR.CartesianInfo
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: CartesianInfoPackageEventArgs
+  nameWithType: CartesianInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.KinematicsInfo*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.KinematicsInfo
+  name: KinematicsInfo
+  nameWithType: UR.KinematicsInfo
+  fullName: UnderAutomation.UniversalRobots.UR.KinematicsInfo
+- uid: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: KinematicsInfoPackageEventArgs
+  nameWithType: KinematicsInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.ConfigurationData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ConfigurationData
+  name: ConfigurationData
+  nameWithType: UR.ConfigurationData
+  fullName: UnderAutomation.UniversalRobots.UR.ConfigurationData
+- uid: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ConfigurationDataPackageEventArgs
+  nameWithType: ConfigurationDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.ForceModeData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ForceModeData
+  name: ForceModeData
+  nameWithType: UR.ForceModeData
+  fullName: UnderAutomation.UniversalRobots.UR.ForceModeData
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ForceModeDataPackageEventArgs
+  nameWithType: ForceModeDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.AdditionalInfo*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.AdditionalInfo
+  name: AdditionalInfo
+  nameWithType: UR.AdditionalInfo
+  fullName: UnderAutomation.UniversalRobots.UR.AdditionalInfo
+- uid: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: AdditionalInfoPackageEventArgs
+  nameWithType: AdditionalInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.CalibrationData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.CalibrationData
+  name: CalibrationData
+  nameWithType: UR.CalibrationData
+  fullName: UnderAutomation.UniversalRobots.UR.CalibrationData
+- uid: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: CalibrationDataPackageEventArgs
+  nameWithType: CalibrationDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.SafetyData*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.SafetyData
+  name: SafetyData
+  nameWithType: UR.SafetyData
+  fullName: UnderAutomation.UniversalRobots.UR.SafetyData
+- uid: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: SafetyDataPackageEventArgs
+  nameWithType: SafetyDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
+  name: ToolCommunicationInfo
+  nameWithType: UR.ToolCommunicationInfo
+  fullName: UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ToolCommunicationInfoPackageEventArgs
+  nameWithType: ToolCommunicationInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.ToolModeInfo*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ToolModeInfo
+  name: ToolModeInfo
+  nameWithType: UR.ToolModeInfo
+  fullName: UnderAutomation.UniversalRobots.UR.ToolModeInfo
+- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ToolModeInfoPackageEventArgs
+  nameWithType: ToolModeInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.UR.RegisterLicense*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.RegisterLicense
+  name: RegisterLicense
+  nameWithType: UR.RegisterLicense
+  fullName: UnderAutomation.UniversalRobots.UR.RegisterLicense
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnderAutomation.UniversalRobots.LicenseInfo
+  commentId: T:UnderAutomation.UniversalRobots.LicenseInfo
+  parent: UnderAutomation.UniversalRobots
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: UnderAutomation.UniversalRobots.LicenseInfo
+- uid: UnderAutomation.UniversalRobots.UR.LicenseInfo*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.LicenseInfo
+  name: LicenseInfo
+  nameWithType: UR.LicenseInfo
+  fullName: UnderAutomation.UniversalRobots.UR.LicenseInfo
+- uid: UnderAutomation.UniversalRobots.UR.#ctor*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.#ctor
+  name: UR
+  nameWithType: UR.UR
+  fullName: UnderAutomation.UniversalRobots.UR.UR
+- uid: UnderAutomation.UniversalRobots.UR.Send*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Send
+  name: Send
+  nameWithType: UR.Send
+  fullName: UnderAutomation.UniversalRobots.UR.Send
+- uid: UnderAutomation.UniversalRobots.StatusCode
+  commentId: T:UnderAutomation.UniversalRobots.StatusCode
+  parent: UnderAutomation.UniversalRobots
+  name: StatusCode
+  nameWithType: StatusCode
+  fullName: UnderAutomation.UniversalRobots.StatusCode
+- uid: UnderAutomation.UniversalRobots.UR.Connect*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Connect
+  name: Connect
+  nameWithType: UR.Connect
+  fullName: UnderAutomation.UniversalRobots.UR.Connect
+- uid: UnderAutomation.UniversalRobots.UniversalRobotPorts
+  commentId: T:UnderAutomation.UniversalRobots.UniversalRobotPorts
+  parent: UnderAutomation.UniversalRobots
+  name: UniversalRobotPorts
+  nameWithType: UniversalRobotPorts
+  fullName: UnderAutomation.UniversalRobots.UniversalRobotPorts
+- uid: UnderAutomation.UniversalRobots.UR.Disconnect*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Disconnect
+  name: Disconnect
+  nameWithType: UR.Disconnect
+  fullName: UnderAutomation.UniversalRobots.UR.Disconnect
+- uid: UnderAutomation.UniversalRobots.UR.Connected*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Connected
+  name: Connected
+  nameWithType: UR.Connected
+  fullName: UnderAutomation.UniversalRobots.UR.Connected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
