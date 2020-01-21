@@ -4,6 +4,7 @@ title: Documentation
 permalink: /documentation/
 ---
 
+
 <nav>
   * table of contents
   {:toc}
@@ -50,12 +51,7 @@ ur.Connect("192.168.0.1", port);
 
 When port is not specified,  ```UniversalRobotPorts.PrimaryClient``` is used.
 
-| **Port name** | **TCP port** | **Description** |
-|:---:|:---:|:---:|
-|PrimaryClient (default) | 30001 || 
-|SecondaryClient | 30002 | |
-|PrimaryClientReadOnly | 30011 ||
-|SecondaryClientReadOnly | 30012 ||
+{% include properties.html class="UniversalRobotPorts" %}
 
 ## Disconnect
 ```c#
@@ -69,12 +65,23 @@ ur.Connect("192.168.0.1");
 ur.Disconnect();
 ```
 
-## Register a license
+## Licensing
+### Register a license
 You have 30 days free trial. For a long term use, you need to buy a license ([See pricing](/pricing)). Then, we will send you a license key and you will just have to specify it with your company name with the static method ```RegisterLicense()``` of class ```UR```.
 ```c#
 // Register your license
 UnderAutomation.UniversalRobots.UR.RegisterLicense("YourCompanyName", "YOUR_LICENSE_KEY");
 ```
+
+### Get current license information
+You can get full information about current license with the static property ```LicenseInfo``` of class ```UR```.
+```c#
+var info = UnderAutomation.UniversalRobots.UR.LicenseInfo;
+```
+
+{% include properties.html class="LicenseInfo" %}
+
+{% include properties.html class="LicenseState" %}
 
 ## Remote execute URScript
 
@@ -96,30 +103,85 @@ Please refer to the **Script Manual** to see all the functions you can remotely 
 
 ## Robot data
 
+
 ### Robot mode
+{% include package.html package="RobotModeData" %}
+
+{% include properties.html class="ControlModes" %}
+
+{% include properties.html class="RobotModes" %}
 
 ### Joint data
+{% include package.html package="JointData" %}
+![](/assets/joints.png)
+
+{% include properties.html class="JointData" %}
+
+{% include properties.html class="JointModes" %}
 
 ### Tool data
+{% include package.html package="ToolData" %}
+
+{% include properties.html class="AnalogRanges" %}
+
+{% include properties.html class="ToolModes" %}
 
 ### Masterboard data
+{% include package.html package="MasterboardData" %}
+
+{% include properties.html class="AnalogRanges" %}
+
+{% include properties.html class="MasterboardDigitalIO" %}
+
+{% include properties.html class="SafetyModes" %}
+
 
 ### Cartesian information
+{% include package.html package="CartesianInfo" %}
+![](/assets/flange-frame-3d.png)
+![](/assets/flange-frame-projection.png)
+
 
 ### Kinematics information
+{% include package.html package="KinematicsInfo" %}
+![](/assets/joints.png)
 
+{% include properties.html class="JointKinematicsInfo" %}
+
+For more information about DH (Denavit-Hartenberg) parameters, please refer the following links :
+* [https://www.youtube.com/watch?v=rA9tm0gTln8](https://www.youtube.com/watch?v=rA9tm0gTln8){:target="_blank"}
+* [https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters){:target="_blank"}
+ 
 ### Configuration data
+{% include package.html package="ConfigurationData" %}
 
+{% include properties.html class="ControllerBoxTypes" %}
+
+{% include properties.html class="JointConfiguration" %}
+ 
+{% include properties.html class="RobotSubTypes" %}
+ 
+{% include properties.html class="RobotTypes" %}
+ 
 ### Force mode data
+{% include package.html package="ForceModeData" %}
 
 ### Additional information
+{% include package.html package="AdditionalInfo" %}
 
 ### Calibration data
+{% include package.html package="CalibrationData" %}
 
 ### Safety data
+{% include package.html package="SafetyData" %}
 
 ### Tool communication information
+{% include package.html package="ToolCommunicationInfo" %}
 
 ### Tool mode
+{% include package.html package="ToolModeInfo" %}
 
-https://www.youtube.com/watch?v=rA9tm0gTln8
+{% include properties.html class="DigitalOutputConfigurations" %}
+
+{% include properties.html class="OutputModes" %}
+

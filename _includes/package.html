@@ -1,0 +1,28 @@
+
+{% assign className = include.package | append: "PackageEventArgs" %}
+
+#### Example :
+```c#
+private UR ur;
+
+private void Start() {
+  ur = new UR(); // Create a new UR instance
+  ur.Connect("192.168.0.1"); // Connect to the robot
+  // ...
+
+  // Direct access to last received package
+  {{ className }} _last{{ include.package }} = ur.{{ include.package }};
+
+  // Attach a delegate to the event triggered when new package comes 
+  ur.{{ include.package }}Received += Ur_{{ include.package }}Received;
+}
+
+private void Ur_{{ include.package }}Received(object sender, {{ className }} e) {
+  // e contains the incoming package
+}
+```
+
+
+
+{% include properties.html class=className %}
+

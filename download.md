@@ -21,9 +21,6 @@ The archive is made of 2 folders :
 <a href="https://github.com/underautomation/UniversalRobots/releases" target="_blank">See all versions</a>
 
 
-# NuGet
-
-Coming soon...
 
 # Get started
 
