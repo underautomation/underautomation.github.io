@@ -13,8 +13,8 @@ permalink: /documentation/
 # Introduction
 All C# examples below assume that the assembly ```UnderAutomation.UniversalRobots.dll``` is referenced in your project, and that the directive ```using UnderAutomation.UniversalRobots;``` is present. 
 
-
-# Connect to a UR robot
+# Connection
+## Connect to a UR robot
 Initialize a TCP communication with a robot. The ```Connect()``` method take the hostname (ur-xxx) of the robot or its IP address that you can find in the "About Dialog-Box" in PolyScope.
 ```c#
 using UnderAutomation.UniversalRobots;
@@ -28,7 +28,7 @@ ur.Connect("192.168.0.1");
 
 The ```Connect()``` method can throw a ```InvalidLicenseException``` if your trial period is over or if your license key is invalid.
 
-# Check if robot is still connected
+## Check if robot is still connected
 ```c#
 // Create a new UR instance
 var ur = new UR();
@@ -40,7 +40,7 @@ ur.Connect("192.168.0.1");
 bool isConnected = ur.Connected;
 ```
 
-# Connect to a specific TCP port
+## Connect to a specific TCP port
 ```c#
 // Create a new UR instance
 var ur = new UR();
@@ -53,7 +53,7 @@ When port is not specified,  ```UniversalRobotPorts.PrimaryClient``` is used.
 
 {% include properties.html class="UniversalRobotPorts" %}
 
-# Disconnect
+## Disconnect
 ```c#
 // Create a new UR instance
 var ur = new UR();
@@ -66,14 +66,14 @@ ur.Disconnect();
 ```
 
 # Licensing
-### Register a license
+## Register a license
 You have 30 days free trial. For a long term use, you need to buy a license ([See pricing](/pricing)). Then, we will send you a license key and you will just have to specify it with your company name with the static method ```RegisterLicense()``` of class ```UR```.
 ```c#
 // Register your license
 UnderAutomation.UniversalRobots.UR.RegisterLicense("YourCompanyName", "YOUR_LICENSE_KEY");
 ```
 
-# Get current license information
+## Get current license information
 You can get full information about current license with the static property ```LicenseInfo``` of class ```UR```.
 ```c#
 var info = UnderAutomation.UniversalRobots.UR.LicenseInfo;

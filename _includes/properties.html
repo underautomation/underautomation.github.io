@@ -1,6 +1,6 @@
 
 {% assign classFullName = "UnderAutomationUniversalRobots" | append: include.class %}
-#### Members of {{include.class}} :
+Members of <b>{{include.class}}</b> :
 ```c#
 {% for memberName in site.data[classFullName].items[0].children %}{% assign member = site.data.[classFullName].items | where : "uid", memberName | first  %}
 {% if member.summary %}// {{ member.summary | strip_newlines }}

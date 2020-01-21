@@ -268,8 +268,11 @@
 		position: fixed;
 		left : 0;
 		top : 0;
+		bottom : 0;
+		width : 300px;
 		white-space: nowrap;
-		background: #37474F;
+		background: $grey-color-dark;
+		overflow: auto;
 	  }
 	  
 		nav ul {
@@ -288,15 +291,25 @@
 
 		nav ul li a {
 		  display: block;
-		  padding: 0.5rem 1rem;
 		  color: white;
 		  text-decoration: none;
 		}
+		
+		nav > ul > li > a {
+			padding: 0.3rem 0 0.3rem 0.5rem;
+			margin-top : 0.6em;
+		}
+		
+		nav > ul > li > ul > li > a {
+			padding: 0 0 0 1rem;
+		}
+		
 		nav ul li a.current {
 		  background: black;
 		}
 		
-		nav ul li ul li ul {
+		
+		nav > ul > li > ul > li > ul {
 			display: none;
 		}
   }

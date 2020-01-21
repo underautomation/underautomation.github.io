@@ -7,7 +7,7 @@ layout: home
 
 |Compatible with all UR robots|![UR16, UR10, UR5, UR3](/assets/robots.png "Works with UR16, UR10, UR5, UR3 !")|
 |:---:|:---:|
-|Features| **_Monitor_** and **_control_** the robot **_remotely_** via TCP. Send URScript commands and get various data like TCP position, joint data, IO states, safety status, ... [See full feature list](/features) |
+|Features| **_Monitor_** and **_control_** the robot **_remotely_** via TCP. Send URScript commands and get various data like TCP position, joint data, IO states, safety status, ... [See documentation](/documentation) |
 | Operating Systems | ![Windows, MacOS, Linux](/assets/os.png "Works on Windows, MacOS and Linux !") |
 |---|---|
 | Hardware | ![Desktop, Workstation, Boards (Raspberry PI, ...), Mixed Reality, Mobile](/assets/hardware.png) |
