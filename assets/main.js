@@ -7,20 +7,28 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
+	let returnToTop = document.getElementById("return-to-top");
+	
 	// nav ul li a that are visible
 	let mainNavLinks = Array.from(document.querySelectorAll("nav ul li a")).filter(el => el.offsetParent != null);;
-
-	if(mainNavLinks.length==0) return;
 	
-	var updateSidebar = function(event) {
+	var updateOnScroll = function(event) {
 		let fromTop = window.scrollY;
+		
+		if(fromTop > 20){
+			returnToTop.style.display = "block";
+		} else {
+			returnToTop.style.display = "none";
+		}
+		
+		if(mainNavLinks.length==0) return;
 	  
 		for(let i=1;i<mainNavLinks.length;i++){
 			link = mainNavLinks[i-1];
 			let nextLink = mainNavLinks[i];
 			
-			section = document.querySelector(link.hash);
-			let nextSection = document.querySelector(nextLink.hash);
+			section = document.querySelector("#" + CSS.escape(link.hash.replace("#","")));
+			let nextSection = document.querySelector("#" + CSS.escape(nextLink.hash.replace("#","")));
 			
 			if((i==1 || section.offsetTop<=fromTop) && nextSection.offsetTop > fromTop){
 				link.classList.add("current");
@@ -37,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 };
 	
-	updateSidebar();
+	updateOnScroll();
 
-	window.addEventListener("scroll", updateSidebar);
+	window.addEventListener("scroll", updateOnScroll);
 });

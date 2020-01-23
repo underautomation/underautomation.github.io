@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
-
-  <div class="wrapper">
+  <a href="#top" id="return-to-top" title="Go to top"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve"><polygon points="128,48.907 0,176.907 30.187,207.093 128,109.28 225.813,207.093 256,176.907"/></svg></a>
+  <div class="wrapper" id="top">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="{{ site.banner | escape }}" alt="{{ site.title | escape }}"/></a>
@@ -19,8 +19,17 @@
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
+			
+            {%- if my_page.showInHeader -%}
+            {%- assign showInHeader = my_page.showInHeader -%}
+            {%- else -%}
+            {%- assign showInHeader = true -%}
+            {%- endif -%}
+			
             {%- if my_page.title -%}
+            {%- if showInHeader -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
         </div>
