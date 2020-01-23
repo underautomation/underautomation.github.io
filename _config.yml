@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Universal Robots API
+title: Universal Robots SDK - UnderAutomation
 
 banner: /assets/underautomation.png
 
 cover: /assets/underautomation-universal-robots.png
 
-description: >- # this means to ignore newlines until "baseurl:"
-  A .NET Framework / .NET Core / .NET Standard library to communication with UR robots (Universal Robots)
+description: UnderAutomation Universal Robots Communication SDK (Software Development Kit) provides the ability to create customized applications that can communicate with every UR robots. Ready to use examples for Windows, Mac OS and Linux are provided.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://underautomation.com" # the base hostname & protocol for your site, e.g.
@@ -45,3 +44,4 @@ exclude:
    - install.bat
    - README.md
    - LICENSE.txt
+   - CNAME
