@@ -17,10 +17,13 @@ title: Universal Robots API
 
 banner: /assets/underautomation.png
 
+cover: /assets/underautomation-universal-robots.png
+
 description: >- # this means to ignore newlines until "baseurl:"
   A .NET Framework / .NET Core / .NET Standard library to communication with UR robots (Universal Robots)
+  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://underautomation.github.io/" # the base hostname & protocol for your site, e.g.
+url: "https://underautomation.com" # the base hostname & protocol for your site, e.g.
 
 github_username:  UnderAutomation
 

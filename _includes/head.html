@@ -1,57 +1,34 @@
+{% assign pageTitle = page.title | append: " - " | append: site.title %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  
+  <!-- Schema.org meta for Google+ -->
+  <meta itemprop="name" content="{{ pageTitle }}">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ site.cover }}">
+  
+  <!-- Twitter Card meta -->
+  <meta name="twitter:card" content="{{ site.description }}">
+  <meta name="twitter:title" content="{{ pageTitle }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:url" content="{{ site.url | append: page.url }}" />
+  <meta name="twitter:domain" content="{{ site.url }}" />
+  <meta name="twitter:image:src" content="{{ site.cover }}">
+  
+  <!-- Open Graph meta -->
+  <meta property="og:title" content="{{ pageTitle }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url | append: page.url }}" />
+  <meta property="og:image" content="{{ site.cover }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  
   <link rel="icon" href="/favicon.ico" />
-  <title>{%- if site.title -%} {{ site.title | escape }} {%- endif -%} {%- if page.title -%}  - {{ page.title | escape }} {%- endif -%}</title>
+  <title>{{ pageTitle }}</title>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154226005-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-154226005-1');
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-	// nav ul li a that are visible
-	let mainNavLinks = Array.from(document.querySelectorAll("nav ul li a")).filter(el => el.offsetParent != null);;
-
-	if(mainNavLinks.length==0) return;
-	
-	var updateSidebar = function(event) {
-		let fromTop = window.scrollY;
-	  
-		for(let i=1;i<mainNavLinks.length;i++){
-			link = mainNavLinks[i-1];
-			let nextLink = mainNavLinks[i];
-			
-			section = document.querySelector(link.hash);
-			let nextSection = document.querySelector(nextLink.hash);
-			
-			if((i==1 || section.offsetTop<=fromTop) && nextSection.offsetTop > fromTop){
-				link.classList.add("current");
-			} else {
-				link.classList.remove("current");
-			}
-			
-			if(i==mainNavLinks.length-1 && nextSection.offsetTop <= fromTop){
-				nextLink.classList.add("current");
-			}
-			else{
-				nextLink.classList.remove("current");
-			}
-		}
-};
-	
-	updateSidebar();
-
-	window.addEventListener("scroll", updateSidebar);
-});
-
-</script>
-
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154226005-1"></script>
+  <script src="/assets/main.js"></script>
 </head>
