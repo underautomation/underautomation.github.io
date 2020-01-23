@@ -10,6 +10,7 @@ dl, dd, ol, ul, figure {
 
 html {
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 /**
