@@ -337,8 +337,11 @@
 	padding: 10px;
 }
 
+  @media screen and (min-width: $on-laptop) {
+
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.7);
 	padding: 2px 10px;
 }
 
+}

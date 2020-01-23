@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var updateOnScroll = function(event) {
 		let fromTop = window.scrollY;
 		
-		if(fromTop > 20){
+		if(fromTop > 40){
 			returnToTop.style.display = "block";
 		} else {
 			returnToTop.style.display = "none";
