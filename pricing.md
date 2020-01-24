@@ -20,6 +20,7 @@ permalink: /pricing/
 			<li>May be used by multiple developers at the location specified.</li>
 			<li>Any application developed with the API can be delivered to an unlimited number of customers without royalties</li>
 			<li>1 year maintenance</li>
+			<li>See [terms and conditions](/eula){:target="_blank"}</li>
 		</ul>
 	</td>
   </tr>
@@ -45,7 +46,7 @@ permalink: /pricing/
   </tr>
   <tr>
     <td style="text-align:left;">
-		Maintenance gives you the right to use all versions released for 1 year.
+		Maintenance gives you the right to access the support and use all versions released for 1 year.
 	</td>
   </tr>
   <tr>
@@ -74,6 +75,7 @@ permalink: /pricing/
 			<li>Company Site License features included</li>
 			<li>Full source code of the product</li>
 			<li>1 year maintenance</li>
+			<li>See [terms and conditions](/eula){:target="_blank"}</li>
 		</ul>
 	</td>
   </tr>

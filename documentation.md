@@ -97,6 +97,9 @@ ur.Connect("192.168.0.1");
 
 // Remote execute a movej
 ur.Send("movej([0,1.57,-1.57,3.14,-1.57,1.57],a=1.4, v=1.05, t=0, r=0)");
+
+// Set digital output 2 to true
+ur.Send(“set_digital_out(7,True)”);
 ```
 
 Please refer to the **Script Manual** to see all the functions you can remotely call : <a href="https://www.universal-robots.com/download/?option=61790#section61549" target="_blank">Download PDF Script Manual</a>.
