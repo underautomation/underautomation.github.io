@@ -16,8 +16,8 @@ items:
   type: Enum
   source:
     id: AnalogRanges
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1167
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1815
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -45,8 +45,8 @@ items:
   type: Field
   source:
     id: Current
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1172
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1820
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -75,8 +75,8 @@ items:
   type: Field
   source:
     id: Voltage
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1177
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1825
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

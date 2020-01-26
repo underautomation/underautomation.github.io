@@ -21,8 +21,8 @@ items:
   type: Class
   source:
     id: JointData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1053
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1701
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -61,8 +61,8 @@ items:
   type: Property
   source:
     id: Position
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1057
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1705
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -94,8 +94,8 @@ items:
   type: Property
   source:
     id: TargetPosition
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1062
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1710
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -127,8 +127,8 @@ items:
   type: Property
   source:
     id: ActualSpeed
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1067
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1715
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -160,8 +160,8 @@ items:
   type: Property
   source:
     id: Current
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1072
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1720
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -193,8 +193,8 @@ items:
   type: Property
   source:
     id: Voltage
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1077
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1725
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -226,8 +226,8 @@ items:
   type: Property
   source:
     id: Temperature
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1082
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1730
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -259,8 +259,8 @@ items:
   type: Property
   source:
     id: JointMode
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1087
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1735
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

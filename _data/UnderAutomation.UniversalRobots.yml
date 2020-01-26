@@ -8,6 +8,8 @@ items:
   - UnderAutomation.UniversalRobots.AnalogRanges
   - UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
   - UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  - UnderAutomation.UniversalRobots.CommandResponse
+  - UnderAutomation.UniversalRobots.CommandResponse`1
   - UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
   - UnderAutomation.UniversalRobots.ControllerBoxTypes
   - UnderAutomation.UniversalRobots.ControlModes
@@ -25,14 +27,18 @@ items:
   - UnderAutomation.UniversalRobots.LicenseState
   - UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
   - UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  - UnderAutomation.UniversalRobots.OperationalModes
   - UnderAutomation.UniversalRobots.OutputModes
   - UnderAutomation.UniversalRobots.PackageEventArgs
+  - UnderAutomation.UniversalRobots.ProgramSaveState
+  - UnderAutomation.UniversalRobots.ProgramState
+  - UnderAutomation.UniversalRobots.ProgramStates
   - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
   - UnderAutomation.UniversalRobots.RobotModes
   - UnderAutomation.UniversalRobots.RobotSubTypes
   - UnderAutomation.UniversalRobots.RobotTypes
   - UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
-  - UnderAutomation.UniversalRobots.SafetyModes
+  - UnderAutomation.UniversalRobots.SafetyStatus
   - UnderAutomation.UniversalRobots.StatusCode
   - UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
   - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
@@ -40,6 +46,7 @@ items:
   - UnderAutomation.UniversalRobots.ToolModes
   - UnderAutomation.UniversalRobots.UniversalRobotPorts
   - UnderAutomation.UniversalRobots.UR
+  - UnderAutomation.UniversalRobots.UserRoles
   langs:
   - csharp
   - vb
@@ -55,6 +62,76 @@ references:
   name: UR
   nameWithType: UR
   fullName: UnderAutomation.UniversalRobots.UR
+- uid: UnderAutomation.UniversalRobots.OperationalModes
+  commentId: T:UnderAutomation.UniversalRobots.OperationalModes
+  parent: UnderAutomation.UniversalRobots
+  name: OperationalModes
+  nameWithType: OperationalModes
+  fullName: UnderAutomation.UniversalRobots.OperationalModes
+- uid: UnderAutomation.UniversalRobots.UserRoles
+  commentId: T:UnderAutomation.UniversalRobots.UserRoles
+  parent: UnderAutomation.UniversalRobots
+  name: UserRoles
+  nameWithType: UserRoles
+  fullName: UnderAutomation.UniversalRobots.UserRoles
+- uid: UnderAutomation.UniversalRobots.ProgramState
+  commentId: T:UnderAutomation.UniversalRobots.ProgramState
+  name: ProgramState
+  nameWithType: ProgramState
+  fullName: UnderAutomation.UniversalRobots.ProgramState
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState
+  commentId: T:UnderAutomation.UniversalRobots.ProgramSaveState
+  name: ProgramSaveState
+  nameWithType: ProgramSaveState
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState
+- uid: UnderAutomation.UniversalRobots.ProgramStates
+  commentId: T:UnderAutomation.UniversalRobots.ProgramStates
+  parent: UnderAutomation.UniversalRobots
+  name: ProgramStates
+  nameWithType: ProgramStates
+  fullName: UnderAutomation.UniversalRobots.ProgramStates
+- uid: UnderAutomation.UniversalRobots.CommandResponse
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse
+  parent: UnderAutomation.UniversalRobots
+  name: CommandResponse
+  nameWithType: CommandResponse
+  fullName: UnderAutomation.UniversalRobots.CommandResponse
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<T>
+  nameWithType: CommandResponse<T>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>
+  nameWithType.vb: CommandResponse(Of T)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T)
+  name.vb: CommandResponse(Of T)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: UnderAutomation.UniversalRobots.StatusCode
   commentId: T:UnderAutomation.UniversalRobots.StatusCode
   parent: UnderAutomation.UniversalRobots
@@ -144,12 +221,12 @@ references:
   name: MasterboardDigitalIO
   nameWithType: MasterboardDigitalIO
   fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO
-- uid: UnderAutomation.UniversalRobots.SafetyModes
-  commentId: T:UnderAutomation.UniversalRobots.SafetyModes
+- uid: UnderAutomation.UniversalRobots.SafetyStatus
+  commentId: T:UnderAutomation.UniversalRobots.SafetyStatus
   parent: UnderAutomation.UniversalRobots
-  name: SafetyModes
-  nameWithType: SafetyModes
-  fullName: UnderAutomation.UniversalRobots.SafetyModes
+  name: SafetyStatus
+  nameWithType: SafetyStatus
+  fullName: UnderAutomation.UniversalRobots.SafetyStatus
 - uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
   commentId: T:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
   parent: UnderAutomation.UniversalRobots

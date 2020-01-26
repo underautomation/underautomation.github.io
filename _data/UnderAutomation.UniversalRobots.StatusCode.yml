@@ -10,6 +10,7 @@ items:
   - UnderAutomation.UniversalRobots.StatusCode.ReadThreadAborted
   - UnderAutomation.UniversalRobots.StatusCode.SendCommandInternalError
   - UnderAutomation.UniversalRobots.StatusCode.SentCommandIsEmpty
+  - UnderAutomation.UniversalRobots.StatusCode.StreamingInterfaceNotConnected
   langs:
   - csharp
   - vb
@@ -19,8 +20,8 @@ items:
   type: Enum
   source:
     id: StatusCode
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 398
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1036
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -48,8 +49,8 @@ items:
   type: Field
   source:
     id: OK
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 402
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1040
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -78,8 +79,8 @@ items:
   type: Field
   source:
     id: ReadThreadAborted
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 407
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1045
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -108,8 +109,8 @@ items:
   type: Field
   source:
     id: DecodageError
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 412
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1050
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -138,8 +139,8 @@ items:
   type: Field
   source:
     id: SendCommandInternalError
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 418
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1056
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -168,8 +169,8 @@ items:
   type: Field
   source:
     id: SentCommandIsEmpty
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 423
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1061
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -177,6 +178,36 @@ items:
   example: []
   syntax:
     content: SentCommandIsEmpty = 4
+    return:
+      type: UnderAutomation.UniversalRobots.StatusCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.StatusCode.StreamingInterfaceNotConnected
+  commentId: F:UnderAutomation.UniversalRobots.StatusCode.StreamingInterfaceNotConnected
+  id: StreamingInterfaceNotConnected
+  parent: UnderAutomation.UniversalRobots.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: StreamingInterfaceNotConnected
+  nameWithType: StatusCode.StreamingInterfaceNotConnected
+  fullName: UnderAutomation.UniversalRobots.StatusCode.StreamingInterfaceNotConnected
+  type: Field
+  source:
+    id: StreamingInterfaceNotConnected
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1066
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStreaming interface is not connected\n"
+  example: []
+  syntax:
+    content: StreamingInterfaceNotConnected = 5
     return:
       type: UnderAutomation.UniversalRobots.StatusCode
   modifiers.csharp:

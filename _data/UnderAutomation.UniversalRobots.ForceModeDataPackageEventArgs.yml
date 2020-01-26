@@ -21,8 +21,8 @@ items:
   type: Class
   source:
     id: ForceModeDataPackageEventArgs
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1842
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2494
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -67,8 +67,8 @@ items:
   type: Property
   source:
     id: X
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1849
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2501
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -100,8 +100,8 @@ items:
   type: Property
   source:
     id: Y
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1854
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2506
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -133,8 +133,8 @@ items:
   type: Property
   source:
     id: Z
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1859
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2511
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -166,8 +166,8 @@ items:
   type: Property
   source:
     id: Rx
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1864
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2516
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -199,8 +199,8 @@ items:
   type: Property
   source:
     id: Ry
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1869
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2521
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -232,8 +232,8 @@ items:
   type: Property
   source:
     id: Rz
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1874
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2526
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -265,8 +265,8 @@ items:
   type: Property
   source:
     id: RobotDexterity
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1879
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2531
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

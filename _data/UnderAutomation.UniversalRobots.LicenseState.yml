@@ -20,7 +20,7 @@ items:
   type: Enum
   source:
     id: LicenseState
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 218
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -49,7 +49,7 @@ items:
   type: Field
   source:
     id: Invalid
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 222
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -79,7 +79,7 @@ items:
   type: Field
   source:
     id: Trial
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 227
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -109,7 +109,7 @@ items:
   type: Field
   source:
     id: ExtraTrial
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 232
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -139,7 +139,7 @@ items:
   type: Field
   source:
     id: Expired
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 237
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -169,7 +169,7 @@ items:
   type: Field
   source:
     id: MaintenanceNeeded
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 242
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -199,7 +199,7 @@ items:
   type: Field
   source:
     id: Licensed
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 247
   assemblies:
   - UnderAutomation.UniversalRobots

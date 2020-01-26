@@ -18,8 +18,8 @@ items:
   type: Enum
   source:
     id: RobotTypes
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1831
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2483
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -47,8 +47,8 @@ items:
   type: Field
   source:
     id: UR3
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1832
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2484
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -75,8 +75,8 @@ items:
   type: Field
   source:
     id: UR5
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1833
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2485
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -103,8 +103,8 @@ items:
   type: Field
   source:
     id: UR10
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1834
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2486
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -131,8 +131,8 @@ items:
   type: Field
   source:
     id: UR16
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1835
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2487
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

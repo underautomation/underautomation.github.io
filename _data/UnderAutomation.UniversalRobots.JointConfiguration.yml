@@ -22,8 +22,8 @@ items:
   type: Class
   source:
     id: JointConfiguration
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1652
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2304
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -62,8 +62,8 @@ items:
   type: Property
   source:
     id: JointMinLimit
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1657
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2309
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -95,8 +95,8 @@ items:
   type: Property
   source:
     id: JointMaxLimit
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1662
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2314
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -128,8 +128,8 @@ items:
   type: Property
   source:
     id: JointMaxSpeed
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1668
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2320
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -161,8 +161,8 @@ items:
   type: Property
   source:
     id: JointMaxAcceleration
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1673
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2325
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -194,8 +194,8 @@ items:
   type: Property
   source:
     id: DHa
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1679
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2331
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -227,8 +227,8 @@ items:
   type: Property
   source:
     id: DHd
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1684
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2336
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -260,8 +260,8 @@ items:
   type: Property
   source:
     id: DHalpha
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1689
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2341
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -293,8 +293,8 @@ items:
   type: Property
   source:
     id: DHtheta
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1694
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2346
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

@@ -27,7 +27,7 @@ items:
   type: Class
   source:
     id: LicenseInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -68,7 +68,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 19
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -103,7 +103,7 @@ items:
   type: Property
   source:
     id: LicenseKey
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 135
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -136,7 +136,7 @@ items:
   type: Property
   source:
     id: Product
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 140
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -169,7 +169,7 @@ items:
   type: Property
   source:
     id: EvaluationDaysLeft
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 145
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -202,7 +202,7 @@ items:
   type: Property
   source:
     id: EvaluationStartDate
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 150
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -235,7 +235,7 @@ items:
   type: Property
   source:
     id: Licensee
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 155
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -268,7 +268,7 @@ items:
   type: Property
   source:
     id: TrialPeriodExpirationDate
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 160
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -301,7 +301,7 @@ items:
   type: Property
   source:
     id: State
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 165
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -334,7 +334,7 @@ items:
   type: Property
   source:
     id: ProductReleaseDate
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 170
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -367,7 +367,7 @@ items:
   type: Property
   source:
     id: MaintenanceYears
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 175
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -400,7 +400,7 @@ items:
   type: Property
   source:
     id: LicenseIssuedDate
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 180
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -433,7 +433,7 @@ items:
   type: Property
   source:
     id: MaintenanceExpirationDate
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 185
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -466,7 +466,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 190
   assemblies:
   - UnderAutomation.UniversalRobots

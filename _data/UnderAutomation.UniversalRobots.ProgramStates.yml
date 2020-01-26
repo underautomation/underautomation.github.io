@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.ProgramStates
+  commentId: T:UnderAutomation.UniversalRobots.ProgramStates
+  id: ProgramStates
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.ProgramStates.Paused
+  - UnderAutomation.UniversalRobots.ProgramStates.Playing
+  - UnderAutomation.UniversalRobots.ProgramStates.Stopped
+  langs:
+  - csharp
+  - vb
+  name: ProgramStates
+  nameWithType: ProgramStates
+  fullName: UnderAutomation.UniversalRobots.ProgramStates
+  type: Enum
+  source:
+    id: ProgramStates
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 963
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEnumerate possible states of a program.\n"
+  example: []
+  syntax:
+    content: public enum ProgramStates
+    content.vb: Public Enum ProgramStates
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.ProgramStates.Stopped
+  commentId: F:UnderAutomation.UniversalRobots.ProgramStates.Stopped
+  id: Stopped
+  parent: UnderAutomation.UniversalRobots.ProgramStates
+  langs:
+  - csharp
+  - vb
+  name: Stopped
+  nameWithType: ProgramStates.Stopped
+  fullName: UnderAutomation.UniversalRobots.ProgramStates.Stopped
+  type: Field
+  source:
+    id: Stopped
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 967
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nNo program is running.\n"
+  example: []
+  syntax:
+    content: Stopped = 0
+    return:
+      type: UnderAutomation.UniversalRobots.ProgramStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ProgramStates.Playing
+  commentId: F:UnderAutomation.UniversalRobots.ProgramStates.Playing
+  id: Playing
+  parent: UnderAutomation.UniversalRobots.ProgramStates
+  langs:
+  - csharp
+  - vb
+  name: Playing
+  nameWithType: ProgramStates.Playing
+  fullName: UnderAutomation.UniversalRobots.ProgramStates.Playing
+  type: Field
+  source:
+    id: Playing
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 972
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nProgram is running.\n"
+  example: []
+  syntax:
+    content: Playing = 1
+    return:
+      type: UnderAutomation.UniversalRobots.ProgramStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.ProgramStates.Paused
+  commentId: F:UnderAutomation.UniversalRobots.ProgramStates.Paused
+  id: Paused
+  parent: UnderAutomation.UniversalRobots.ProgramStates
+  langs:
+  - csharp
+  - vb
+  name: Paused
+  nameWithType: ProgramStates.Paused
+  fullName: UnderAutomation.UniversalRobots.ProgramStates.Paused
+  type: Field
+  source:
+    id: Paused
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 977
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nProgram is paused.\n"
+  example: []
+  syntax:
+    content: Paused = 2
+    return:
+      type: UnderAutomation.UniversalRobots.ProgramStates
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.ProgramStates
+  commentId: T:UnderAutomation.UniversalRobots.ProgramStates
+  parent: UnderAutomation.UniversalRobots
+  name: ProgramStates
+  nameWithType: ProgramStates
+  fullName: UnderAutomation.UniversalRobots.ProgramStates

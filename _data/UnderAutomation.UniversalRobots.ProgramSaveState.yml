@@ -1,41 +1,35 @@
 ### YamlMime:ManagedReference
 items:
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
-  id: ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState
+  commentId: T:UnderAutomation.UniversalRobots.ProgramSaveState
+  id: ProgramSaveState
   parent: UnderAutomation.UniversalRobots
   children:
-  - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
+  - UnderAutomation.UniversalRobots.ProgramSaveState.IsSaved
+  - UnderAutomation.UniversalRobots.ProgramSaveState.Name
+  - UnderAutomation.UniversalRobots.ProgramSaveState.ToString
   langs:
   - csharp
   - vb
-  name: ToolModeInfoPackageEventArgs
-  nameWithType: ToolModeInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  name: ProgramSaveState
+  nameWithType: ProgramSaveState
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState
   type: Class
   source:
-    id: ToolModeInfoPackageEventArgs
+    id: ProgramSaveState
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2660
+    startLine: 942
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nTool mode info\n"
+  summary: "\nDescribes a program save state (its save state and its name)\n"
   example: []
   syntax:
-    content: 'public class ToolModeInfoPackageEventArgs : PackageEventArgs'
-    content.vb: >-
-      Public Class ToolModeInfoPackageEventArgs
-          Inherits PackageEventArgs
+    content: public class ProgramSaveState
+    content.vb: Public Class ProgramSaveState
   inheritance:
   - System.Object
-  - System.EventArgs
-  - UnderAutomation.UniversalRobots.PackageEventArgs
   inheritedMembers:
-  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-  - System.EventArgs.Empty
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.Finalize
@@ -43,112 +37,101 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  commentId: P:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  id: OutputMode
-  parent: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState.IsSaved
+  commentId: F:UnderAutomation.UniversalRobots.ProgramSaveState.IsSaved
+  id: IsSaved
+  parent: UnderAutomation.UniversalRobots.ProgramSaveState
   langs:
   - csharp
   - vb
-  name: OutputMode
-  nameWithType: ToolModeInfoPackageEventArgs.OutputMode
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  type: Property
+  name: IsSaved
+  nameWithType: ProgramSaveState.IsSaved
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState.IsSaved
+  type: Field
   source:
-    id: OutputMode
+    id: IsSaved
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2667
+    startLine: 946
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDigital output mode\n"
+  summary: "\nIs the program saved\n"
   example: []
   syntax:
-    content: public OutputModes OutputMode { get; set; }
-    parameters: []
+    content: public bool IsSaved
     return:
-      type: UnderAutomation.UniversalRobots.OutputModes
-    content.vb: Public Property OutputMode As OutputModes
-  overload: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode*
+      type: System.Boolean
+    content.vb: Public IsSaved As Boolean
   modifiers.csharp:
   - public
-  - get
-  - set
   modifiers.vb:
   - Public
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  commentId: P:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  id: DigitalOutputMode0
-  parent: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState.Name
+  commentId: F:UnderAutomation.UniversalRobots.ProgramSaveState.Name
+  id: Name
+  parent: UnderAutomation.UniversalRobots.ProgramSaveState
   langs:
   - csharp
   - vb
-  name: DigitalOutputMode0
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  type: Property
+  name: Name
+  nameWithType: ProgramSaveState.Name
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState.Name
+  type: Field
   source:
-    id: DigitalOutputMode0
+    id: Name
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2672
+    startLine: 951
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDigital output 0 configuration\n"
+  summary: "\nName of the loaded program\n"
   example: []
   syntax:
-    content: public DigitalOutputConfigurations DigitalOutputMode0 { get; set; }
-    parameters: []
+    content: public string Name
     return:
-      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-    content.vb: Public Property DigitalOutputMode0 As DigitalOutputConfigurations
-  overload: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0*
+      type: System.String
+    content.vb: Public Name As String
   modifiers.csharp:
   - public
-  - get
-  - set
   modifiers.vb:
   - Public
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  commentId: P:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  id: DigitalOutputMode1
-  parent: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState.ToString
+  commentId: M:UnderAutomation.UniversalRobots.ProgramSaveState.ToString
+  id: ToString
+  parent: UnderAutomation.UniversalRobots.ProgramSaveState
   langs:
   - csharp
   - vb
-  name: DigitalOutputMode1
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  type: Property
+  name: ToString()
+  nameWithType: ProgramSaveState.ToString()
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState.ToString()
+  type: Method
   source:
-    id: DigitalOutputMode1
+    id: ToString
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2677
+    startLine: 953
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDigital output 1 configuration\n"
-  example: []
   syntax:
-    content: public DigitalOutputConfigurations DigitalOutputMode1 { get; set; }
-    parameters: []
+    content: public override string ToString()
     return:
-      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-    content.vb: Public Property DigitalOutputMode1 As DigitalOutputConfigurations
-  overload: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1*
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: UnderAutomation.UniversalRobots.ProgramSaveState.ToString*
   modifiers.csharp:
   - public
-  - get
-  - set
+  - override
   modifiers.vb:
   - Public
+  - Overrides
 references:
 - uid: UnderAutomation.UniversalRobots
   commentId: N:UnderAutomation.UniversalRobots
@@ -162,32 +145,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.EventArgs
-  commentId: T:System.EventArgs
-  parent: System
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: System.EventArgs
-- uid: UnderAutomation.UniversalRobots.PackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: PackageEventArgs
-  nameWithType: PackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
-- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-  parent: UnderAutomation.UniversalRobots.PackageEventArgs
-  name: ReceiveDate
-  nameWithType: PackageEventArgs.ReceiveDate
-  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-- uid: System.EventArgs.Empty
-  commentId: F:System.EventArgs.Empty
-  parent: System.EventArgs
-  isExternal: true
-  name: Empty
-  nameWithType: EventArgs.Empty
-  fullName: System.EventArgs.Empty
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -467,6 +424,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -498,36 +475,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode*
-  commentId: Overload:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  name: OutputMode
-  nameWithType: ToolModeInfoPackageEventArgs.OutputMode
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-- uid: UnderAutomation.UniversalRobots.OutputModes
-  commentId: T:UnderAutomation.UniversalRobots.OutputModes
-  parent: UnderAutomation.UniversalRobots
-  name: OutputModes
-  nameWithType: OutputModes
-  fullName: UnderAutomation.UniversalRobots.OutputModes
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0*
-  commentId: Overload:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  name: DigitalOutputMode0
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-  commentId: T:UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-  parent: UnderAutomation.UniversalRobots
-  name: DigitalOutputConfigurations
-  nameWithType: DigitalOutputConfigurations
-  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1*
-  commentId: Overload:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  name: DigitalOutputMode1
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState.ToString*
+  commentId: Overload:UnderAutomation.UniversalRobots.ProgramSaveState.ToString
+  name: ToString
+  nameWithType: ProgramSaveState.ToString
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState.ToString

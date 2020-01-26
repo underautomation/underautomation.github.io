@@ -1,41 +1,43 @@
 ### YamlMime:ManagedReference
 items:
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
-  id: ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse`1
+  id: CommandResponse`1
   parent: UnderAutomation.UniversalRobots
   children:
-  - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
+  - UnderAutomation.UniversalRobots.CommandResponse`1.#ctor(UnderAutomation.UniversalRobots.CommandResponse)
+  - UnderAutomation.UniversalRobots.CommandResponse`1.ToString
+  - UnderAutomation.UniversalRobots.CommandResponse`1.Value
   langs:
   - csharp
   - vb
-  name: ToolModeInfoPackageEventArgs
-  nameWithType: ToolModeInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  name: CommandResponse<T>
+  nameWithType: CommandResponse<T>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>
   type: Class
   source:
-    id: ToolModeInfoPackageEventArgs
+    id: CommandResponse
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2660
+    startLine: 1007
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nTool mode info\n"
+  summary: "\nAnswer return by a command which contains a value\n"
   example: []
   syntax:
-    content: 'public class ToolModeInfoPackageEventArgs : PackageEventArgs'
+    content: 'public class CommandResponse<T> : CommandResponse'
+    typeParameters:
+    - id: T
+      description: ''
     content.vb: >-
-      Public Class ToolModeInfoPackageEventArgs
-          Inherits PackageEventArgs
+      Public Class CommandResponse(Of T)
+          Inherits CommandResponse
   inheritance:
   - System.Object
-  - System.EventArgs
-  - UnderAutomation.UniversalRobots.PackageEventArgs
+  - UnderAutomation.UniversalRobots.CommandResponse
   inheritedMembers:
-  - UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-  - System.EventArgs.Empty
+  - UnderAutomation.UniversalRobots.CommandResponse.Succeed
+  - UnderAutomation.UniversalRobots.CommandResponse.Message
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.Finalize
@@ -43,112 +45,112 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
+  nameWithType.vb: CommandResponse(Of T)
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  commentId: P:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  id: OutputMode
-  parent: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T)
+  name.vb: CommandResponse(Of T)
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1.#ctor(UnderAutomation.UniversalRobots.CommandResponse)
+  commentId: M:UnderAutomation.UniversalRobots.CommandResponse`1.#ctor(UnderAutomation.UniversalRobots.CommandResponse)
+  id: '#ctor(UnderAutomation.UniversalRobots.CommandResponse)'
+  parent: UnderAutomation.UniversalRobots.CommandResponse`1
   langs:
   - csharp
   - vb
-  name: OutputMode
-  nameWithType: ToolModeInfoPackageEventArgs.OutputMode
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  type: Property
+  name: CommandResponse(CommandResponse)
+  nameWithType: CommandResponse<T>.CommandResponse(CommandResponse)
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>.CommandResponse(UnderAutomation.UniversalRobots.CommandResponse)
+  type: Constructor
   source:
-    id: OutputMode
+    id: .ctor
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2667
+    startLine: 1010
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDigital output mode\n"
-  example: []
   syntax:
-    content: public OutputModes OutputMode { get; set; }
-    parameters: []
-    return:
-      type: UnderAutomation.UniversalRobots.OutputModes
-    content.vb: Public Property OutputMode As OutputModes
-  overload: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode*
+    content: public CommandResponse(CommandResponse command)
+    parameters:
+    - id: command
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Sub New(command As CommandResponse)
+  overload: UnderAutomation.UniversalRobots.CommandResponse`1.#ctor*
+  nameWithType.vb: CommandResponse(Of T).CommandResponse(CommandResponse)
   modifiers.csharp:
   - public
-  - get
-  - set
   modifiers.vb:
   - Public
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  commentId: P:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  id: DigitalOutputMode0
-  parent: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T).CommandResponse(UnderAutomation.UniversalRobots.CommandResponse)
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1.Value
+  commentId: F:UnderAutomation.UniversalRobots.CommandResponse`1.Value
+  id: Value
+  parent: UnderAutomation.UniversalRobots.CommandResponse`1
   langs:
   - csharp
   - vb
-  name: DigitalOutputMode0
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  type: Property
+  name: Value
+  nameWithType: CommandResponse<T>.Value
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>.Value
+  type: Field
   source:
-    id: DigitalOutputMode0
+    id: Value
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2672
+    startLine: 1018
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDigital output 0 configuration\n"
+  summary: "\nValue return by the command\n"
   example: []
   syntax:
-    content: public DigitalOutputConfigurations DigitalOutputMode0 { get; set; }
-    parameters: []
+    content: public T Value
     return:
-      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-    content.vb: Public Property DigitalOutputMode0 As DigitalOutputConfigurations
-  overload: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0*
+      type: '{T}'
+    content.vb: Public Value As T
+  nameWithType.vb: CommandResponse(Of T).Value
   modifiers.csharp:
   - public
-  - get
-  - set
   modifiers.vb:
   - Public
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  commentId: P:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  id: DigitalOutputMode1
-  parent: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T).Value
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1.ToString
+  commentId: M:UnderAutomation.UniversalRobots.CommandResponse`1.ToString
+  id: ToString
+  parent: UnderAutomation.UniversalRobots.CommandResponse`1
   langs:
   - csharp
   - vb
-  name: DigitalOutputMode1
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  type: Property
+  name: ToString()
+  nameWithType: CommandResponse<T>.ToString()
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>.ToString()
+  type: Method
   source:
-    id: DigitalOutputMode1
+    id: ToString
     path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2677
+    startLine: 1023
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDigital output 1 configuration\n"
+  summary: "\nA human readable answer\n"
   example: []
   syntax:
-    content: public DigitalOutputConfigurations DigitalOutputMode1 { get; set; }
-    parameters: []
+    content: public override string ToString()
     return:
-      type: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-    content.vb: Public Property DigitalOutputMode1 As DigitalOutputConfigurations
-  overload: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1*
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: UnderAutomation.UniversalRobots.CommandResponse.ToString
+  overload: UnderAutomation.UniversalRobots.CommandResponse`1.ToString*
+  nameWithType.vb: CommandResponse(Of T).ToString()
   modifiers.csharp:
   - public
-  - get
-  - set
+  - override
   modifiers.vb:
   - Public
+  - Overrides
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T).ToString()
 references:
 - uid: UnderAutomation.UniversalRobots
   commentId: N:UnderAutomation.UniversalRobots
@@ -162,32 +164,24 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.EventArgs
-  commentId: T:System.EventArgs
-  parent: System
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: System.EventArgs
-- uid: UnderAutomation.UniversalRobots.PackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.CommandResponse
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse
   parent: UnderAutomation.UniversalRobots
-  name: PackageEventArgs
-  nameWithType: PackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
-- uid: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-  commentId: F:UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-  parent: UnderAutomation.UniversalRobots.PackageEventArgs
-  name: ReceiveDate
-  nameWithType: PackageEventArgs.ReceiveDate
-  fullName: UnderAutomation.UniversalRobots.PackageEventArgs.ReceiveDate
-- uid: System.EventArgs.Empty
-  commentId: F:System.EventArgs.Empty
-  parent: System.EventArgs
-  isExternal: true
-  name: Empty
-  nameWithType: EventArgs.Empty
-  fullName: System.EventArgs.Empty
+  name: CommandResponse
+  nameWithType: CommandResponse
+  fullName: UnderAutomation.UniversalRobots.CommandResponse
+- uid: UnderAutomation.UniversalRobots.CommandResponse.Succeed
+  commentId: F:UnderAutomation.UniversalRobots.CommandResponse.Succeed
+  parent: UnderAutomation.UniversalRobots.CommandResponse
+  name: Succeed
+  nameWithType: CommandResponse.Succeed
+  fullName: UnderAutomation.UniversalRobots.CommandResponse.Succeed
+- uid: UnderAutomation.UniversalRobots.CommandResponse.Message
+  commentId: F:UnderAutomation.UniversalRobots.CommandResponse.Message
+  parent: UnderAutomation.UniversalRobots.CommandResponse
+  name: Message
+  nameWithType: CommandResponse.Message
+  fullName: UnderAutomation.UniversalRobots.CommandResponse.Message
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -467,19 +461,41 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: System
+  commentId: N:System
   isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1.#ctor*
+  commentId: Overload:UnderAutomation.UniversalRobots.CommandResponse`1.#ctor
+  name: CommandResponse
+  nameWithType: CommandResponse<T>.CommandResponse
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>.CommandResponse
+  nameWithType.vb: CommandResponse(Of T).CommandResponse
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T).CommandResponse
+- uid: '{T}'
+  commentId: '!:`0'
+  definition: '`0'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: '`0'
+  commentId: '!:`0'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnderAutomation.UniversalRobots.CommandResponse.ToString
+  commentId: M:UnderAutomation.UniversalRobots.CommandResponse.ToString
+  parent: UnderAutomation.UniversalRobots.CommandResponse
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: CommandResponse.ToString()
+  fullName: UnderAutomation.UniversalRobots.CommandResponse.ToString()
   spec.csharp:
-  - uid: System.Object.ToString
+  - uid: UnderAutomation.UniversalRobots.CommandResponse.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
+    nameWithType: CommandResponse.ToString
+    fullName: UnderAutomation.UniversalRobots.CommandResponse.ToString
   - name: (
     nameWithType: (
     fullName: (
@@ -487,47 +503,27 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.Object.ToString
+  - uid: UnderAutomation.UniversalRobots.CommandResponse.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
+    nameWithType: CommandResponse.ToString
+    fullName: UnderAutomation.UniversalRobots.CommandResponse.ToString
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1.ToString*
+  commentId: Overload:UnderAutomation.UniversalRobots.CommandResponse`1.ToString
+  name: ToString
+  nameWithType: CommandResponse<T>.ToString
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>.ToString
+  nameWithType.vb: CommandResponse(Of T).ToString
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T).ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode*
-  commentId: Overload:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-  name: OutputMode
-  nameWithType: ToolModeInfoPackageEventArgs.OutputMode
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.OutputMode
-- uid: UnderAutomation.UniversalRobots.OutputModes
-  commentId: T:UnderAutomation.UniversalRobots.OutputModes
-  parent: UnderAutomation.UniversalRobots
-  name: OutputModes
-  nameWithType: OutputModes
-  fullName: UnderAutomation.UniversalRobots.OutputModes
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0*
-  commentId: Overload:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  name: DigitalOutputMode0
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode0
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode0
-- uid: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-  commentId: T:UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-  parent: UnderAutomation.UniversalRobots
-  name: DigitalOutputConfigurations
-  nameWithType: DigitalOutputConfigurations
-  fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1*
-  commentId: Overload:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  name: DigitalOutputMode1
-  nameWithType: ToolModeInfoPackageEventArgs.DigitalOutputMode1
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs.DigitalOutputMode1
+  name: String
+  nameWithType: String
+  fullName: System.String

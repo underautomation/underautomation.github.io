@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.OperationalModes
+  commentId: T:UnderAutomation.UniversalRobots.OperationalModes
+  id: OperationalModes
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.OperationalModes.Automatic
+  - UnderAutomation.UniversalRobots.OperationalModes.Manual
+  - UnderAutomation.UniversalRobots.OperationalModes.None
+  langs:
+  - csharp
+  - vb
+  name: OperationalModes
+  nameWithType: OperationalModes
+  fullName: UnderAutomation.UniversalRobots.OperationalModes
+  type: Enum
+  source:
+    id: OperationalModes
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 873
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEnumerates all robot operational modes\n"
+  example: []
+  syntax:
+    content: public enum OperationalModes
+    content.vb: Public Enum OperationalModes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.OperationalModes.Manual
+  commentId: F:UnderAutomation.UniversalRobots.OperationalModes.Manual
+  id: Manual
+  parent: UnderAutomation.UniversalRobots.OperationalModes
+  langs:
+  - csharp
+  - vb
+  name: Manual
+  nameWithType: OperationalModes.Manual
+  fullName: UnderAutomation.UniversalRobots.OperationalModes.Manual
+  type: Field
+  source:
+    id: Manual
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 877
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLoading and editing programs is allowed\n"
+  example: []
+  syntax:
+    content: Manual = 0
+    return:
+      type: UnderAutomation.UniversalRobots.OperationalModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.OperationalModes.Automatic
+  commentId: F:UnderAutomation.UniversalRobots.OperationalModes.Automatic
+  id: Automatic
+  parent: UnderAutomation.UniversalRobots.OperationalModes
+  langs:
+  - csharp
+  - vb
+  name: Automatic
+  nameWithType: OperationalModes.Automatic
+  fullName: UnderAutomation.UniversalRobots.OperationalModes.Automatic
+  type: Field
+  source:
+    id: Automatic
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 882
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLoading and editing programs and installations is not allowed, only playing programs\n"
+  example: []
+  syntax:
+    content: Automatic = 1
+    return:
+      type: UnderAutomation.UniversalRobots.OperationalModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.OperationalModes.None
+  commentId: F:UnderAutomation.UniversalRobots.OperationalModes.None
+  id: None
+  parent: UnderAutomation.UniversalRobots.OperationalModes
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: OperationalModes.None
+  fullName: UnderAutomation.UniversalRobots.OperationalModes.None
+  type: Field
+  source:
+    id: None
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 887
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe password has not been set.\n"
+  example: []
+  syntax:
+    content: None = 2
+    return:
+      type: UnderAutomation.UniversalRobots.OperationalModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.OperationalModes
+  commentId: T:UnderAutomation.UniversalRobots.OperationalModes
+  parent: UnderAutomation.UniversalRobots
+  name: OperationalModes
+  nameWithType: OperationalModes
+  fullName: UnderAutomation.UniversalRobots.OperationalModes

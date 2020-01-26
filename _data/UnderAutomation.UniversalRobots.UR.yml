@@ -8,37 +8,66 @@ items:
   - UnderAutomation.UniversalRobots.UR.#ctor
   - UnderAutomation.UniversalRobots.UR.AdditionalInfo
   - UnderAutomation.UniversalRobots.UR.AdditionalInfoReceived
+  - UnderAutomation.UniversalRobots.UR.AddToLog(System.String)
   - UnderAutomation.UniversalRobots.UR.CalibrationData
   - UnderAutomation.UniversalRobots.UR.CalibrationDataReceived
   - UnderAutomation.UniversalRobots.UR.CartesianInfo
   - UnderAutomation.UniversalRobots.UR.CartesianInfoReceived
+  - UnderAutomation.UniversalRobots.UR.ClearOperationalMode
+  - UnderAutomation.UniversalRobots.UR.ClosePopup
+  - UnderAutomation.UniversalRobots.UR.CloseSafetyPopup
   - UnderAutomation.UniversalRobots.UR.ConfigurationData
   - UnderAutomation.UniversalRobots.UR.ConfigurationDataReceived
-  - UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  - UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts,System.Boolean)
   - UnderAutomation.UniversalRobots.UR.Connected
   - UnderAutomation.UniversalRobots.UR.Disconnect
   - UnderAutomation.UniversalRobots.UR.ForceModeData
   - UnderAutomation.UniversalRobots.UR.ForceModeDataReceived
+  - UnderAutomation.UniversalRobots.UR.GetLoadedProgram
+  - UnderAutomation.UniversalRobots.UR.GetOperationalMode
+  - UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion
+  - UnderAutomation.UniversalRobots.UR.GetProgramState
+  - UnderAutomation.UniversalRobots.UR.GetRobotMode
+  - UnderAutomation.UniversalRobots.UR.GetRobotModel
+  - UnderAutomation.UniversalRobots.UR.GetSafetyStatus
+  - UnderAutomation.UniversalRobots.UR.GetSerialNumber
   - UnderAutomation.UniversalRobots.UR.InternalErrorOccured
+  - UnderAutomation.UniversalRobots.UR.IsInRemoteControl
+  - UnderAutomation.UniversalRobots.UR.IsProgramRunning
+  - UnderAutomation.UniversalRobots.UR.IsProgramSaved
   - UnderAutomation.UniversalRobots.UR.JointData
   - UnderAutomation.UniversalRobots.UR.JointDataReceived
   - UnderAutomation.UniversalRobots.UR.KinematicsInfo
   - UnderAutomation.UniversalRobots.UR.KinematicsInfoReceived
   - UnderAutomation.UniversalRobots.UR.LicenseInfo
+  - UnderAutomation.UniversalRobots.UR.LoadInstallation(System.String)
+  - UnderAutomation.UniversalRobots.UR.LoadProgram(System.String)
   - UnderAutomation.UniversalRobots.UR.MasterboardData
   - UnderAutomation.UniversalRobots.UR.MasterboardDataReceived
+  - UnderAutomation.UniversalRobots.UR.Pause
+  - UnderAutomation.UniversalRobots.UR.Play
+  - UnderAutomation.UniversalRobots.UR.PowerOff
+  - UnderAutomation.UniversalRobots.UR.PowerOn
   - UnderAutomation.UniversalRobots.UR.RegisterLicense(System.String,System.String)
+  - UnderAutomation.UniversalRobots.UR.ReleaseBrake
+  - UnderAutomation.UniversalRobots.UR.RestartSafety
   - UnderAutomation.UniversalRobots.UR.RobotModeData
   - UnderAutomation.UniversalRobots.UR.RobotModeDataReceived
   - UnderAutomation.UniversalRobots.UR.SafetyData
   - UnderAutomation.UniversalRobots.UR.SafetyDataReceived
   - UnderAutomation.UniversalRobots.UR.Send(System.String)
+  - UnderAutomation.UniversalRobots.UR.SetOperationalMode(UnderAutomation.UniversalRobots.OperationalModes)
+  - UnderAutomation.UniversalRobots.UR.SetUserRole(UnderAutomation.UniversalRobots.UserRoles)
+  - UnderAutomation.UniversalRobots.UR.ShowPopup(System.String)
+  - UnderAutomation.UniversalRobots.UR.Shutdown
+  - UnderAutomation.UniversalRobots.UR.Stop
   - UnderAutomation.UniversalRobots.UR.ToolCommunicationInfo
   - UnderAutomation.UniversalRobots.UR.ToolCommunicationInfoReceived
   - UnderAutomation.UniversalRobots.UR.ToolData
   - UnderAutomation.UniversalRobots.UR.ToolDataReceived
   - UnderAutomation.UniversalRobots.UR.ToolModeInfo
   - UnderAutomation.UniversalRobots.UR.ToolModeInfoReceived
+  - UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop
   langs:
   - csharp
   - vb
@@ -48,7 +77,7 @@ items:
   type: Class
   source:
     id: UR
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -88,7 +117,7 @@ items:
   type: Event
   source:
     id: InternalErrorOccured
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 33
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -117,7 +146,7 @@ items:
   type: Event
   source:
     id: RobotModeDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 39
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -146,7 +175,7 @@ items:
   type: Event
   source:
     id: JointDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 44
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -175,7 +204,7 @@ items:
   type: Event
   source:
     id: ToolDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 49
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -204,7 +233,7 @@ items:
   type: Event
   source:
     id: MasterboardDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 54
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -233,7 +262,7 @@ items:
   type: Event
   source:
     id: CartesianInfoReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 59
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -262,7 +291,7 @@ items:
   type: Event
   source:
     id: KinematicsInfoReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 64
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -291,7 +320,7 @@ items:
   type: Event
   source:
     id: ConfigurationDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 69
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -320,7 +349,7 @@ items:
   type: Event
   source:
     id: ForceModeDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 74
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -349,7 +378,7 @@ items:
   type: Event
   source:
     id: AdditionalInfoReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 79
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -378,7 +407,7 @@ items:
   type: Event
   source:
     id: CalibrationDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 84
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -407,7 +436,7 @@ items:
   type: Event
   source:
     id: SafetyDataReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 89
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -436,7 +465,7 @@ items:
   type: Event
   source:
     id: ToolCommunicationInfoReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 94
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -465,7 +494,7 @@ items:
   type: Event
   source:
     id: ToolModeInfoReceived
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 99
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -494,7 +523,7 @@ items:
   type: Property
   source:
     id: RobotModeData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 105
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -527,7 +556,7 @@ items:
   type: Property
   source:
     id: JointData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 110
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -560,7 +589,7 @@ items:
   type: Property
   source:
     id: ToolData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 115
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -593,7 +622,7 @@ items:
   type: Property
   source:
     id: MasterboardData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 120
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -626,7 +655,7 @@ items:
   type: Property
   source:
     id: CartesianInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 125
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -659,7 +688,7 @@ items:
   type: Property
   source:
     id: KinematicsInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 130
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -692,7 +721,7 @@ items:
   type: Property
   source:
     id: ConfigurationData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 135
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -725,7 +754,7 @@ items:
   type: Property
   source:
     id: ForceModeData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 140
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -758,7 +787,7 @@ items:
   type: Property
   source:
     id: AdditionalInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 145
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -791,7 +820,7 @@ items:
   type: Property
   source:
     id: CalibrationData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 150
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -824,7 +853,7 @@ items:
   type: Property
   source:
     id: SafetyData
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 155
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -857,7 +886,7 @@ items:
   type: Property
   source:
     id: ToolCommunicationInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 160
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -890,7 +919,7 @@ items:
   type: Property
   source:
     id: ToolModeInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 165
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -923,7 +952,7 @@ items:
   type: Method
   source:
     id: RegisterLicense
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 177
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -963,7 +992,7 @@ items:
   type: Property
   source:
     id: LicenseInfo
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 187
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -998,7 +1027,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 197
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1026,7 +1055,7 @@ items:
   type: Method
   source:
     id: Send
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 204
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1038,7 +1067,7 @@ items:
     parameters:
     - id: command
       type: System.String
-      description: 'The script command to execute. You can for example move the robot at a specified coordinate with the command : movej([0,1.57,-1.57,3.14,-1.57,1.57],a=1.4, v=1.05, t=0, r=0)'
+      description: 'The script command to execute. You can for example move the robot at a specified joint coordinate with the command : movej([-1.5,-1.5,-2,-0.5,1.8,0],a=1.4, v=1.05, t=0, r=0)'
     return:
       type: UnderAutomation.UniversalRobots.StatusCode
     content.vb: Public Function Send(command As String) As StatusCode
@@ -1047,28 +1076,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
-  commentId: M:UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
-  id: Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts)
+- uid: UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts,System.Boolean)
+  commentId: M:UnderAutomation.UniversalRobots.UR.Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts,System.Boolean)
+  id: Connect(System.String,UnderAutomation.UniversalRobots.UniversalRobotPorts,System.Boolean)
   parent: UnderAutomation.UniversalRobots.UR
   langs:
   - csharp
   - vb
-  name: Connect(String, UniversalRobotPorts)
-  nameWithType: UR.Connect(String, UniversalRobotPorts)
-  fullName: UnderAutomation.UniversalRobots.UR.Connect(System.String, UnderAutomation.UniversalRobots.UniversalRobotPorts)
+  name: Connect(String, UniversalRobotPorts, Boolean)
+  nameWithType: UR.Connect(String, UniversalRobotPorts, Boolean)
+  fullName: UnderAutomation.UniversalRobots.UR.Connect(System.String, UnderAutomation.UniversalRobots.UniversalRobotPorts, System.Boolean)
   type: Method
   source:
     id: Connect
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 331
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 336
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
   summary: "\nConnect the robot.\n"
   example: []
   syntax:
-    content: public void Connect(string ip, UniversalRobotPorts port = UniversalRobotPorts.PrimaryClient)
+    content: public void Connect(string ip, UniversalRobotPorts port = UniversalRobotPorts.PrimaryClient, bool listenStreamingInterface = true)
     parameters:
     - id: ip
       type: System.String
@@ -1076,7 +1105,10 @@ items:
     - id: port
       type: UnderAutomation.UniversalRobots.UniversalRobotPorts
       description: '(Optional) Connection port on the robot. Default : 30001'
-    content.vb: Public Sub Connect(ip As String, port As UniversalRobotPorts = UniversalRobotPorts.PrimaryClient)
+    - id: listenStreamingInterface
+      type: System.Boolean
+      description: (Optional) Receive data from streaming interface
+    content.vb: Public Sub Connect(ip As String, port As UniversalRobotPorts = UniversalRobotPorts.PrimaryClient, listenStreamingInterface As Boolean = True)
   overload: UnderAutomation.UniversalRobots.UR.Connect*
   modifiers.csharp:
   - public
@@ -1095,8 +1127,8 @@ items:
   type: Method
   source:
     id: Disconnect
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 347
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 359
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -1123,8 +1155,8 @@ items:
   type: Property
   source:
     id: Connected
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 388
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 402
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -1143,6 +1175,905 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: UnderAutomation.UniversalRobots.UR.LoadProgram(System.String)
+  commentId: M:UnderAutomation.UniversalRobots.UR.LoadProgram(System.String)
+  id: LoadProgram(System.String)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: LoadProgram(String)
+  nameWithType: UR.LoadProgram(String)
+  fullName: UnderAutomation.UniversalRobots.UR.LoadProgram(System.String)
+  type: Method
+  source:
+    id: LoadProgram
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 463
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStart loading the specified program. (From FW 1.4)\n"
+  example: []
+  syntax:
+    content: public CommandResponse LoadProgram(string programName)
+    parameters:
+    - id: programName
+      type: System.String
+      description: The name of the program to load with its extension .urp
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function LoadProgram(programName As String) As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.LoadProgram*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Play
+  commentId: M:UnderAutomation.UniversalRobots.UR.Play
+  id: Play
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: UR.Play()
+  fullName: UnderAutomation.UniversalRobots.UR.Play()
+  type: Method
+  source:
+    id: Play
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 470
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStarts program, if any program is loaded and robot is ready. (From FW 1.4)\n"
+  example: []
+  syntax:
+    content: public CommandResponse Play()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function Play As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.Play*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Stop
+  commentId: M:UnderAutomation.UniversalRobots.UR.Stop
+  id: Stop
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: UR.Stop()
+  fullName: UnderAutomation.UniversalRobots.UR.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 477
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nStops running program. (From FW 1.4)\n"
+  example: []
+  syntax:
+    content: public CommandResponse Stop()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function Stop As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Pause
+  commentId: M:UnderAutomation.UniversalRobots.UR.Pause
+  id: Pause
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: UR.Pause()
+  fullName: UnderAutomation.UniversalRobots.UR.Pause()
+  type: Method
+  source:
+    id: Pause
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 484
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPauses the running program . (From FW 1.4)\n"
+  example: []
+  syntax:
+    content: public CommandResponse Pause()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function Pause As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.Pause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.Shutdown
+  commentId: M:UnderAutomation.UniversalRobots.UR.Shutdown
+  id: Shutdown
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: Shutdown()
+  nameWithType: UR.Shutdown()
+  fullName: UnderAutomation.UniversalRobots.UR.Shutdown()
+  type: Method
+  source:
+    id: Shutdown
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 491
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nShuts down and turns off robot and controller. Closes the connection. (From FW 1.4)\n"
+  example: []
+  syntax:
+    content: public CommandResponse Shutdown()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function Shutdown As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.Shutdown*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.IsProgramRunning
+  commentId: M:UnderAutomation.UniversalRobots.UR.IsProgramRunning
+  id: IsProgramRunning
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: IsProgramRunning()
+  nameWithType: UR.IsProgramRunning()
+  fullName: UnderAutomation.UniversalRobots.UR.IsProgramRunning()
+  type: Method
+  source:
+    id: IsProgramRunning
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 505
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns a True value is a program is running. (From FW 1.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<bool> IsProgramRunning()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{System.Boolean}
+    content.vb: Public Function IsProgramRunning As CommandResponse(Of Boolean)
+  overload: UnderAutomation.UniversalRobots.UR.IsProgramRunning*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetRobotMode
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetRobotMode
+  id: GetRobotMode
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetRobotMode()
+  nameWithType: UR.GetRobotMode()
+  fullName: UnderAutomation.UniversalRobots.UR.GetRobotMode()
+  type: Method
+  source:
+    id: GetRobotMode
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 528
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the current robot state. (From FW 1.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<RobotModes> GetRobotMode()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.RobotModes}
+    content.vb: Public Function GetRobotMode As CommandResponse(Of RobotModes)
+  overload: UnderAutomation.UniversalRobots.UR.GetRobotMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetLoadedProgram
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetLoadedProgram
+  id: GetLoadedProgram
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetLoadedProgram()
+  nameWithType: UR.GetLoadedProgram()
+  fullName: UnderAutomation.UniversalRobots.UR.GetLoadedProgram()
+  type: Method
+  source:
+    id: GetLoadedProgram
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 576
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the path of the loaded program. If not program is loaded, Value member is null. (From FW 1.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<string> GetLoadedProgram()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{System.String}
+    content.vb: Public Function GetLoadedProgram As CommandResponse(Of String)
+  overload: UnderAutomation.UniversalRobots.UR.GetLoadedProgram*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ShowPopup(System.String)
+  commentId: M:UnderAutomation.UniversalRobots.UR.ShowPopup(System.String)
+  id: ShowPopup(System.String)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ShowPopup(String)
+  nameWithType: UR.ShowPopup(String)
+  fullName: UnderAutomation.UniversalRobots.UR.ShowPopup(System.String)
+  type: Method
+  source:
+    id: ShowPopup
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 592
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nShows a popup on Polyscope with the specified message. The popup-text will be translated to the selected language, if the text exists in the language file. (From FW 1.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse ShowPopup(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to show
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function ShowPopup(message As String) As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.ShowPopup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ClosePopup
+  commentId: M:UnderAutomation.UniversalRobots.UR.ClosePopup
+  id: ClosePopup
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ClosePopup()
+  nameWithType: UR.ClosePopup()
+  fullName: UnderAutomation.UniversalRobots.UR.ClosePopup()
+  type: Method
+  source:
+    id: ClosePopup
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 600
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCloses the popup (From FW 1.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse ClosePopup()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+      description: ''
+    content.vb: Public Function ClosePopup As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.ClosePopup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.AddToLog(System.String)
+  commentId: M:UnderAutomation.UniversalRobots.UR.AddToLog(System.String)
+  id: AddToLog(System.String)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: AddToLog(String)
+  nameWithType: UR.AddToLog(String)
+  fullName: UnderAutomation.UniversalRobots.UR.AddToLog(System.String)
+  type: Method
+  source:
+    id: AddToLog
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 609
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAdds log-message to the Log history. (From FW 1.8.11657)\n"
+  example: []
+  syntax:
+    content: public CommandResponse AddToLog(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message to add in logs
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+      description: ''
+    content.vb: Public Function AddToLog(message As String) As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.AddToLog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.IsProgramSaved
+  commentId: M:UnderAutomation.UniversalRobots.UR.IsProgramSaved
+  id: IsProgramSaved
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: IsProgramSaved()
+  nameWithType: UR.IsProgramSaved()
+  fullName: UnderAutomation.UniversalRobots.UR.IsProgramSaved()
+  type: Method
+  source:
+    id: IsProgramSaved
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 616
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the save state of the active program and path to loaded program file. (From FW 1.8.11997)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<ProgramSaveState> IsProgramSaved()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.ProgramSaveState}
+    content.vb: Public Function IsProgramSaved As CommandResponse(Of ProgramSaveState)
+  overload: UnderAutomation.UniversalRobots.UR.IsProgramSaved*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetProgramState
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetProgramState
+  id: GetProgramState
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetProgramState()
+  nameWithType: UR.GetProgramState()
+  fullName: UnderAutomation.UniversalRobots.UR.GetProgramState()
+  type: Method
+  source:
+    id: GetProgramState
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 646
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the state of the active program and path to loaded program file, or STOPPED if no program is loaded\n"
+  example: []
+  syntax:
+    content: public CommandResponse<ProgramState> GetProgramState()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.ProgramState}
+    content.vb: Public Function GetProgramState As CommandResponse(Of ProgramState)
+  overload: UnderAutomation.UniversalRobots.UR.GetProgramState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion
+  id: GetPolyscopeVersion
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetPolyscopeVersion()
+  nameWithType: UR.GetPolyscopeVersion()
+  fullName: UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion()
+  type: Method
+  source:
+    id: GetPolyscopeVersion
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 679
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the version of the Polyscope software (From FW 1.8.14035)\n"
+  example: []
+  syntax:
+    content: public CommandResponse GetPolyscopeVersion()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function GetPolyscopeVersion As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.SetUserRole(UnderAutomation.UniversalRobots.UserRoles)
+  commentId: M:UnderAutomation.UniversalRobots.UR.SetUserRole(UnderAutomation.UniversalRobots.UserRoles)
+  id: SetUserRole(UnderAutomation.UniversalRobots.UserRoles)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: SetUserRole(UserRoles)
+  nameWithType: UR.SetUserRole(UserRoles)
+  fullName: UnderAutomation.UniversalRobots.UR.SetUserRole(UnderAutomation.UniversalRobots.UserRoles)
+  type: Method
+  source:
+    id: SetUserRole
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 688
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nControls the available options on the Welcome screen (From FW 1.8.14035 to 3.12.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse SetUserRole(UserRoles role)
+    parameters:
+    - id: role
+      type: UnderAutomation.UniversalRobots.UserRoles
+      description: Role to set
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+      description: ''
+    content.vb: Public Function SetUserRole(role As UserRoles) As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.SetUserRole*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.SetOperationalMode(UnderAutomation.UniversalRobots.OperationalModes)
+  commentId: M:UnderAutomation.UniversalRobots.UR.SetOperationalMode(UnderAutomation.UniversalRobots.OperationalModes)
+  id: SetOperationalMode(UnderAutomation.UniversalRobots.OperationalModes)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: SetOperationalMode(OperationalModes)
+  nameWithType: UR.SetOperationalMode(OperationalModes)
+  fullName: UnderAutomation.UniversalRobots.UR.SetOperationalMode(UnderAutomation.UniversalRobots.OperationalModes)
+  type: Method
+  source:
+    id: SetOperationalMode
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 697
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nControls the operational mode. See User manual for details. If this function is called the operational mode cannot be changed from PolyScope, and the user password is disabled. OperationalModes.None is not a valid operational mode. (From FW 5.0.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse SetOperationalMode(OperationalModes mode)
+    parameters:
+    - id: mode
+      type: UnderAutomation.UniversalRobots.OperationalModes
+      description: The new operational mode. OperationalModes.None is not a valid operational mode.
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+      description: ''
+    content.vb: Public Function SetOperationalMode(mode As OperationalModes) As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.SetOperationalMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ClearOperationalMode
+  commentId: M:UnderAutomation.UniversalRobots.UR.ClearOperationalMode
+  id: ClearOperationalMode
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ClearOperationalMode()
+  nameWithType: UR.ClearOperationalMode()
+  fullName: UnderAutomation.UniversalRobots.UR.ClearOperationalMode()
+  type: Method
+  source:
+    id: ClearOperationalMode
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 708
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe operational mode can again be changed from PolyScope, and the user password is enabled. (From FW 5.0.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse ClearOperationalMode()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function ClearOperationalMode As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.ClearOperationalMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetOperationalMode
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetOperationalMode
+  id: GetOperationalMode
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetOperationalMode()
+  nameWithType: UR.GetOperationalMode()
+  fullName: UnderAutomation.UniversalRobots.UR.GetOperationalMode()
+  type: Method
+  source:
+    id: GetOperationalMode
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 719
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the operational mode. (From FW 5.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<OperationalModes> GetOperationalMode()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.OperationalModes}
+    content.vb: Public Function GetOperationalMode As CommandResponse(Of OperationalModes)
+  overload: UnderAutomation.UniversalRobots.UR.GetOperationalMode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.IsInRemoteControl
+  commentId: M:UnderAutomation.UniversalRobots.UR.IsInRemoteControl
+  id: IsInRemoteControl
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: IsInRemoteControl()
+  nameWithType: UR.IsInRemoteControl()
+  fullName: UnderAutomation.UniversalRobots.UR.IsInRemoteControl()
+  type: Method
+  source:
+    id: IsInRemoteControl
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 744
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the remote control status of the robot. If the robot Is In remote control it returns False And If remote control Is disabled Or robot Is in local control it returns false. (From FW 5.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<bool> IsInRemoteControl()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{System.Boolean}
+    content.vb: Public Function IsInRemoteControl As CommandResponse(Of Boolean)
+  overload: UnderAutomation.UniversalRobots.UR.IsInRemoteControl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.PowerOn
+  commentId: M:UnderAutomation.UniversalRobots.UR.PowerOn
+  id: PowerOn
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: PowerOn()
+  nameWithType: UR.PowerOn()
+  fullName: UnderAutomation.UniversalRobots.UR.PowerOn()
+  type: Method
+  source:
+    id: PowerOn
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 765
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPowers on the robot arm. (From FW 3.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse PowerOn()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function PowerOn As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.PowerOn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.PowerOff
+  commentId: M:UnderAutomation.UniversalRobots.UR.PowerOff
+  id: PowerOff
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: PowerOff()
+  nameWithType: UR.PowerOff()
+  fullName: UnderAutomation.UniversalRobots.UR.PowerOff()
+  type: Method
+  source:
+    id: PowerOff
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 772
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nPowers off the robot arm. (From FW 3.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse PowerOff()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function PowerOff As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.PowerOff*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.ReleaseBrake
+  commentId: M:UnderAutomation.UniversalRobots.UR.ReleaseBrake
+  id: ReleaseBrake
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: ReleaseBrake()
+  nameWithType: UR.ReleaseBrake()
+  fullName: UnderAutomation.UniversalRobots.UR.ReleaseBrake()
+  type: Method
+  source:
+    id: ReleaseBrake
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 779
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReleases the brakes. (From FW 3.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse ReleaseBrake()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function ReleaseBrake As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.ReleaseBrake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop
+  commentId: M:UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop
+  id: UnlockProtectiveStop
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: UnlockProtectiveStop()
+  nameWithType: UR.UnlockProtectiveStop()
+  fullName: UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop()
+  type: Method
+  source:
+    id: UnlockProtectiveStop
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 786
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCloses the current popup and unlocks protective stop. (From FW 3.1)\n"
+  example: []
+  syntax:
+    content: public CommandResponse UnlockProtectiveStop()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function UnlockProtectiveStop As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.CloseSafetyPopup
+  commentId: M:UnderAutomation.UniversalRobots.UR.CloseSafetyPopup
+  id: CloseSafetyPopup
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: CloseSafetyPopup()
+  nameWithType: UR.CloseSafetyPopup()
+  fullName: UnderAutomation.UniversalRobots.UR.CloseSafetyPopup()
+  type: Method
+  source:
+    id: CloseSafetyPopup
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 793
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCloses a safety popup. (From FW 3.1)\n"
+  example: []
+  syntax:
+    content: public CommandResponse CloseSafetyPopup()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function CloseSafetyPopup As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.CloseSafetyPopup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.LoadInstallation(System.String)
+  commentId: M:UnderAutomation.UniversalRobots.UR.LoadInstallation(System.String)
+  id: LoadInstallation(System.String)
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: LoadInstallation(String)
+  nameWithType: UR.LoadInstallation(String)
+  fullName: UnderAutomation.UniversalRobots.UR.LoadInstallation(System.String)
+  type: Method
+  source:
+    id: LoadInstallation
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 802
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nLoads the specified installation file (From FW 3.2.18654)\n"
+  example: []
+  syntax:
+    content: public CommandResponse LoadInstallation(string installation)
+    parameters:
+    - id: installation
+      type: System.String
+      description: The installation to load with ist extension .installation.
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+      description: ''
+    content.vb: Public Function LoadInstallation(installation As String) As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.LoadInstallation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.RestartSafety
+  commentId: M:UnderAutomation.UniversalRobots.UR.RestartSafety
+  id: RestartSafety
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: RestartSafety()
+  nameWithType: UR.RestartSafety()
+  fullName: UnderAutomation.UniversalRobots.UR.RestartSafety()
+  type: Method
+  source:
+    id: RestartSafety
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 809
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRestarts the safety. Used when robot gets a safety fault or violation to restart the safety. After safety has been rebooted the robot will be in Power Off. (From FW 3.7 to 3.12.0 and from 5.1.0)\n"
+  example: []
+  syntax:
+    content: public CommandResponse RestartSafety()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function RestartSafety As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.RestartSafety*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetSafetyStatus
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetSafetyStatus
+  id: GetSafetyStatus
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetSafetyStatus()
+  nameWithType: UR.GetSafetyStatus()
+  fullName: UnderAutomation.UniversalRobots.UR.GetSafetyStatus()
+  type: Method
+  source:
+    id: GetSafetyStatus
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 816
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the current safety status. (From FW 3.11 to 3.12 and from FW 5.5)\n"
+  example: []
+  syntax:
+    content: public CommandResponse<SafetyStatus> GetSafetyStatus()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.SafetyStatus}
+    content.vb: Public Function GetSafetyStatus As CommandResponse(Of SafetyStatus)
+  overload: UnderAutomation.UniversalRobots.UR.GetSafetyStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetSerialNumber
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetSerialNumber
+  id: GetSerialNumber
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetSerialNumber()
+  nameWithType: UR.GetSerialNumber()
+  fullName: UnderAutomation.UniversalRobots.UR.GetSerialNumber()
+  type: Method
+  source:
+    id: GetSerialNumber
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 857
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns serial number of the robot (FW 3.12 and from FW 5.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse GetSerialNumber()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function GetSerialNumber As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.GetSerialNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.UR.GetRobotModel
+  commentId: M:UnderAutomation.UniversalRobots.UR.GetRobotModel
+  id: GetRobotModel
+  parent: UnderAutomation.UniversalRobots.UR
+  langs:
+  - csharp
+  - vb
+  name: GetRobotModel()
+  nameWithType: UR.GetRobotModel()
+  fullName: UnderAutomation.UniversalRobots.UR.GetRobotModel()
+  type: Method
+  source:
+    id: GetRobotModel
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 864
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nReturns the robot model (UR3, UR5, UR10 or UR16). (FW 3.12 and from FW 5.6)\n"
+  example: []
+  syntax:
+    content: public CommandResponse GetRobotModel()
+    return:
+      type: UnderAutomation.UniversalRobots.CommandResponse
+    content.vb: Public Function GetRobotModel As CommandResponse
+  overload: UnderAutomation.UniversalRobots.UR.GetRobotModel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: UnderAutomation.UniversalRobots
   commentId: N:UnderAutomation.UniversalRobots
@@ -2292,6 +3223,13 @@ references:
   name: UniversalRobotPorts
   nameWithType: UniversalRobotPorts
   fullName: UnderAutomation.UniversalRobots.UniversalRobotPorts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: UnderAutomation.UniversalRobots.UR.Disconnect*
   commentId: Overload:UnderAutomation.UniversalRobots.UR.Disconnect
   name: Disconnect
@@ -2302,10 +3240,486 @@ references:
   name: Connected
   nameWithType: UR.Connected
   fullName: UnderAutomation.UniversalRobots.UR.Connected
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+- uid: UnderAutomation.UniversalRobots.UR.LoadProgram*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.LoadProgram
+  name: LoadProgram
+  nameWithType: UR.LoadProgram
+  fullName: UnderAutomation.UniversalRobots.UR.LoadProgram
+- uid: UnderAutomation.UniversalRobots.CommandResponse
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse
+  parent: UnderAutomation.UniversalRobots
+  name: CommandResponse
+  nameWithType: CommandResponse
+  fullName: UnderAutomation.UniversalRobots.CommandResponse
+- uid: UnderAutomation.UniversalRobots.UR.Play*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Play
+  name: Play
+  nameWithType: UR.Play
+  fullName: UnderAutomation.UniversalRobots.UR.Play
+- uid: UnderAutomation.UniversalRobots.UR.Stop*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Stop
+  name: Stop
+  nameWithType: UR.Stop
+  fullName: UnderAutomation.UniversalRobots.UR.Stop
+- uid: UnderAutomation.UniversalRobots.UR.Pause*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Pause
+  name: Pause
+  nameWithType: UR.Pause
+  fullName: UnderAutomation.UniversalRobots.UR.Pause
+- uid: UnderAutomation.UniversalRobots.UR.Shutdown*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.Shutdown
+  name: Shutdown
+  nameWithType: UR.Shutdown
+  fullName: UnderAutomation.UniversalRobots.UR.Shutdown
+- uid: UnderAutomation.UniversalRobots.UR.IsProgramRunning*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.IsProgramRunning
+  name: IsProgramRunning
+  nameWithType: UR.IsProgramRunning
+  fullName: UnderAutomation.UniversalRobots.UR.IsProgramRunning
+- uid: UnderAutomation.UniversalRobots.CommandResponse{System.Boolean}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{System.Boolean}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<Boolean>
+  nameWithType: CommandResponse<Boolean>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<System.Boolean>
+  nameWithType.vb: CommandResponse(Of Boolean)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of System.Boolean)
+  name.vb: CommandResponse(Of Boolean)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.CommandResponse`1
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<T>
+  nameWithType: CommandResponse<T>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<T>
+  nameWithType.vb: CommandResponse(Of T)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of T)
+  name.vb: CommandResponse(Of T)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.GetRobotMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetRobotMode
+  name: GetRobotMode
+  nameWithType: UR.GetRobotMode
+  fullName: UnderAutomation.UniversalRobots.UR.GetRobotMode
+- uid: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.RobotModes}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.RobotModes}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<RobotModes>
+  nameWithType: CommandResponse<RobotModes>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<UnderAutomation.UniversalRobots.RobotModes>
+  nameWithType.vb: CommandResponse(Of RobotModes)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of UnderAutomation.UniversalRobots.RobotModes)
+  name.vb: CommandResponse(Of RobotModes)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.RobotModes
+    name: RobotModes
+    nameWithType: RobotModes
+    fullName: UnderAutomation.UniversalRobots.RobotModes
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.RobotModes
+    name: RobotModes
+    nameWithType: RobotModes
+    fullName: UnderAutomation.UniversalRobots.RobotModes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.GetLoadedProgram*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetLoadedProgram
+  name: GetLoadedProgram
+  nameWithType: UR.GetLoadedProgram
+  fullName: UnderAutomation.UniversalRobots.UR.GetLoadedProgram
+- uid: UnderAutomation.UniversalRobots.CommandResponse{System.String}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{System.String}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<String>
+  nameWithType: CommandResponse<String>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<System.String>
+  nameWithType.vb: CommandResponse(Of String)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of System.String)
+  name.vb: CommandResponse(Of String)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.ShowPopup*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ShowPopup
+  name: ShowPopup
+  nameWithType: UR.ShowPopup
+  fullName: UnderAutomation.UniversalRobots.UR.ShowPopup
+- uid: UnderAutomation.UniversalRobots.UR.ClosePopup*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ClosePopup
+  name: ClosePopup
+  nameWithType: UR.ClosePopup
+  fullName: UnderAutomation.UniversalRobots.UR.ClosePopup
+- uid: UnderAutomation.UniversalRobots.UR.AddToLog*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.AddToLog
+  name: AddToLog
+  nameWithType: UR.AddToLog
+  fullName: UnderAutomation.UniversalRobots.UR.AddToLog
+- uid: UnderAutomation.UniversalRobots.UR.IsProgramSaved*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.IsProgramSaved
+  name: IsProgramSaved
+  nameWithType: UR.IsProgramSaved
+  fullName: UnderAutomation.UniversalRobots.UR.IsProgramSaved
+- uid: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.ProgramSaveState}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.ProgramSaveState}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<ProgramSaveState>
+  nameWithType: CommandResponse<ProgramSaveState>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<UnderAutomation.UniversalRobots.ProgramSaveState>
+  nameWithType.vb: CommandResponse(Of ProgramSaveState)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of UnderAutomation.UniversalRobots.ProgramSaveState)
+  name.vb: CommandResponse(Of ProgramSaveState)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ProgramSaveState
+    name: ProgramSaveState
+    nameWithType: ProgramSaveState
+    fullName: UnderAutomation.UniversalRobots.ProgramSaveState
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ProgramSaveState
+    name: ProgramSaveState
+    nameWithType: ProgramSaveState
+    fullName: UnderAutomation.UniversalRobots.ProgramSaveState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.GetProgramState*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetProgramState
+  name: GetProgramState
+  nameWithType: UR.GetProgramState
+  fullName: UnderAutomation.UniversalRobots.UR.GetProgramState
+- uid: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.ProgramState}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.ProgramState}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<ProgramState>
+  nameWithType: CommandResponse<ProgramState>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<UnderAutomation.UniversalRobots.ProgramState>
+  nameWithType.vb: CommandResponse(Of ProgramState)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of UnderAutomation.UniversalRobots.ProgramState)
+  name.vb: CommandResponse(Of ProgramState)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.ProgramState
+    name: ProgramState
+    nameWithType: ProgramState
+    fullName: UnderAutomation.UniversalRobots.ProgramState
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.ProgramState
+    name: ProgramState
+    nameWithType: ProgramState
+    fullName: UnderAutomation.UniversalRobots.ProgramState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion
+  name: GetPolyscopeVersion
+  nameWithType: UR.GetPolyscopeVersion
+  fullName: UnderAutomation.UniversalRobots.UR.GetPolyscopeVersion
+- uid: UnderAutomation.UniversalRobots.UR.SetUserRole*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.SetUserRole
+  name: SetUserRole
+  nameWithType: UR.SetUserRole
+  fullName: UnderAutomation.UniversalRobots.UR.SetUserRole
+- uid: UnderAutomation.UniversalRobots.UserRoles
+  commentId: T:UnderAutomation.UniversalRobots.UserRoles
+  parent: UnderAutomation.UniversalRobots
+  name: UserRoles
+  nameWithType: UserRoles
+  fullName: UnderAutomation.UniversalRobots.UserRoles
+- uid: UnderAutomation.UniversalRobots.UR.SetOperationalMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.SetOperationalMode
+  name: SetOperationalMode
+  nameWithType: UR.SetOperationalMode
+  fullName: UnderAutomation.UniversalRobots.UR.SetOperationalMode
+- uid: UnderAutomation.UniversalRobots.OperationalModes
+  commentId: T:UnderAutomation.UniversalRobots.OperationalModes
+  parent: UnderAutomation.UniversalRobots
+  name: OperationalModes
+  nameWithType: OperationalModes
+  fullName: UnderAutomation.UniversalRobots.OperationalModes
+- uid: UnderAutomation.UniversalRobots.UR.ClearOperationalMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ClearOperationalMode
+  name: ClearOperationalMode
+  nameWithType: UR.ClearOperationalMode
+  fullName: UnderAutomation.UniversalRobots.UR.ClearOperationalMode
+- uid: UnderAutomation.UniversalRobots.UR.GetOperationalMode*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetOperationalMode
+  name: GetOperationalMode
+  nameWithType: UR.GetOperationalMode
+  fullName: UnderAutomation.UniversalRobots.UR.GetOperationalMode
+- uid: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.OperationalModes}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.OperationalModes}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<OperationalModes>
+  nameWithType: CommandResponse<OperationalModes>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<UnderAutomation.UniversalRobots.OperationalModes>
+  nameWithType.vb: CommandResponse(Of OperationalModes)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of UnderAutomation.UniversalRobots.OperationalModes)
+  name.vb: CommandResponse(Of OperationalModes)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.OperationalModes
+    name: OperationalModes
+    nameWithType: OperationalModes
+    fullName: UnderAutomation.UniversalRobots.OperationalModes
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.OperationalModes
+    name: OperationalModes
+    nameWithType: OperationalModes
+    fullName: UnderAutomation.UniversalRobots.OperationalModes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.IsInRemoteControl*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.IsInRemoteControl
+  name: IsInRemoteControl
+  nameWithType: UR.IsInRemoteControl
+  fullName: UnderAutomation.UniversalRobots.UR.IsInRemoteControl
+- uid: UnderAutomation.UniversalRobots.UR.PowerOn*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.PowerOn
+  name: PowerOn
+  nameWithType: UR.PowerOn
+  fullName: UnderAutomation.UniversalRobots.UR.PowerOn
+- uid: UnderAutomation.UniversalRobots.UR.PowerOff*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.PowerOff
+  name: PowerOff
+  nameWithType: UR.PowerOff
+  fullName: UnderAutomation.UniversalRobots.UR.PowerOff
+- uid: UnderAutomation.UniversalRobots.UR.ReleaseBrake*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.ReleaseBrake
+  name: ReleaseBrake
+  nameWithType: UR.ReleaseBrake
+  fullName: UnderAutomation.UniversalRobots.UR.ReleaseBrake
+- uid: UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop
+  name: UnlockProtectiveStop
+  nameWithType: UR.UnlockProtectiveStop
+  fullName: UnderAutomation.UniversalRobots.UR.UnlockProtectiveStop
+- uid: UnderAutomation.UniversalRobots.UR.CloseSafetyPopup*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.CloseSafetyPopup
+  name: CloseSafetyPopup
+  nameWithType: UR.CloseSafetyPopup
+  fullName: UnderAutomation.UniversalRobots.UR.CloseSafetyPopup
+- uid: UnderAutomation.UniversalRobots.UR.LoadInstallation*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.LoadInstallation
+  name: LoadInstallation
+  nameWithType: UR.LoadInstallation
+  fullName: UnderAutomation.UniversalRobots.UR.LoadInstallation
+- uid: UnderAutomation.UniversalRobots.UR.RestartSafety*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.RestartSafety
+  name: RestartSafety
+  nameWithType: UR.RestartSafety
+  fullName: UnderAutomation.UniversalRobots.UR.RestartSafety
+- uid: UnderAutomation.UniversalRobots.UR.GetSafetyStatus*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetSafetyStatus
+  name: GetSafetyStatus
+  nameWithType: UR.GetSafetyStatus
+  fullName: UnderAutomation.UniversalRobots.UR.GetSafetyStatus
+- uid: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.SafetyStatus}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.SafetyStatus}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<SafetyStatus>
+  nameWithType: CommandResponse<SafetyStatus>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<UnderAutomation.UniversalRobots.SafetyStatus>
+  nameWithType.vb: CommandResponse(Of SafetyStatus)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of UnderAutomation.UniversalRobots.SafetyStatus)
+  name.vb: CommandResponse(Of SafetyStatus)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.SafetyStatus
+    name: SafetyStatus
+    nameWithType: SafetyStatus
+    fullName: UnderAutomation.UniversalRobots.SafetyStatus
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.SafetyStatus
+    name: SafetyStatus
+    nameWithType: SafetyStatus
+    fullName: UnderAutomation.UniversalRobots.SafetyStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.UR.GetSerialNumber*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetSerialNumber
+  name: GetSerialNumber
+  nameWithType: UR.GetSerialNumber
+  fullName: UnderAutomation.UniversalRobots.UR.GetSerialNumber
+- uid: UnderAutomation.UniversalRobots.UR.GetRobotModel*
+  commentId: Overload:UnderAutomation.UniversalRobots.UR.GetRobotModel
+  name: GetRobotModel
+  nameWithType: UR.GetRobotModel
+  fullName: UnderAutomation.UniversalRobots.UR.GetRobotModel

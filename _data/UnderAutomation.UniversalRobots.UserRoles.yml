@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.UserRoles
+  commentId: T:UnderAutomation.UniversalRobots.UserRoles
+  id: UserRoles
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.UserRoles.Locked
+  - UnderAutomation.UniversalRobots.UserRoles.None
+  - UnderAutomation.UniversalRobots.UserRoles.Operator
+  - UnderAutomation.UniversalRobots.UserRoles.Programmer
+  - UnderAutomation.UniversalRobots.UserRoles.restricted
+  langs:
+  - csharp
+  - vb
+  name: UserRoles
+  nameWithType: UserRoles
+  fullName: UnderAutomation.UniversalRobots.UserRoles
+  type: Enum
+  source:
+    id: UserRoles
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 893
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nEnumerates all user roles\n"
+  example: []
+  syntax:
+    content: public enum UserRoles
+    content.vb: Public Enum UserRoles
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.UserRoles.Programmer
+  commentId: F:UnderAutomation.UniversalRobots.UserRoles.Programmer
+  id: Programmer
+  parent: UnderAutomation.UniversalRobots.UserRoles
+  langs:
+  - csharp
+  - vb
+  name: Programmer
+  nameWithType: UserRoles.Programmer
+  fullName: UnderAutomation.UniversalRobots.UserRoles.Programmer
+  type: Field
+  source:
+    id: Programmer
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 897
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nIn Setup Robot, buttons &quot;Update&quot;, &quot;Set Password&quot;, &quot;Network&quot;, &quot;Time&quot; and &quot;URCaps&quot; are disabled, &quot;Expert Mode&quot; is available (if correct password is supplied)\n"
+  example: []
+  syntax:
+    content: Programmer = 0
+    return:
+      type: UnderAutomation.UniversalRobots.UserRoles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.UserRoles.Operator
+  commentId: F:UnderAutomation.UniversalRobots.UserRoles.Operator
+  id: Operator
+  parent: UnderAutomation.UniversalRobots.UserRoles
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: UserRoles.Operator
+  fullName: UnderAutomation.UniversalRobots.UserRoles.Operator
+  type: Field
+  source:
+    id: Operator
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 902
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nOnly &quot;RUN Program&quot; And &quot;SHUTDOWN Robot&quot; buttons are enabled, &quot;Expert Mode&quot; cannot be activated\n"
+  example: []
+  syntax:
+    content: Operator = 1
+    return:
+      type: UnderAutomation.UniversalRobots.UserRoles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.UserRoles.None
+  commentId: F:UnderAutomation.UniversalRobots.UserRoles.None
+  id: None
+  parent: UnderAutomation.UniversalRobots.UserRoles
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: UserRoles.None
+  fullName: UnderAutomation.UniversalRobots.UserRoles.None
+  type: Field
+  source:
+    id: None
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 907
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAll buttons enabled, &quot;Expert Mode&quot; is available (if correct password is supplied)\n"
+  example: []
+  syntax:
+    content: None = 2
+    return:
+      type: UnderAutomation.UniversalRobots.UserRoles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.UserRoles.Locked
+  commentId: F:UnderAutomation.UniversalRobots.UserRoles.Locked
+  id: Locked
+  parent: UnderAutomation.UniversalRobots.UserRoles
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: UserRoles.Locked
+  fullName: UnderAutomation.UniversalRobots.UserRoles.Locked
+  type: Field
+  source:
+    id: Locked
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 912
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAll buttons disabled and &quot;Expert Mode&quot; cannot be activated\n"
+  example: []
+  syntax:
+    content: Locked = 3
+    return:
+      type: UnderAutomation.UniversalRobots.UserRoles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.UserRoles.restricted
+  commentId: F:UnderAutomation.UniversalRobots.UserRoles.restricted
+  id: restricted
+  parent: UnderAutomation.UniversalRobots.UserRoles
+  langs:
+  - csharp
+  - vb
+  name: restricted
+  nameWithType: UserRoles.restricted
+  fullName: UnderAutomation.UniversalRobots.UserRoles.restricted
+  type: Field
+  source:
+    id: restricted
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 917
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nWorks like &quot;operator&quot; but does not give access to the move tab. (From FW 3.1.17136)\n"
+  example: []
+  syntax:
+    content: restricted = 4
+    return:
+      type: UnderAutomation.UniversalRobots.UserRoles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.UserRoles
+  commentId: T:UnderAutomation.UniversalRobots.UserRoles
+  parent: UnderAutomation.UniversalRobots
+  name: UserRoles
+  nameWithType: UserRoles
+  fullName: UnderAutomation.UniversalRobots.UserRoles

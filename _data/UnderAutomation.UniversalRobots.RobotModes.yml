@@ -10,6 +10,7 @@ items:
   - UnderAutomation.UniversalRobots.RobotModes.ConfirmSafety
   - UnderAutomation.UniversalRobots.RobotModes.Disconnected
   - UnderAutomation.UniversalRobots.RobotModes.Idle
+  - UnderAutomation.UniversalRobots.RobotModes.Other
   - UnderAutomation.UniversalRobots.RobotModes.PowerOff
   - UnderAutomation.UniversalRobots.RobotModes.PowerOn
   - UnderAutomation.UniversalRobots.RobotModes.Running
@@ -23,8 +24,8 @@ items:
   type: Enum
   source:
     id: RobotModes
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 940
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1583
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -39,6 +40,36 @@ items:
   modifiers.vb:
   - Public
   - Enum
+- uid: UnderAutomation.UniversalRobots.RobotModes.Other
+  commentId: F:UnderAutomation.UniversalRobots.RobotModes.Other
+  id: Other
+  parent: UnderAutomation.UniversalRobots.RobotModes
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: RobotModes.Other
+  fullName: UnderAutomation.UniversalRobots.RobotModes.Other
+  type: Field
+  source:
+    id: Other
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1587
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRobot is in an obsolete CB2 mode\n"
+  example: []
+  syntax:
+    content: Other = -1
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: UnderAutomation.UniversalRobots.RobotModes.Disconnected
   commentId: F:UnderAutomation.UniversalRobots.RobotModes.Disconnected
   id: Disconnected
@@ -52,8 +83,8 @@ items:
   type: Field
   source:
     id: Disconnected
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 944
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1592
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -82,8 +113,8 @@ items:
   type: Field
   source:
     id: ConfirmSafety
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 949
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1597
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -112,8 +143,8 @@ items:
   type: Field
   source:
     id: Booting
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 954
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1602
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -142,8 +173,8 @@ items:
   type: Field
   source:
     id: PowerOff
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 959
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1607
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -172,8 +203,8 @@ items:
   type: Field
   source:
     id: PowerOn
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 964
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1612
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -202,8 +233,8 @@ items:
   type: Field
   source:
     id: Idle
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 969
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1617
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -232,8 +263,8 @@ items:
   type: Field
   source:
     id: BackDrive
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 974
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1622
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -262,8 +293,8 @@ items:
   type: Field
   source:
     id: Running
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 979
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1627
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -292,8 +323,8 @@ items:
   type: Field
   source:
     id: UpdatingFirmware
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 984
+    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1632
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
