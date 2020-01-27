@@ -18,8 +18,8 @@ items:
   type: Enum
   source:
     id: ControlModes
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1639
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1657
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -47,8 +47,8 @@ items:
   type: Field
   source:
     id: Position
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1643
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1661
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -77,8 +77,8 @@ items:
   type: Field
   source:
     id: Teach
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1648
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1666
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -107,8 +107,8 @@ items:
   type: Field
   source:
     id: Force
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1653
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1671
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -137,8 +137,8 @@ items:
   type: Field
   source:
     id: Torque
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1658
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1676
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

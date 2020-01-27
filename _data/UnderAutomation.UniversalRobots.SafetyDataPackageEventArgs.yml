@@ -15,8 +15,8 @@ items:
   type: Class
   source:
     id: SafetyDataPackageEventArgs
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2605
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2623
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -61,8 +61,8 @@ items:
   type: Property
   source:
     id: Data
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2612
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2630
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

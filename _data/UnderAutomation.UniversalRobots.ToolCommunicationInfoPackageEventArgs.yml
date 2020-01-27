@@ -20,8 +20,8 @@ items:
   type: Class
   source:
     id: ToolCommunicationInfoPackageEventArgs
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2620
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2638
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -66,8 +66,8 @@ items:
   type: Property
   source:
     id: ToolCommunicationIsEnabled
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2627
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2645
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -99,8 +99,8 @@ items:
   type: Property
   source:
     id: BaudRate
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2632
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2650
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -132,8 +132,8 @@ items:
   type: Property
   source:
     id: Parity
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2637
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2655
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -165,8 +165,8 @@ items:
   type: Property
   source:
     id: StopBits
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2642
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2660
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -198,8 +198,8 @@ items:
   type: Property
   source:
     id: RxIdleChars
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2647
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2665
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -231,8 +231,8 @@ items:
   type: Property
   source:
     id: TxIdleChars
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2652
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2670
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

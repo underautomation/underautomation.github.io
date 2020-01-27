@@ -20,7 +20,7 @@ permalink: /pricing/
 			<li>May be used by multiple developers at the location specified.</li>
 			<li>Any application developed with the API can be delivered to an unlimited number of customers without royalties</li>
 			<li>1 year maintenance</li>
-			<li>See [terms and conditions](/eula){:target="_blank"}</li>
+			<li>See <a href="/eula" target="_blank">terms and conditions</a></li>
 		</ul>
 	</td>
   </tr>
@@ -75,7 +75,7 @@ permalink: /pricing/
 			<li>Company Site License features included</li>
 			<li>Full source code of the product</li>
 			<li>1 year maintenance</li>
-			<li>See [terms and conditions](/eula){:target="_blank"}</li>
+			<li>See <a href="/eula" target="_blank">terms and conditions</a></li>
 		</ul>
 	</td>
   </tr>

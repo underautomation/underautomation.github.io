@@ -17,8 +17,8 @@ items:
   type: Enum
   source:
     id: RobotSubTypes
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2463
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2481
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -46,8 +46,8 @@ items:
   type: Field
   source:
     id: CB2Serie
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2467
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2485
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -76,8 +76,8 @@ items:
   type: Field
   source:
     id: CB3Serie
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2472
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2490
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -106,8 +106,8 @@ items:
   type: Field
   source:
     id: ESerie
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2477
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2495
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

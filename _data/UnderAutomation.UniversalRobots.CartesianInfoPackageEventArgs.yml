@@ -26,8 +26,8 @@ items:
   type: Class
   source:
     id: CartesianInfoPackageEventArgs
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2156
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2174
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -72,8 +72,8 @@ items:
   type: Property
   source:
     id: X
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2162
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2180
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -105,8 +105,8 @@ items:
   type: Property
   source:
     id: Y
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2167
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2185
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -138,8 +138,8 @@ items:
   type: Property
   source:
     id: Z
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2172
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2190
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -171,8 +171,8 @@ items:
   type: Property
   source:
     id: Rx
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2177
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2195
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -204,8 +204,8 @@ items:
   type: Property
   source:
     id: Ry
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2182
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2200
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -237,8 +237,8 @@ items:
   type: Property
   source:
     id: Rz
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2187
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2205
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -270,8 +270,8 @@ items:
   type: Property
   source:
     id: TCPOffsetX
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2193
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2211
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -303,8 +303,8 @@ items:
   type: Property
   source:
     id: TCPOffsetY
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2198
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2216
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -336,8 +336,8 @@ items:
   type: Property
   source:
     id: TCPOffsetZ
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2203
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2221
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -369,8 +369,8 @@ items:
   type: Property
   source:
     id: TCPOffsetRX
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2208
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2226
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -402,8 +402,8 @@ items:
   type: Property
   source:
     id: TCPOffsetRY
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2213
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2231
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -435,8 +435,8 @@ items:
   type: Property
   source:
     id: TCPOffsetRZ
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2218
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2236
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

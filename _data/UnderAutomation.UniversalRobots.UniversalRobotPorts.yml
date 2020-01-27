@@ -18,8 +18,8 @@ items:
   type: Enum
   source:
     id: UniversalRobotPorts
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1072
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1090
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -47,8 +47,8 @@ items:
   type: Field
   source:
     id: PrimaryClient
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1076
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1094
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -77,8 +77,8 @@ items:
   type: Field
   source:
     id: SecondaryClient
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1081
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1099
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -107,8 +107,8 @@ items:
   type: Field
   source:
     id: PrimaryClientReadOnly
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1086
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1104
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -137,8 +137,8 @@ items:
   type: Field
   source:
     id: SecondaryClientReadOnly
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1091
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1109
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

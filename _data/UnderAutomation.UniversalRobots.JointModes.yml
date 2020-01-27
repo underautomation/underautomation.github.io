@@ -27,8 +27,8 @@ items:
   type: Enum
   source:
     id: JointModes
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1742
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1760
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -56,8 +56,8 @@ items:
   type: Field
   source:
     id: ShuttingDown
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1743
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1761
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -84,8 +84,8 @@ items:
   type: Field
   source:
     id: PartDCalibration
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1744
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1762
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -112,8 +112,8 @@ items:
   type: Field
   source:
     id: Backdrive
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1745
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1763
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -140,8 +140,8 @@ items:
   type: Field
   source:
     id: PowerOff
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1746
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1764
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -168,8 +168,8 @@ items:
   type: Field
   source:
     id: NotResponding
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1747
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1765
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -196,8 +196,8 @@ items:
   type: Field
   source:
     id: MotorInitialisation
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1748
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1766
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -224,8 +224,8 @@ items:
   type: Field
   source:
     id: Booting
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1749
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1767
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -252,8 +252,8 @@ items:
   type: Field
   source:
     id: PartDCalibrationError
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1750
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1768
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -280,8 +280,8 @@ items:
   type: Field
   source:
     id: Bootloder
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1751
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1769
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -308,8 +308,8 @@ items:
   type: Field
   source:
     id: Calibration
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1752
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1770
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -336,8 +336,8 @@ items:
   type: Field
   source:
     id: Fault
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1753
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1771
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -364,8 +364,8 @@ items:
   type: Field
   source:
     id: Running
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1754
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1772
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -392,8 +392,8 @@ items:
   type: Field
   source:
     id: Idle
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1755
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1773
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

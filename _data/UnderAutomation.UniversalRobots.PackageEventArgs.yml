@@ -15,8 +15,8 @@ items:
   type: Class
   source:
     id: PackageEventArgs
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1480
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1498
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -75,8 +75,8 @@ items:
   type: Field
   source:
     id: ReceiveDate
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1486
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1504
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

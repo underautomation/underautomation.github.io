@@ -18,8 +18,8 @@ items:
   type: Class
   source:
     id: InternalErrorEventArgs
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1097
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1115
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -61,8 +61,8 @@ items:
   type: Field
   source:
     id: Exception
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1103
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1121
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -92,8 +92,8 @@ items:
   type: Field
   source:
     id: Message
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1108
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1126
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -123,8 +123,8 @@ items:
   type: Field
   source:
     id: Status
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1113
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1131
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -154,8 +154,8 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1121
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 1139
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

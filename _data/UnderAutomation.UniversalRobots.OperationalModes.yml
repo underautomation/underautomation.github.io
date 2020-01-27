@@ -17,8 +17,8 @@ items:
   type: Enum
   source:
     id: OperationalModes
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 873
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 891
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -46,8 +46,8 @@ items:
   type: Field
   source:
     id: Manual
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 877
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 895
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -76,8 +76,8 @@ items:
   type: Field
   source:
     id: Automatic
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 882
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 900
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -106,8 +106,8 @@ items:
   type: Field
   source:
     id: None
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 887
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 905
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

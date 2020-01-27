@@ -29,8 +29,8 @@ items:
   type: Class
   source:
     id: ConfigurationDataPackageEventArgs
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2354
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2372
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -75,8 +75,8 @@ items:
   type: Property
   source:
     id: VJointDefault
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2360
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2378
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -108,8 +108,8 @@ items:
   type: Property
   source:
     id: AJointDefault
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2365
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2383
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -141,8 +141,8 @@ items:
   type: Property
   source:
     id: VToolDefault
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2370
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2388
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -174,8 +174,8 @@ items:
   type: Property
   source:
     id: AToolDefault
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2375
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2393
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -207,8 +207,8 @@ items:
   type: Property
   source:
     id: EqRadius
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2380
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2398
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -240,8 +240,8 @@ items:
   type: Property
   source:
     id: MasterboardVersion
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2386
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2404
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -273,8 +273,8 @@ items:
   type: Property
   source:
     id: ControllerBoxType
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2391
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2409
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -306,19 +306,19 @@ items:
   type: Property
   source:
     id: RobotType
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2396
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2414
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nRobot type\n"
+  summary: "\nModel of the robot (UR3, UR5, UR10, UR16)\n"
   example: []
   syntax:
-    content: public RobotTypes RobotType { get; set; }
+    content: public RobotModels RobotType { get; set; }
     parameters: []
     return:
-      type: UnderAutomation.UniversalRobots.RobotTypes
-    content.vb: Public Property RobotType As RobotTypes
+      type: UnderAutomation.UniversalRobots.RobotModels
+    content.vb: Public Property RobotType As RobotModels
   overload: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs.RobotType*
   modifiers.csharp:
   - public
@@ -339,8 +339,8 @@ items:
   type: Property
   source:
     id: RobotSubType
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2401
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2419
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -372,8 +372,8 @@ items:
   type: Property
   source:
     id: Base
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2406
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2424
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -405,8 +405,8 @@ items:
   type: Property
   source:
     id: Shoulder
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2411
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2429
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -438,8 +438,8 @@ items:
   type: Property
   source:
     id: Elbow
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2416
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2434
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -471,8 +471,8 @@ items:
   type: Property
   source:
     id: Wrist1
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2421
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2439
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -504,8 +504,8 @@ items:
   type: Property
   source:
     id: Wrist2
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2426
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2444
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -537,8 +537,8 @@ items:
   type: Property
   source:
     id: Wrist3
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2431
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2449
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -972,12 +972,12 @@ references:
   name: RobotType
   nameWithType: ConfigurationDataPackageEventArgs.RobotType
   fullName: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs.RobotType
-- uid: UnderAutomation.UniversalRobots.RobotTypes
-  commentId: T:UnderAutomation.UniversalRobots.RobotTypes
+- uid: UnderAutomation.UniversalRobots.RobotModels
+  commentId: T:UnderAutomation.UniversalRobots.RobotModels
   parent: UnderAutomation.UniversalRobots
-  name: RobotTypes
-  nameWithType: RobotTypes
-  fullName: UnderAutomation.UniversalRobots.RobotTypes
+  name: RobotModels
+  nameWithType: RobotModels
+  fullName: UnderAutomation.UniversalRobots.RobotModels
 - uid: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs.RobotSubType*
   commentId: Overload:UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs.RobotSubType
   name: RobotSubType

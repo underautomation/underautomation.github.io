@@ -77,7 +77,7 @@ items:
   type: Class
   source:
     id: UR
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -117,7 +117,7 @@ items:
   type: Event
   source:
     id: InternalErrorOccured
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 33
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -146,7 +146,7 @@ items:
   type: Event
   source:
     id: RobotModeDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 39
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -175,7 +175,7 @@ items:
   type: Event
   source:
     id: JointDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 44
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -204,7 +204,7 @@ items:
   type: Event
   source:
     id: ToolDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 49
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -233,7 +233,7 @@ items:
   type: Event
   source:
     id: MasterboardDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 54
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -262,7 +262,7 @@ items:
   type: Event
   source:
     id: CartesianInfoReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 59
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -291,7 +291,7 @@ items:
   type: Event
   source:
     id: KinematicsInfoReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 64
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -320,7 +320,7 @@ items:
   type: Event
   source:
     id: ConfigurationDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 69
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -349,7 +349,7 @@ items:
   type: Event
   source:
     id: ForceModeDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 74
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -378,7 +378,7 @@ items:
   type: Event
   source:
     id: AdditionalInfoReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 79
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -407,7 +407,7 @@ items:
   type: Event
   source:
     id: CalibrationDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 84
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -436,7 +436,7 @@ items:
   type: Event
   source:
     id: SafetyDataReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 89
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -465,7 +465,7 @@ items:
   type: Event
   source:
     id: ToolCommunicationInfoReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 94
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -494,7 +494,7 @@ items:
   type: Event
   source:
     id: ToolModeInfoReceived
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 99
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -523,7 +523,7 @@ items:
   type: Property
   source:
     id: RobotModeData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 105
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -556,7 +556,7 @@ items:
   type: Property
   source:
     id: JointData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 110
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -589,7 +589,7 @@ items:
   type: Property
   source:
     id: ToolData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 115
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -622,7 +622,7 @@ items:
   type: Property
   source:
     id: MasterboardData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 120
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -655,7 +655,7 @@ items:
   type: Property
   source:
     id: CartesianInfo
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 125
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -688,7 +688,7 @@ items:
   type: Property
   source:
     id: KinematicsInfo
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 130
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -721,7 +721,7 @@ items:
   type: Property
   source:
     id: ConfigurationData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 135
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -754,7 +754,7 @@ items:
   type: Property
   source:
     id: ForceModeData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 140
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -787,7 +787,7 @@ items:
   type: Property
   source:
     id: AdditionalInfo
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 145
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -820,7 +820,7 @@ items:
   type: Property
   source:
     id: CalibrationData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 150
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -853,7 +853,7 @@ items:
   type: Property
   source:
     id: SafetyData
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 155
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -886,7 +886,7 @@ items:
   type: Property
   source:
     id: ToolCommunicationInfo
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 160
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -919,7 +919,7 @@ items:
   type: Property
   source:
     id: ToolModeInfo
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 165
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -952,7 +952,7 @@ items:
   type: Method
   source:
     id: RegisterLicense
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 177
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -992,7 +992,7 @@ items:
   type: Property
   source:
     id: LicenseInfo
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 187
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1027,7 +1027,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 197
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1055,7 +1055,7 @@ items:
   type: Method
   source:
     id: Send
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 204
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1089,7 +1089,7 @@ items:
   type: Method
   source:
     id: Connect
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 336
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1127,7 +1127,7 @@ items:
   type: Method
   source:
     id: Disconnect
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 359
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1155,7 +1155,7 @@ items:
   type: Property
   source:
     id: Connected
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 402
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1188,7 +1188,7 @@ items:
   type: Method
   source:
     id: LoadProgram
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 463
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1222,7 +1222,7 @@ items:
   type: Method
   source:
     id: Play
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 470
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1252,7 +1252,7 @@ items:
   type: Method
   source:
     id: Stop
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 477
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1282,7 +1282,7 @@ items:
   type: Method
   source:
     id: Pause
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 484
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1312,7 +1312,7 @@ items:
   type: Method
   source:
     id: Shutdown
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 491
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1342,7 +1342,7 @@ items:
   type: Method
   source:
     id: IsProgramRunning
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 505
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1372,7 +1372,7 @@ items:
   type: Method
   source:
     id: GetRobotMode
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 528
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1402,7 +1402,7 @@ items:
   type: Method
   source:
     id: GetLoadedProgram
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 576
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1432,7 +1432,7 @@ items:
   type: Method
   source:
     id: ShowPopup
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 592
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1466,7 +1466,7 @@ items:
   type: Method
   source:
     id: ClosePopup
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 600
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1497,7 +1497,7 @@ items:
   type: Method
   source:
     id: AddToLog
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 609
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1532,7 +1532,7 @@ items:
   type: Method
   source:
     id: IsProgramSaved
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 616
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1562,7 +1562,7 @@ items:
   type: Method
   source:
     id: GetProgramState
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 646
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1592,7 +1592,7 @@ items:
   type: Method
   source:
     id: GetPolyscopeVersion
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 679
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1622,7 +1622,7 @@ items:
   type: Method
   source:
     id: SetUserRole
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 688
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1657,7 +1657,7 @@ items:
   type: Method
   source:
     id: SetOperationalMode
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 697
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1692,7 +1692,7 @@ items:
   type: Method
   source:
     id: ClearOperationalMode
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 708
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1722,7 +1722,7 @@ items:
   type: Method
   source:
     id: GetOperationalMode
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 719
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1752,7 +1752,7 @@ items:
   type: Method
   source:
     id: IsInRemoteControl
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 744
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1782,7 +1782,7 @@ items:
   type: Method
   source:
     id: PowerOn
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 765
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1812,7 +1812,7 @@ items:
   type: Method
   source:
     id: PowerOff
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 772
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1842,7 +1842,7 @@ items:
   type: Method
   source:
     id: ReleaseBrake
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 779
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1872,7 +1872,7 @@ items:
   type: Method
   source:
     id: UnlockProtectiveStop
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 786
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1902,7 +1902,7 @@ items:
   type: Method
   source:
     id: CloseSafetyPopup
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 793
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1932,7 +1932,7 @@ items:
   type: Method
   source:
     id: LoadInstallation
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 802
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1967,7 +1967,7 @@ items:
   type: Method
   source:
     id: RestartSafety
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 809
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1997,7 +1997,7 @@ items:
   type: Method
   source:
     id: GetSafetyStatus
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 816
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2027,7 +2027,7 @@ items:
   type: Method
   source:
     id: GetSerialNumber
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 857
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2057,7 +2057,7 @@ items:
   type: Method
   source:
     id: GetRobotModel
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
     startLine: 864
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2065,10 +2065,10 @@ items:
   summary: "\nReturns the robot model (UR3, UR5, UR10 or UR16). (FW 3.12 and from FW 5.6)\n"
   example: []
   syntax:
-    content: public CommandResponse GetRobotModel()
+    content: public CommandResponse<RobotModels> GetRobotModel()
     return:
-      type: UnderAutomation.UniversalRobots.CommandResponse
-    content.vb: Public Function GetRobotModel As CommandResponse
+      type: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.RobotModels}
+    content.vb: Public Function GetRobotModel As CommandResponse(Of RobotModels)
   overload: UnderAutomation.UniversalRobots.UR.GetRobotModel*
   modifiers.csharp:
   - public
@@ -3723,3 +3723,43 @@ references:
   name: GetRobotModel
   nameWithType: UR.GetRobotModel
   fullName: UnderAutomation.UniversalRobots.UR.GetRobotModel
+- uid: UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.RobotModels}
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse{UnderAutomation.UniversalRobots.RobotModels}
+  parent: UnderAutomation.UniversalRobots
+  definition: UnderAutomation.UniversalRobots.CommandResponse`1
+  name: CommandResponse<RobotModels>
+  nameWithType: CommandResponse<RobotModels>
+  fullName: UnderAutomation.UniversalRobots.CommandResponse<UnderAutomation.UniversalRobots.RobotModels>
+  nameWithType.vb: CommandResponse(Of RobotModels)
+  fullName.vb: UnderAutomation.UniversalRobots.CommandResponse(Of UnderAutomation.UniversalRobots.RobotModels)
+  name.vb: CommandResponse(Of RobotModels)
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.RobotModels
+    name: RobotModels
+    nameWithType: RobotModels
+    fullName: UnderAutomation.UniversalRobots.RobotModels
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.CommandResponse`1
+    name: CommandResponse
+    nameWithType: CommandResponse
+    fullName: UnderAutomation.UniversalRobots.CommandResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.RobotModels
+    name: RobotModels
+    nameWithType: RobotModels
+    fullName: UnderAutomation.UniversalRobots.RobotModels
+  - name: )
+    nameWithType: )
+    fullName: )

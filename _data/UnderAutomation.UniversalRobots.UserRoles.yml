@@ -19,8 +19,8 @@ items:
   type: Enum
   source:
     id: UserRoles
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 893
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 911
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -48,8 +48,8 @@ items:
   type: Field
   source:
     id: Programmer
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 897
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 915
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -78,8 +78,8 @@ items:
   type: Field
   source:
     id: Operator
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 902
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 920
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -108,8 +108,8 @@ items:
   type: Field
   source:
     id: None
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 907
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 925
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -138,8 +138,8 @@ items:
   type: Field
   source:
     id: Locked
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 912
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 930
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -168,8 +168,8 @@ items:
   type: Field
   source:
     id: restricted
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 917
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 935
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

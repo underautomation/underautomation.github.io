@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.RobotModels
+  commentId: T:UnderAutomation.UniversalRobots.RobotModels
+  id: RobotModels
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.RobotModels.UR10
+  - UnderAutomation.UniversalRobots.RobotModels.UR16
+  - UnderAutomation.UniversalRobots.RobotModels.UR3
+  - UnderAutomation.UniversalRobots.RobotModels.UR5
+  langs:
+  - csharp
+  - vb
+  name: RobotModels
+  nameWithType: RobotModels
+  fullName: UnderAutomation.UniversalRobots.RobotModels
+  type: Enum
+  source:
+    id: RobotModels
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2501
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nModel of a UR robot\n"
+  example: []
+  syntax:
+    content: public enum RobotModels
+    content.vb: Public Enum RobotModels
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.RobotModels.UR3
+  commentId: F:UnderAutomation.UniversalRobots.RobotModels.UR3
+  id: UR3
+  parent: UnderAutomation.UniversalRobots.RobotModels
+  langs:
+  - csharp
+  - vb
+  name: UR3
+  nameWithType: RobotModels.UR3
+  fullName: UnderAutomation.UniversalRobots.RobotModels.UR3
+  type: Field
+  source:
+    id: UR3
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2502
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: UR3 = 3
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModels
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModels.UR5
+  commentId: F:UnderAutomation.UniversalRobots.RobotModels.UR5
+  id: UR5
+  parent: UnderAutomation.UniversalRobots.RobotModels
+  langs:
+  - csharp
+  - vb
+  name: UR5
+  nameWithType: RobotModels.UR5
+  fullName: UnderAutomation.UniversalRobots.RobotModels.UR5
+  type: Field
+  source:
+    id: UR5
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2503
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: UR5 = 1
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModels
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModels.UR10
+  commentId: F:UnderAutomation.UniversalRobots.RobotModels.UR10
+  id: UR10
+  parent: UnderAutomation.UniversalRobots.RobotModels
+  langs:
+  - csharp
+  - vb
+  name: UR10
+  nameWithType: RobotModels.UR10
+  fullName: UnderAutomation.UniversalRobots.RobotModels.UR10
+  type: Field
+  source:
+    id: UR10
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2504
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: UR10 = 2
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModels
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.RobotModels.UR16
+  commentId: F:UnderAutomation.UniversalRobots.RobotModels.UR16
+  id: UR16
+  parent: UnderAutomation.UniversalRobots.RobotModels
+  langs:
+  - csharp
+  - vb
+  name: UR16
+  nameWithType: RobotModels.UR16
+  fullName: UnderAutomation.UniversalRobots.RobotModels.UR16
+  type: Field
+  source:
+    id: UR16
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 2505
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: UR16 = 4
+    return:
+      type: UnderAutomation.UniversalRobots.RobotModels
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.RobotModels
+  commentId: T:UnderAutomation.UniversalRobots.RobotModels
+  parent: UnderAutomation.UniversalRobots
+  name: RobotModels
+  nameWithType: RobotModels
+  fullName: UnderAutomation.UniversalRobots.RobotModels

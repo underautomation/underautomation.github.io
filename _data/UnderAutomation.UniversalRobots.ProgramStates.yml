@@ -17,8 +17,8 @@ items:
   type: Enum
   source:
     id: ProgramStates
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 963
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 981
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -46,8 +46,8 @@ items:
   type: Field
   source:
     id: Stopped
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 967
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 985
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -76,8 +76,8 @@ items:
   type: Field
   source:
     id: Playing
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 972
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 990
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -106,8 +106,8 @@ items:
   type: Field
   source:
     id: Paused
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 977
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 995
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

@@ -1,0 +1,28 @@
+
+{% assign member = site.data.UnderAutomationUniversalRobotsUR.items | where : "source.id", include.method | first %}
+{{ member.summary | strip_newlines }}
+```c#
+  {{ member.syntax.content }}
+```
+
+Example :
+```c#
+private UR ur;
+
+private void Start() {
+  ur = new UR(); // Create a new UR instance
+  ur.Connect("192.168.0.1"); // Connect to the robot
+  // ...
+
+  // Call the command
+  var response = ur.{{ member.source.id }}({{ include.arg1 }});
+  
+  if(response.Succeed) Console.WriteLine("Succeed");
+  else Console.WriteLine("Command failed");
+  
+  Console.WriteLine(response.Message);
+  {% if include.value %}
+  // Get returned value
+  {{ include.value }} = response.Value;{% endif %}
+}
+```

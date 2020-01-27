@@ -17,8 +17,8 @@ items:
   type: Class
   source:
     id: ProgramState
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 923
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 941
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -56,8 +56,8 @@ items:
   type: Field
   source:
     id: State
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 927
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 945
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -85,8 +85,8 @@ items:
   type: Field
   source:
     id: Name
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 932
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 950
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -114,8 +114,8 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\System\UA\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 934
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    startLine: 952
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

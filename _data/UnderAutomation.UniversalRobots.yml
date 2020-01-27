@@ -34,9 +34,9 @@ items:
   - UnderAutomation.UniversalRobots.ProgramState
   - UnderAutomation.UniversalRobots.ProgramStates
   - UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  - UnderAutomation.UniversalRobots.RobotModels
   - UnderAutomation.UniversalRobots.RobotModes
   - UnderAutomation.UniversalRobots.RobotSubTypes
-  - UnderAutomation.UniversalRobots.RobotTypes
   - UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
   - UnderAutomation.UniversalRobots.SafetyStatus
   - UnderAutomation.UniversalRobots.StatusCode
@@ -269,12 +269,12 @@ references:
   name: RobotSubTypes
   nameWithType: RobotSubTypes
   fullName: UnderAutomation.UniversalRobots.RobotSubTypes
-- uid: UnderAutomation.UniversalRobots.RobotTypes
-  commentId: T:UnderAutomation.UniversalRobots.RobotTypes
+- uid: UnderAutomation.UniversalRobots.RobotModels
+  commentId: T:UnderAutomation.UniversalRobots.RobotModels
   parent: UnderAutomation.UniversalRobots
-  name: RobotTypes
-  nameWithType: RobotTypes
-  fullName: UnderAutomation.UniversalRobots.RobotTypes
+  name: RobotModels
+  nameWithType: RobotModels
+  fullName: UnderAutomation.UniversalRobots.RobotModels
 - uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
   commentId: T:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
   parent: UnderAutomation.UniversalRobots

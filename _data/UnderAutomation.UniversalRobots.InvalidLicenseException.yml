@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: InvalidLicenseException
-    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 253
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -72,7 +72,7 @@ items:
   type: Property
   source:
     id: LicenseInfo
-    path: D:\System\UA\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
+    path: d:\a\UnderAutomationDev\UnderAutomationDev\_ExternalSources\LicenseHandler.vb
     startLine: 259
   assemblies:
   - UnderAutomation.UniversalRobots

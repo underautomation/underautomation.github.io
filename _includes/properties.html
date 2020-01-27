@@ -2,8 +2,10 @@
 {% assign classFullName = "UnderAutomationUniversalRobots" | append: include.class %}
 Members of <b>{{include.class}}</b> :
 ```c#
+{{ site.data[classFullName].items[0].syntax.content }} {
 {% for memberName in site.data[classFullName].items[0].children %}{% assign member = site.data.[classFullName].items | where : "uid", memberName | first  %}
-{% if member.summary %}// {{ member.summary | strip_newlines }}
-{{ member.syntax.content }}{% else %}{{ member.syntax.content }}{% endif %}
+{% if member.summary %}  // {{ member.summary | strip_newlines }}
+  {{ member.syntax.content }}{% else %}  {{ member.syntax.content }}{% endif %}
 {% endfor %}
+}
 ```
