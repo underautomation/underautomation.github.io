@@ -19,7 +19,7 @@ banner: /assets/underautomation.png
 
 cover: /assets/underautomation-universal-robots.png
 
-description: UnderAutomation Universal Robots Communication SDK (Software Development Kit) provides the ability to create customized applications that can communicate with every UR robots. Ready to use examples for Windows, Mac OS and Linux are provided. It uses the TCP/IP Dashboard server to remote control the robot and the Client Interface to receive and decode data stream.
+description: UnderAutomation Universal Robots Communication SDK (Software Development Kit) provides the ability to create customized applications that can communicate with every UR robots. Ready to use examples for Windows, Mac OS and Linux, Node.js and Python are provided. It uses the TCP/IP Dashboard server to remote control the robot and the Client Interface to receive and decode data stream.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://underautomation.com" # the base hostname & protocol for your site, e.g.

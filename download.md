@@ -7,8 +7,15 @@ permalink: /download/
 # Download (30 days trial)
 
 The archive is made of 2 folders :
-- _Libraries_ : Contains DLL binaries for each supported architectures (.NET Framework 2.0 to 4.7.2, .NET Core 2.0 to 3.0, .NET Standard 2.0 and 2.1)
-- _Examples_ : A list of ready to use compiled examples for Windows, Linux ans MacOS. Visual Studio 2012, 2015, 2017 or 2019 is needed to run them.
+- **Libraries** : Contains DLL binaries for each supported architectures 
+  - .NET Framework 2.0 to 4.7.2
+  - .NET Core 2.0 to 3.0
+  - .NET Standard 2.0 and 2.1
+- **Examples** : A list of ready to use **compiled** examples for Windows, Linux ans MacOS. Visual Studio 2012, 2015, 2017 or 2019 is needed to compile them :
+  - Windows Forms GUI example
+  - Console Example for architectures : win-x86, win-x64, win-arm, linux-x64, linux-arm, osx-arm
+  - Node.js
+  - Python
 
 By downloading, you hereby agree to the [terms and conditions](/eula){:target="_blank"}
 
@@ -22,8 +29,17 @@ By downloading, you hereby agree to the [terms and conditions](/eula){:target="_
 
 [See all versions](https://github.com/underautomation/UniversalRobots/releases){:target="_blank"}
 
+<hr/>
+
+<nav>
+  * table of contents
+  {:toc}
+</nav>
+
 # Get started
 Please first extract file ```UniversalRobotsSDK_UnderAutomation.zip```.
+
+**All examples below can be modified according to your needs.**
 
 
 ## Windows Forms .NET Framework example
@@ -40,13 +56,39 @@ This example contains all features of UnderAutomation Universal Robots SDK.
 
 ## Console example
 
-Console example is located in : ```UniversalRobotsSDK_UnderAutomation\Examples\ConsoleWindowsLinuxMac```.
-It is a .NET Core 3.0 console application that prints cartesian position of the tool center point of the robot. It could be compiled for all plateforms.
+Console example is located in : ```UniversalRobotsSDK_UnderAutomation\Examples\ConsoleWindowsLinuxMac\bin```.
+In this folder, the example is compiled for the following architectures :
+* Windows 32 bits (win-x86) : old Windows systems
+* Windows 64 bits (win-x64) : recent Windows systems
+* Windows IOT (win-arm) : for example windows IOT for Raspberry PI
+* Linux 64 bits (linux-x64) : Recent linux system like Ubuntu 19.04
+* Linux ARM (linux-arm) : For embedded linux like Raspbian for Raspberry PI
 
-[![Console example](/assets/console-example.gif)](/assets/console-example.gif){:target="_blank"}
+It is a .NET Core 3.0 console application that prints cartesian position of the tool center point of the robot.
 
+[![Console Windows example](/assets/console-example.gif)](/assets/console-example.gif){:target="_blank"}
 
-## Try it with offline simulator
+[![Console Linux Ubuntu 19.04 example](/assets/ubuntu-example.gif)](/assets/ubuntu-example.gif){:target="_blank"}
+
+## Python example
+Console example is located in : ```UniversalRobotsSDK_UnderAutomation\Examples\Python\run.py```.
+It needs the library Pythonnet to work. Just install it with pip : ```pip install pythonnet```.
+You can then run the example with the command ```python run.py```.
+
+[![Python example](/assets/python-example.gif)](/assets/python-example.gif){:target="_blank"}
+
+## Node.js example
+Console example is located in : ```UniversalRobotsSDK_UnderAutomation\Examples\node.js\run.js```.
+It needs the npm package edge.js to work. Install this node module with the command ```npm install```.
+You can then run the example with the command ```node run.js```.
+
+[![Node js example](/assets/nodejs-example.gif)](/assets/nodejs-example.gif){:target="_blank"}
+
+## MATLAB integration
+A MATLAB integration is also possible with the function ```NET.LoadAssembly('UnerAutomation.UniversalRobots.dll');```.
+Then, all features are available in MATLAB. Just refer the .NET MATLAB documentation : [Getting Started with Microsoft .NET](https://www.mathworks.com/help/matlab/getting-started.html){:target="_blank"}.
+
+## Try it with offline robot simulator
 If you don't have a real robot but want to test this library, please follow the instructions.
 
 * Download the simulator from UR website : [Download offline simulator](https://s3-eu-west-1.amazonaws.com/ur-support-site/61543/URSim_VIRTUAL-5.6.0.90886.rar){:target="_blank"}.
