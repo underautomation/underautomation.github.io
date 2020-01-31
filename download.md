@@ -88,6 +88,10 @@ You can then run the example with the command ```node run.js```.
 A MATLAB integration is also possible with the function ```NET.LoadAssembly('UnerAutomation.UniversalRobots.dll');```.
 Then, all features are available in MATLAB. Just refer the .NET MATLAB documentation : [Getting Started with Microsoft .NET](https://www.mathworks.com/help/matlab/getting-started.html){:target="_blank"}.
 
+## LabVIEW integration
+National Instruments LabVIEW can load and call .NET functions. Just follow the instructions :
+[Calling .NET Assemblies From LabVIEW](https://forums.ni.com/t5/Example-Programs/Calling-NET-Assemblies-From-LabVIEW/ta-p/3496957)
+
 ## Try it with offline robot simulator
 If you don't have a real robot but want to test this library, please follow the instructions.
 
