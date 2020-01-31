@@ -109,7 +109,7 @@ You also can test with another UR firmware version, the library is compatible.
 * Open Oracle VM Virtualbox, press CTRL+A (or Machine menu / Add...) and select the downloaded ```URSim_VIRTUAL-x.x.x.xxxxx.vbox``` file.
 
 * Open Configuration, go to network and attach to ```Host only Adapter``` (```Réseau privé hôte``` in french) named ```Virtualbox Host-only Ethernet Adapter``` and press OK.
-![VirtualBox network configuration](/assets/virtualbox-network.PNG)
+![VirtualBox network configuration](/assets/virtualbox-network.png)
 
 * Start the virtual machine and Lubuntu should boot.
 
