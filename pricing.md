@@ -42,7 +42,7 @@ permalink: /pricing/
     <th><h2>1 year maintenance</h2></th>
   </tr>
   <tr>
-    <td>120 €</td>
+    <td>390 €</td>
   </tr>
   <tr>
     <td style="text-align:left;">
@@ -67,7 +67,7 @@ permalink: /pricing/
     <th><h2>Source License</h2></th>
   </tr>
   <tr>
-    <td>9990 €</td>
+    <td>Contact us</td>
   </tr>
   <tr>
     <td style="text-align:left;">
