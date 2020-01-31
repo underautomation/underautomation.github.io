@@ -22,7 +22,7 @@ By downloading, you hereby agree to the [terms and conditions](/eula){:target="_
 <center>
 <div class="btn-container">
       <button title="Download it now !" onclick="window.open('https://github.com/underautomation/UniversalRobots/releases/latest/download/UniversalRobotsSDK_UnderAutomation.zip', '_blank')" class="btn-pill">
-        <span><img src="/assets/download.png" style="margin-right:20px;" />Try latest version</span>
+        <span><img src="/assets/download.png" style="margin-right:20px;" />Download latest version</span>
       </button>
 </div>
 </center>
