@@ -67,9 +67,6 @@ permalink: /pricing/
     <th><h2>Source License</h2></th>
   </tr>
   <tr>
-    <td>Contact us</td>
-  </tr>
-  <tr>
     <td style="text-align:left;">
 		<ul>
 			<li>Company Site License features included</li>
@@ -83,7 +80,7 @@ permalink: /pricing/
     <td>
 		<div class="btn-container">
 		  <button title="Contact us" onclick="location.href='/contact'" class="btn-pill">
-			<span>Contact us to order</span>
+			<span>Contact us to</span>
 		  </button>
 		</div>
 	</td>
