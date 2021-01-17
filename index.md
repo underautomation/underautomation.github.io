@@ -24,7 +24,7 @@ layout: home
 |---|---|
 | Architectures | x86, x64, ARM |
 |---|---|
-| Langages | ![C#, VB.NET](/assets/langages.png) |
+| Programming Languages | ![C#, VB.NET](/assets/langages.png) |
 |---|---|
 | Plateform | .NET Framework, .NET Standard, .NET Core |
 |---|---|
