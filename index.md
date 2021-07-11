@@ -11,6 +11,9 @@ layout: home
 * Get robot status (Running, powered on, teach, emergency stopped, ...)
 * Read TCP cartesian position and joint data
 * Read I/O and force measures
+* Send commands to the robot (Power On, Release Brake, Load program or installation file, ...)
+* Bidirectional communication with the robot script via XML-RPC
+* Convert RPY / Rotation vector poses
 * And much more, [See documentation](/documentation)
 * [Download SDK examples and get 30 days trial version](/download)
 
