@@ -21,7 +21,7 @@ items:
   type: Class
   source:
     id: ForceModeDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -67,7 +67,7 @@ items:
   type: Property
   source:
     id: X
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -100,7 +100,7 @@ items:
   type: Property
   source:
     id: Y
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -133,7 +133,7 @@ items:
   type: Property
   source:
     id: Z
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -166,7 +166,7 @@ items:
   type: Property
   source:
     id: Rx
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 26
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -199,7 +199,7 @@ items:
   type: Property
   source:
     id: Ry
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 31
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -232,7 +232,7 @@ items:
   type: Property
   source:
     id: Rz
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -265,7 +265,7 @@ items:
   type: Property
   source:
     id: RobotDexterity
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ForceModeDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ForceModeDataPackageEventArgs.vb
     startLine: 41
   assemblies:
   - UnderAutomation.UniversalRobots

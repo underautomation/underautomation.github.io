@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: ProgramState
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramState.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\ProgramState.vb
     startLine: 3
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -56,7 +56,7 @@ items:
   type: Field
   source:
     id: State
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramState.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\ProgramState.vb
     startLine: 7
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -85,7 +85,7 @@ items:
   type: Field
   source:
     id: Name
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramState.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\ProgramState.vb
     startLine: 12
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -114,7 +114,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramState.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\ProgramState.vb
     startLine: 14
   assemblies:
   - UnderAutomation.UniversalRobots

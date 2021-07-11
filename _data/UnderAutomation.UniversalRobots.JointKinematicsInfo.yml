@@ -19,7 +19,7 @@ items:
   type: Class
   source:
     id: JointKinematicsInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointKinematicsInfo.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointKinematicsInfo.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -59,7 +59,7 @@ items:
   type: Property
   source:
     id: Checksum
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointKinematicsInfo.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointKinematicsInfo.vb
     startLine: 9
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -92,7 +92,7 @@ items:
   type: Property
   source:
     id: DHtheta
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointKinematicsInfo.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointKinematicsInfo.vb
     startLine: 14
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -125,7 +125,7 @@ items:
   type: Property
   source:
     id: DHa
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointKinematicsInfo.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointKinematicsInfo.vb
     startLine: 19
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -158,7 +158,7 @@ items:
   type: Property
   source:
     id: DHd
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointKinematicsInfo.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointKinematicsInfo.vb
     startLine: 24
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -191,7 +191,7 @@ items:
   type: Property
   source:
     id: Dhalpha
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointKinematicsInfo.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointKinematicsInfo.vb
     startLine: 29
   assemblies:
   - UnderAutomation.UniversalRobots

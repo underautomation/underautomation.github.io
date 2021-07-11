@@ -29,7 +29,7 @@ items:
   type: Class
   source:
     id: Pose
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -68,7 +68,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -96,7 +96,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 17
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -131,7 +131,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 26
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -172,7 +172,7 @@ items:
   type: Field
   source:
     id: X
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -201,7 +201,7 @@ items:
   type: Field
   source:
     id: Y
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 41
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -230,7 +230,7 @@ items:
   type: Field
   source:
     id: Z
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 46
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -259,7 +259,7 @@ items:
   type: Field
   source:
     id: Rx
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 52
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -288,7 +288,7 @@ items:
   type: Field
   source:
     id: Ry
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 57
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -317,7 +317,7 @@ items:
   type: Field
   source:
     id: Rz
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 62
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -346,7 +346,7 @@ items:
   type: Property
   source:
     id: RxDegrees
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 68
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -379,7 +379,7 @@ items:
   type: Property
   source:
     id: RyDegrees
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 80
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -412,7 +412,7 @@ items:
   type: Property
   source:
     id: RzDegrees
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 92
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -445,7 +445,7 @@ items:
   type: Method
   source:
     id: FromRotationVectorToRPY
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 104
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -475,7 +475,7 @@ items:
   type: Method
   source:
     id: FromRPYToRotationVector
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 153
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -505,7 +505,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\Pose.vb
     startLine: 180
   assemblies:
   - UnderAutomation.UniversalRobots

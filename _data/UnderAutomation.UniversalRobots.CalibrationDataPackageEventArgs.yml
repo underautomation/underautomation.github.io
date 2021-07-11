@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: CalibrationDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -66,7 +66,7 @@ items:
   type: Property
   source:
     id: Fx
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -99,7 +99,7 @@ items:
   type: Property
   source:
     id: Fy
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -132,7 +132,7 @@ items:
   type: Property
   source:
     id: Fz
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -165,7 +165,7 @@ items:
   type: Property
   source:
     id: Frx
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 26
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -198,7 +198,7 @@ items:
   type: Property
   source:
     id: Fry
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 31
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -231,7 +231,7 @@ items:
   type: Property
   source:
     id: Frz
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CalibrationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CalibrationDataPackageEventArgs.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots

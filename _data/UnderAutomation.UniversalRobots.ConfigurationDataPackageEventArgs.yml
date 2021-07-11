@@ -29,7 +29,7 @@ items:
   type: Class
   source:
     id: ConfigurationDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -75,7 +75,7 @@ items:
   type: Property
   source:
     id: VJointDefault
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -108,7 +108,7 @@ items:
   type: Property
   source:
     id: AJointDefault
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 15
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -141,7 +141,7 @@ items:
   type: Property
   source:
     id: VToolDefault
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 20
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -174,7 +174,7 @@ items:
   type: Property
   source:
     id: AToolDefault
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -207,7 +207,7 @@ items:
   type: Property
   source:
     id: EqRadius
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 30
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -240,7 +240,7 @@ items:
   type: Property
   source:
     id: MasterboardVersion
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -273,7 +273,7 @@ items:
   type: Property
   source:
     id: ControllerBoxType
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 41
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -306,7 +306,7 @@ items:
   type: Property
   source:
     id: RobotType
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 46
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -339,7 +339,7 @@ items:
   type: Property
   source:
     id: RobotSubType
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 51
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -372,7 +372,7 @@ items:
   type: Property
   source:
     id: Base
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 56
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -405,7 +405,7 @@ items:
   type: Property
   source:
     id: Shoulder
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 61
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -438,7 +438,7 @@ items:
   type: Property
   source:
     id: Elbow
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 66
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -471,7 +471,7 @@ items:
   type: Property
   source:
     id: Wrist1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 71
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -504,7 +504,7 @@ items:
   type: Property
   source:
     id: Wrist2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 76
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -537,7 +537,7 @@ items:
   type: Property
   source:
     id: Wrist3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ConfigurationDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ConfigurationDataPackageEventArgs.vb
     startLine: 81
   assemblies:
   - UnderAutomation.UniversalRobots

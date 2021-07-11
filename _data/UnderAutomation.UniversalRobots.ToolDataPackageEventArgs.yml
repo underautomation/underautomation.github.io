@@ -23,7 +23,7 @@ items:
   type: Class
   source:
     id: ToolDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -69,7 +69,7 @@ items:
   type: Property
   source:
     id: AnalogInputRange2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -102,7 +102,7 @@ items:
   type: Property
   source:
     id: AnalogInputRange3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 15
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -135,7 +135,7 @@ items:
   type: Property
   source:
     id: AnalogInput2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 20
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -168,7 +168,7 @@ items:
   type: Property
   source:
     id: AnalogInput3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -201,7 +201,7 @@ items:
   type: Property
   source:
     id: ToolVoltage48V
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 30
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -234,7 +234,7 @@ items:
   type: Property
   source:
     id: ToolOutputVoltage
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 35
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -267,7 +267,7 @@ items:
   type: Property
   source:
     id: ToolCurrent
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 40
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -300,7 +300,7 @@ items:
   type: Property
   source:
     id: ToolTemperature
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 45
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -333,7 +333,7 @@ items:
   type: Property
   source:
     id: ToolMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolDataPackageEventArgs.vb
     startLine: 50
   assemblies:
   - UnderAutomation.UniversalRobots

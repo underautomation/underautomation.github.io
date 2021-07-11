@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     id: DigitalOutputConfigurations
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 311
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -46,7 +46,7 @@ items:
   type: Field
   source:
     id: SinkingNPN
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 315
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -76,7 +76,7 @@ items:
   type: Field
   source:
     id: SourcingPNP
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 320
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -106,7 +106,7 @@ items:
   type: Field
   source:
     id: PushPull
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 325
   assemblies:
   - UnderAutomation.UniversalRobots

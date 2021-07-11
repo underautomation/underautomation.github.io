@@ -34,7 +34,7 @@ items:
   type: Class
   source:
     id: MasterboardDigitalIO
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -71,7 +71,7 @@ items:
   type: Property
   source:
     id: Value
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -104,7 +104,7 @@ items:
   type: Property
   source:
     id: BitArray
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 9
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -137,7 +137,7 @@ items:
   type: Property
   source:
     id: Digital0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -168,7 +168,7 @@ items:
   type: Property
   source:
     id: Digital1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 22
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -199,7 +199,7 @@ items:
   type: Property
   source:
     id: Digital2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 28
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -230,7 +230,7 @@ items:
   type: Property
   source:
     id: Digital3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 34
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -261,7 +261,7 @@ items:
   type: Property
   source:
     id: Digital4
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 40
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -292,7 +292,7 @@ items:
   type: Property
   source:
     id: Digital5
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 46
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -323,7 +323,7 @@ items:
   type: Property
   source:
     id: Digital6
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 52
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -354,7 +354,7 @@ items:
   type: Property
   source:
     id: Digital7
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 58
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -385,7 +385,7 @@ items:
   type: Property
   source:
     id: Configurable0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 64
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -416,7 +416,7 @@ items:
   type: Property
   source:
     id: Configurable1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 69
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -447,7 +447,7 @@ items:
   type: Property
   source:
     id: Configurable2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 74
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -478,7 +478,7 @@ items:
   type: Property
   source:
     id: Configurable3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 79
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -509,7 +509,7 @@ items:
   type: Property
   source:
     id: Configurable4
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 84
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -540,7 +540,7 @@ items:
   type: Property
   source:
     id: Configurable5
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 89
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -571,7 +571,7 @@ items:
   type: Property
   source:
     id: Configurable6
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 94
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -602,7 +602,7 @@ items:
   type: Property
   source:
     id: Configurable7
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 99
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -633,7 +633,7 @@ items:
   type: Property
   source:
     id: ToolDigital0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 105
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -664,7 +664,7 @@ items:
   type: Property
   source:
     id: ToolDigital1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDigitalIO.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDigitalIO.vb
     startLine: 111
   assemblies:
   - UnderAutomation.UniversalRobots

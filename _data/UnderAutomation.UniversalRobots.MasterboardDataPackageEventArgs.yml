@@ -37,7 +37,7 @@ items:
   type: Class
   source:
     id: MasterboardDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -83,7 +83,7 @@ items:
   type: Property
   source:
     id: AnalogInputRange0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -116,7 +116,7 @@ items:
   type: Property
   source:
     id: AnalogInputRange1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 15
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -149,7 +149,7 @@ items:
   type: Property
   source:
     id: AnalogInput0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 20
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -182,7 +182,7 @@ items:
   type: Property
   source:
     id: AnalogInput1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -215,7 +215,7 @@ items:
   type: Property
   source:
     id: AnalogOutputDomain0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 30
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -248,7 +248,7 @@ items:
   type: Property
   source:
     id: AnalogOutputDomain1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 35
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -281,7 +281,7 @@ items:
   type: Property
   source:
     id: AnalogOutput0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 40
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -314,7 +314,7 @@ items:
   type: Property
   source:
     id: AnalogOutput1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 45
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -347,7 +347,7 @@ items:
   type: Property
   source:
     id: MasterboardTemperature
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 50
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -380,7 +380,7 @@ items:
   type: Property
   source:
     id: RobotVoltage48V
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 55
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -413,7 +413,7 @@ items:
   type: Property
   source:
     id: RobotCurrent
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 60
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -446,7 +446,7 @@ items:
   type: Property
   source:
     id: MasterIOCurrent
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 65
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -479,7 +479,7 @@ items:
   type: Property
   source:
     id: Safetymode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 70
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -512,7 +512,7 @@ items:
   type: Property
   source:
     id: InReducedMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 75
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -545,7 +545,7 @@ items:
   type: Property
   source:
     id: OperationalModeSelectorInput
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 80
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -578,7 +578,7 @@ items:
   type: Property
   source:
     id: ThreePositionEnablingDeviceInput
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 85
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -611,7 +611,7 @@ items:
   type: Property
   source:
     id: DigitalInputs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 90
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -644,7 +644,7 @@ items:
   type: Property
   source:
     id: DigitalOutputs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 95
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -677,7 +677,7 @@ items:
   type: Property
   source:
     id: Euromap67Installed
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 100
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -710,7 +710,7 @@ items:
   type: Property
   source:
     id: EuromapInputBits
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 105
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -743,7 +743,7 @@ items:
   type: Property
   source:
     id: EuromapOutputBits
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 110
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -776,7 +776,7 @@ items:
   type: Property
   source:
     id: EuromapVoltage
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 115
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -809,7 +809,7 @@ items:
   type: Property
   source:
     id: EuromapCurrent
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\MasterboardDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\MasterboardDataPackageEventArgs.vb
     startLine: 120
   assemblies:
   - UnderAutomation.UniversalRobots

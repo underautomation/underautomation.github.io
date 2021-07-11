@@ -22,7 +22,7 @@ items:
   type: Class
   source:
     id: JointConfiguration
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -62,7 +62,7 @@ items:
   type: Property
   source:
     id: JointMinLimit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 9
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -95,7 +95,7 @@ items:
   type: Property
   source:
     id: JointMaxLimit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 14
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -128,7 +128,7 @@ items:
   type: Property
   source:
     id: JointMaxSpeed
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 20
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -161,7 +161,7 @@ items:
   type: Property
   source:
     id: JointMaxAcceleration
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -194,7 +194,7 @@ items:
   type: Property
   source:
     id: DHa
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 31
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -227,7 +227,7 @@ items:
   type: Property
   source:
     id: DHd
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -260,7 +260,7 @@ items:
   type: Property
   source:
     id: DHalpha
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 41
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -293,7 +293,7 @@ items:
   type: Property
   source:
     id: DHtheta
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointConfiguration.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointConfiguration.vb
     startLine: 46
   assemblies:
   - UnderAutomation.UniversalRobots

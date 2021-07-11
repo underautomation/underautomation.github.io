@@ -10,6 +10,16 @@ items:
   - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(System.Int32)~UnderAutomation.UniversalRobots.XmlRpcValue
   - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(System.String)~UnderAutomation.UniversalRobots.XmlRpcValue
   - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.Pose)~UnderAutomation.UniversalRobots.XmlRpcValue
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean[]
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double[]
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32[]
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String[]
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose
+  - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose[]
   - UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue[])~UnderAutomation.UniversalRobots.XmlRpcValue
   - UnderAutomation.UniversalRobots.XmlRpcValue.ToString
   - UnderAutomation.UniversalRobots.XmlRpcValue.Type
@@ -23,7 +33,7 @@ items:
   type: Class
   source:
     id: XmlRpcValue
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -72,7 +82,7 @@ items:
   type: Property
   source:
     id: Type
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 19
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -107,7 +117,7 @@ items:
   type: Property
   source:
     id: Xml
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 27
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -141,7 +151,7 @@ items:
   type: Operator
   source:
     id: op_Implicit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 33
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -177,7 +187,7 @@ items:
   type: Operator
   source:
     id: op_Implicit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 37
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -213,7 +223,7 @@ items:
   type: Operator
   source:
     id: op_Implicit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 40
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -249,7 +259,7 @@ items:
   type: Operator
   source:
     id: op_Implicit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 43
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -285,7 +295,7 @@ items:
   type: Operator
   source:
     id: op_Implicit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 46
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -321,7 +331,7 @@ items:
   type: Operator
   source:
     id: op_Implicit
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
     startLine: 50
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -344,6 +354,366 @@ items:
   - Shared
   fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue() to UnderAutomation.UniversalRobots.XmlRpcValue)
   name.vb: Widening(XmlRpcValue() to XmlRpcValue)
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Double)
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Double)
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.Double)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 54
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator double (XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.Double
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Double
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Double)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.Double)
+  name.vb: Widening(XmlRpcValue to Double)
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Boolean)
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Boolean)
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.Boolean)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 71
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator bool (XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Boolean
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.Boolean)
+  name.vb: Widening(XmlRpcValue to Boolean)
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Int32)
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Int32)
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.Int32)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 86
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator int (XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.Int32
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Integer
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.Int32)
+  name.vb: Widening(XmlRpcValue to Int32)
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to String)
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to String)
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.String)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 104
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator string (XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As String
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.String)
+  name.vb: Widening(XmlRpcValue to String)
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Pose)
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Pose)
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to UnderAutomation.UniversalRobots.Pose)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 116
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator Pose(XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: UnderAutomation.UniversalRobots.Pose
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Pose
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Pose)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to UnderAutomation.UniversalRobots.Pose)
+  name.vb: Widening(XmlRpcValue to Pose)
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32[]
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32[]
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Int32[]
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Int32[])
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Int32[])
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.Int32[])
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 127
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator int[](XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Integer()
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.Int32())
+  name.vb: Widening(XmlRpcValue to Int32())
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double[]
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double[]
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Double[]
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Double[])
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Double[])
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.Double[])
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 138
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator double[](XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.Double[]
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Double()
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Double())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.Double())
+  name.vb: Widening(XmlRpcValue to Double())
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose[]
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose[]
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~UnderAutomation.UniversalRobots.Pose[]
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Pose[])
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Pose[])
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to UnderAutomation.UniversalRobots.Pose[])
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 149
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator Pose[](XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: UnderAutomation.UniversalRobots.Pose[]
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Pose()
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Pose())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to UnderAutomation.UniversalRobots.Pose())
+  name.vb: Widening(XmlRpcValue to Pose())
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String[]
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String[]
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.String[]
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to String[])
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to String[])
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.String[])
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 160
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator string[](XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.String[]
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As String()
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.String())
+  name.vb: Widening(XmlRpcValue to String())
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean[]
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean[]
+  id: op_Implicit(UnderAutomation.UniversalRobots.XmlRpcValue)~System.Boolean[]
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  langs:
+  - csharp
+  - vb
+  name: Implicit(XmlRpcValue to Boolean[])
+  nameWithType: XmlRpcValue.Implicit(XmlRpcValue to Boolean[])
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Implicit(UnderAutomation.UniversalRobots.XmlRpcValue to System.Boolean[])
+  type: Operator
+  source:
+    id: op_Implicit
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 171
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public static implicit operator bool[](XmlRpcValue value)
+    parameters:
+    - id: value
+      type: UnderAutomation.UniversalRobots.XmlRpcValue
+    return:
+      type: System.Boolean[]
+    content.vb: Public Shared Widening Operator CType(value As XmlRpcValue) As Boolean()
+  overload: UnderAutomation.UniversalRobots.XmlRpcValue.op_Implicit*
+  nameWithType.vb: XmlRpcValue.Widening(XmlRpcValue to Boolean())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcValue.Widening(UnderAutomation.UniversalRobots.XmlRpcValue to System.Boolean())
+  name.vb: Widening(XmlRpcValue to Boolean())
 - uid: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
   commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.ToString
   id: ToString
@@ -357,8 +727,8 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcValue.vb
-    startLine: 79
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcValue.vb
+    startLine: 207
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -771,6 +1141,138 @@ references:
     name: XmlRpcValue
     nameWithType: XmlRpcValue
     fullName: UnderAutomation.UniversalRobots.XmlRpcValue
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32[]
+  commentId: T:System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Double[]
+  commentId: T:System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: UnderAutomation.UniversalRobots.Pose[]
+  commentId: T:UnderAutomation.UniversalRobots.Pose[]
+  name: Pose[]
+  nameWithType: Pose[]
+  fullName: UnderAutomation.UniversalRobots.Pose[]
+  nameWithType.vb: Pose()
+  fullName.vb: UnderAutomation.UniversalRobots.Pose()
+  name.vb: Pose()
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.Pose
+    name: Pose
+    nameWithType: Pose
+    fullName: UnderAutomation.UniversalRobots.Pose
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.Pose
+    name: Pose
+    nameWithType: Pose
+    fullName: UnderAutomation.UniversalRobots.Pose
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  commentId: T:System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean[]
+  commentId: T:System.Boolean[]
+  isExternal: true
+  name: Boolean[]
+  nameWithType: Boolean[]
+  fullName: System.Boolean[]
+  nameWithType.vb: Boolean()
+  fullName.vb: System.Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: ()
     nameWithType: ()
     fullName: ()

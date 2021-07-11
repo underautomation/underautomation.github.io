@@ -22,7 +22,7 @@ items:
   type: Enum
   source:
     id: XmlRpcType
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 3
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -51,7 +51,7 @@ items:
   type: Field
   source:
     id: Unknown
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 7
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -81,7 +81,7 @@ items:
   type: Field
   source:
     id: Array
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 12
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -111,7 +111,7 @@ items:
   type: Field
   source:
     id: Boolean
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 17
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -141,7 +141,7 @@ items:
   type: Field
   source:
     id: Double
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 22
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -171,7 +171,7 @@ items:
   type: Field
   source:
     id: Integer
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 27
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -201,7 +201,7 @@ items:
   type: Field
   source:
     id: String
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 32
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -231,7 +231,7 @@ items:
   type: Field
   source:
     id: Struct
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 37
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -261,7 +261,7 @@ items:
   type: Field
   source:
     id: Pose
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcType.vb
     startLine: 42
   assemblies:
   - UnderAutomation.UniversalRobots

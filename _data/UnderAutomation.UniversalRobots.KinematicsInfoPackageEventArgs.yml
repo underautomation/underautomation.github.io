@@ -21,7 +21,7 @@ items:
   type: Class
   source:
     id: KinematicsInfoPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -67,7 +67,7 @@ items:
   type: Property
   source:
     id: CalibrationStatus
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -100,7 +100,7 @@ items:
   type: Property
   source:
     id: Base
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -133,7 +133,7 @@ items:
   type: Property
   source:
     id: Shoulder
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -166,7 +166,7 @@ items:
   type: Property
   source:
     id: Elbow
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 26
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -199,7 +199,7 @@ items:
   type: Property
   source:
     id: Wrist1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 31
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -232,7 +232,7 @@ items:
   type: Property
   source:
     id: Wrist2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -265,7 +265,7 @@ items:
   type: Property
   source:
     id: Wrist3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\KinematicsInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\KinematicsInfoPackageEventArgs.vb
     startLine: 41
   assemblies:
   - UnderAutomation.UniversalRobots

@@ -26,7 +26,7 @@ items:
   type: Class
   source:
     id: CartesianInfoPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -72,7 +72,7 @@ items:
   type: Property
   source:
     id: X
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -105,7 +105,7 @@ items:
   type: Property
   source:
     id: Y
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 15
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -138,7 +138,7 @@ items:
   type: Property
   source:
     id: Z
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 20
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -171,7 +171,7 @@ items:
   type: Property
   source:
     id: Rx
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -204,7 +204,7 @@ items:
   type: Property
   source:
     id: Ry
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 30
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -237,7 +237,7 @@ items:
   type: Property
   source:
     id: Rz
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 35
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -270,7 +270,7 @@ items:
   type: Property
   source:
     id: TCPOffsetX
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 41
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -303,7 +303,7 @@ items:
   type: Property
   source:
     id: TCPOffsetY
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 46
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -336,7 +336,7 @@ items:
   type: Property
   source:
     id: TCPOffsetZ
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 51
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -369,7 +369,7 @@ items:
   type: Property
   source:
     id: TCPOffsetRX
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 56
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -402,7 +402,7 @@ items:
   type: Property
   source:
     id: TCPOffsetRY
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 61
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -435,7 +435,7 @@ items:
   type: Property
   source:
     id: TCPOffsetRZ
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\CartesianInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\CartesianInfoPackageEventArgs.vb
     startLine: 66
   assemblies:
   - UnderAutomation.UniversalRobots

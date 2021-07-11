@@ -19,7 +19,7 @@ items:
   type: Class
   source:
     id: XmlRpcArrayValue
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcArrayValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcArrayValue.vb
     startLine: 3
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -62,7 +62,7 @@ items:
   type: Field
   source:
     id: Value
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcArrayValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcArrayValue.vb
     startLine: 6
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -91,7 +91,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcArrayValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcArrayValue.vb
     startLine: 8
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -117,7 +117,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcArrayValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcArrayValue.vb
     startLine: 12
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -149,7 +149,7 @@ items:
   type: Property
   source:
     id: Type
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcArrayValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcArrayValue.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -183,7 +183,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcArrayValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcArrayValue.vb
     startLine: 51
   assemblies:
   - UnderAutomation.UniversalRobots

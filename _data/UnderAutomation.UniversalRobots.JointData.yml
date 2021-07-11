@@ -21,7 +21,7 @@ items:
   type: Class
   source:
     id: JointData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -61,7 +61,7 @@ items:
   type: Property
   source:
     id: Position
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 8
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -94,7 +94,7 @@ items:
   type: Property
   source:
     id: TargetPosition
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 13
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -127,7 +127,7 @@ items:
   type: Property
   source:
     id: ActualSpeed
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 18
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -160,7 +160,7 @@ items:
   type: Property
   source:
     id: Current
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 23
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -193,7 +193,7 @@ items:
   type: Property
   source:
     id: Voltage
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 28
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -226,7 +226,7 @@ items:
   type: Property
   source:
     id: Temperature
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 33
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -259,7 +259,7 @@ items:
   type: Property
   source:
     id: JointMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointData.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointData.vb
     startLine: 38
   assemblies:
   - UnderAutomation.UniversalRobots

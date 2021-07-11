@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: CommandResponse
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 5
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -67,7 +67,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 8
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -98,7 +98,7 @@ items:
   type: Field
   source:
     id: Value
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -129,7 +129,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots

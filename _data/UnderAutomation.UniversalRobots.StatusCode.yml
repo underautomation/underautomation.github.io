@@ -21,7 +21,7 @@ items:
   type: Enum
   source:
     id: StatusCode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 36
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -50,7 +50,7 @@ items:
   type: Field
   source:
     id: OK
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 40
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -80,7 +80,7 @@ items:
   type: Field
   source:
     id: ReadThreadAborted
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 45
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -110,7 +110,7 @@ items:
   type: Field
   source:
     id: DecodageError
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 50
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -140,7 +140,7 @@ items:
   type: Field
   source:
     id: SendCommandInternalError
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 56
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -170,7 +170,7 @@ items:
   type: Field
   source:
     id: SentCommandIsEmpty
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 61
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -200,7 +200,7 @@ items:
   type: Field
   source:
     id: StreamingInterfaceNotConnected
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 66
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -230,7 +230,7 @@ items:
   type: Field
   source:
     id: XmlRpcInternalError
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\InternalErrorEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\InternalErrorEventArgs.vb
     startLine: 71
   assemblies:
   - UnderAutomation.UniversalRobots

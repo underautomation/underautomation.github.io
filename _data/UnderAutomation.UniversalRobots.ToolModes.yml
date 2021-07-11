@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     id: ToolModes
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 163
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -46,7 +46,7 @@ items:
   type: Field
   source:
     id: Bootloader
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 168
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -76,7 +76,7 @@ items:
   type: Field
   source:
     id: Running
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 173
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -106,7 +106,7 @@ items:
   type: Field
   source:
     id: Idle
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 178
   assemblies:
   - UnderAutomation.UniversalRobots

@@ -84,7 +84,7 @@ items:
   type: Class
   source:
     id: UR
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\UR.vb
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -123,7 +123,7 @@ items:
   type: Method
   source:
     id: LoadProgram
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 60
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -157,7 +157,7 @@ items:
   type: Method
   source:
     id: Play
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 67
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -187,7 +187,7 @@ items:
   type: Method
   source:
     id: Stop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 74
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -217,7 +217,7 @@ items:
   type: Method
   source:
     id: Pause
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 81
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -247,7 +247,7 @@ items:
   type: Method
   source:
     id: Shutdown
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 88
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -277,7 +277,7 @@ items:
   type: Method
   source:
     id: IsProgramRunning
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 104
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -307,7 +307,7 @@ items:
   type: Method
   source:
     id: GetRobotMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 127
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -337,7 +337,7 @@ items:
   type: Method
   source:
     id: GetLoadedProgram
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 175
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -367,7 +367,7 @@ items:
   type: Method
   source:
     id: ShowPopup
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 195
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -401,7 +401,7 @@ items:
   type: Method
   source:
     id: ClosePopup
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 203
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -432,7 +432,7 @@ items:
   type: Method
   source:
     id: AddToLog
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 212
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -467,7 +467,7 @@ items:
   type: Method
   source:
     id: IsProgramSaved
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 219
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -497,7 +497,7 @@ items:
   type: Method
   source:
     id: GetProgramState
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 249
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -527,7 +527,7 @@ items:
   type: Method
   source:
     id: GetPolyscopeVersion
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 282
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -557,7 +557,7 @@ items:
   type: Method
   source:
     id: SetUserRole
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 291
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -592,7 +592,7 @@ items:
   type: Method
   source:
     id: SetOperationalMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 300
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -627,7 +627,7 @@ items:
   type: Method
   source:
     id: ClearOperationalMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 311
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -657,7 +657,7 @@ items:
   type: Method
   source:
     id: GetOperationalMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 322
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -687,7 +687,7 @@ items:
   type: Method
   source:
     id: IsInRemoteControl
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 347
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -717,7 +717,7 @@ items:
   type: Method
   source:
     id: PowerOn
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 368
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -747,7 +747,7 @@ items:
   type: Method
   source:
     id: PowerOff
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 375
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -777,7 +777,7 @@ items:
   type: Method
   source:
     id: ReleaseBrake
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 382
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -807,7 +807,7 @@ items:
   type: Method
   source:
     id: UnlockProtectiveStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 389
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -837,7 +837,7 @@ items:
   type: Method
   source:
     id: CloseSafetyPopup
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 396
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -867,7 +867,7 @@ items:
   type: Method
   source:
     id: LoadInstallation
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 405
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -902,7 +902,7 @@ items:
   type: Method
   source:
     id: RestartSafety
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 412
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -932,7 +932,7 @@ items:
   type: Method
   source:
     id: GetSafetyStatus
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 419
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -962,7 +962,7 @@ items:
   type: Method
   source:
     id: GetSerialNumber
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 460
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -992,7 +992,7 @@ items:
   type: Method
   source:
     id: GetRobotModel
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\UR.vb
     startLine: 467
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1022,7 +1022,7 @@ items:
   type: Event
   source:
     id: RobotModeDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 30
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1051,7 +1051,7 @@ items:
   type: Event
   source:
     id: JointDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 35
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1080,7 +1080,7 @@ items:
   type: Event
   source:
     id: ToolDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 40
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1109,7 +1109,7 @@ items:
   type: Event
   source:
     id: MasterboardDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 45
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1138,7 +1138,7 @@ items:
   type: Event
   source:
     id: CartesianInfoReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 50
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1167,7 +1167,7 @@ items:
   type: Event
   source:
     id: KinematicsInfoReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 55
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1196,7 +1196,7 @@ items:
   type: Event
   source:
     id: ConfigurationDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 60
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1225,7 +1225,7 @@ items:
   type: Event
   source:
     id: ForceModeDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 65
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1254,7 +1254,7 @@ items:
   type: Event
   source:
     id: AdditionalInfoReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 70
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1283,7 +1283,7 @@ items:
   type: Event
   source:
     id: CalibrationDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 75
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1312,7 +1312,7 @@ items:
   type: Event
   source:
     id: SafetyDataReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 80
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1341,7 +1341,7 @@ items:
   type: Event
   source:
     id: ToolCommunicationInfoReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 85
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1370,7 +1370,7 @@ items:
   type: Event
   source:
     id: ToolModeInfoReceived
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 90
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1399,7 +1399,7 @@ items:
   type: Property
   source:
     id: RobotModeData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 96
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1432,7 +1432,7 @@ items:
   type: Property
   source:
     id: JointData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 101
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1465,7 +1465,7 @@ items:
   type: Property
   source:
     id: ToolData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 106
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1498,7 +1498,7 @@ items:
   type: Property
   source:
     id: MasterboardData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 111
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1531,7 +1531,7 @@ items:
   type: Property
   source:
     id: CartesianInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 116
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1564,7 +1564,7 @@ items:
   type: Property
   source:
     id: KinematicsInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 121
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1597,7 +1597,7 @@ items:
   type: Property
   source:
     id: ConfigurationData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 126
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1630,7 +1630,7 @@ items:
   type: Property
   source:
     id: ForceModeData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 131
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1663,7 +1663,7 @@ items:
   type: Property
   source:
     id: AdditionalInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 136
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1696,7 +1696,7 @@ items:
   type: Property
   source:
     id: CalibrationData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 141
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1729,7 +1729,7 @@ items:
   type: Property
   source:
     id: SafetyData
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 146
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1762,7 +1762,7 @@ items:
   type: Property
   source:
     id: ToolCommunicationInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 151
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1795,7 +1795,7 @@ items:
   type: Property
   source:
     id: ToolModeInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
     startLine: 156
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -1828,17 +1828,19 @@ items:
   type: Method
   source:
     id: EnableDataStreaming
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
-    startLine: 159
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
+    startLine: 162
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
   summary: "\nStarts data streaming and the possibility to send scripts to the robot.\n"
+  example: []
   syntax:
     content: public void EnableDataStreaming(DataStreamingPorts port)
     parameters:
     - id: port
       type: UnderAutomation.UniversalRobots.DataStreamingPorts
+      description: Port on which to start streaming data
     content.vb: Public Sub EnableDataStreaming(port As DataStreamingPorts)
   overload: UnderAutomation.UniversalRobots.UR.EnableDataStreaming*
   modifiers.csharp:
@@ -1858,8 +1860,8 @@ items:
   type: Method
   source:
     id: DisableDataStreaming
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
-    startLine: 175
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
+    startLine: 178
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -1886,8 +1888,8 @@ items:
   type: Property
   source:
     id: DataStreamingEnabled
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
-    startLine: 215
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
+    startLine: 218
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -1919,8 +1921,8 @@ items:
   type: Method
   source:
     id: Send
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
-    startLine: 225
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
+    startLine: 228
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -1953,12 +1955,13 @@ items:
   type: Property
   source:
     id: DataStreamingLocalEndPoint
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\UR.vb
-    startLine: 244
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\UR.vb
+    startLine: 250
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nIndicates the current local endpoint (i.e. IP Address) used to communicate with the robot. You can use this IP in your UR script in the function rpc_factory()"
+  summary: "\nIndicates the current local endpoint (i.e. IP Address) used to communicate with the robot. You can use this IP in your UR script in the function rpc_factory()\n"
+  example: []
   syntax:
     content: public IPEndPoint DataStreamingLocalEndPoint { get; }
     parameters: []
@@ -1985,7 +1988,7 @@ items:
   type: Method
   source:
     id: RegisterLicense
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\License\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\License\UR.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2025,7 +2028,7 @@ items:
   type: Property
   source:
     id: LicenseInfo
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\License\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\License\UR.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2060,7 +2063,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\UR.vb
     startLine: 13
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2088,7 +2091,7 @@ items:
   type: Method
   source:
     id: Connect
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\UR.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2135,7 +2138,7 @@ items:
   type: Method
   source:
     id: Disconnect
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\UR.vb
     startLine: 54
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2163,7 +2166,7 @@ items:
   type: Event
   source:
     id: InternalErrorOccured
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\UR.vb
     startLine: 70
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2192,7 +2195,7 @@ items:
   type: Method
   source:
     id: EnableXmlRpcServer
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\UR.vb
     startLine: 7
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2224,7 +2227,7 @@ items:
   type: Method
   source:
     id: DisableXmlRpcServer
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\UR.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2252,7 +2255,7 @@ items:
   type: Property
   source:
     id: XmlRpcServerEnabled
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\UR.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\UR.vb
     startLine: 26
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -2285,12 +2288,13 @@ items:
   type: Event
   source:
     id: XmlRpcServerRequest
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\UR.vb
-    startLine: 36
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\UR.vb
+    startLine: 35
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
   summary: "\nEvent raised when a XML-RPC request has been sent from the robot to this machine. You should answer to the robot in this event via the property request.Answer\n"
+  example: []
   syntax:
     content: public event UR.XmlRpcServerRequestEventHandler XmlRpcServerRequest
     return:

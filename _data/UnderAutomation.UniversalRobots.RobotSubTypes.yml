@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     id: RobotSubTypes
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 266
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -46,7 +46,7 @@ items:
   type: Field
   source:
     id: CB2Serie
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 270
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -76,7 +76,7 @@ items:
   type: Field
   source:
     id: CB3Serie
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 275
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -106,7 +106,7 @@ items:
   type: Field
   source:
     id: ESerie
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 280
   assemblies:
   - UnderAutomation.UniversalRobots

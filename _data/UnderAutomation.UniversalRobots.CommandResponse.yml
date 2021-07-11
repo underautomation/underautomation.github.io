@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: CommandResponse
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 33
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -58,7 +58,7 @@ items:
   type: Field
   source:
     id: Succeed
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 37
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -87,7 +87,7 @@ items:
   type: Field
   source:
     id: Message
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 42
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -116,7 +116,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\CommandResponse.vb
     startLine: 47
   assemblies:
   - UnderAutomation.UniversalRobots

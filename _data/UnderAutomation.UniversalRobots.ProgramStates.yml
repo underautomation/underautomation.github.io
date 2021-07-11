@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     id: ProgramStates
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 54
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -46,7 +46,7 @@ items:
   type: Field
   source:
     id: Stopped
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 58
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -76,7 +76,7 @@ items:
   type: Field
   source:
     id: Playing
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 63
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -106,7 +106,7 @@ items:
   type: Field
   source:
     id: Paused
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 68
   assemblies:
   - UnderAutomation.UniversalRobots

@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: SafetyDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\SafetyDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\SafetyDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -61,7 +61,7 @@ items:
   type: Property
   source:
     id: Data
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\SafetyDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\SafetyDataPackageEventArgs.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots

@@ -19,7 +19,7 @@ items:
   type: Class
   source:
     id: XmlRpcEventArg
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcEventArg.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcEventArg.vb
     startLine: 5
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -63,7 +63,7 @@ items:
   type: Field
   source:
     id: XmlRequest
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcEventArg.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcEventArg.vb
     startLine: 18
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -94,7 +94,7 @@ items:
   type: Field
   source:
     id: MethodName
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcEventArg.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcEventArg.vb
     startLine: 23
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -125,7 +125,7 @@ items:
   type: Field
   source:
     id: Arguments
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcEventArg.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcEventArg.vb
     startLine: 28
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -156,7 +156,7 @@ items:
   type: Field
   source:
     id: EndPoint
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcEventArg.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcEventArg.vb
     startLine: 33
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -187,7 +187,7 @@ items:
   type: Field
   source:
     id: Answer
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcEventArg.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcEventArg.vb
     startLine: 38
   assemblies:
   - UnderAutomation.UniversalRobots

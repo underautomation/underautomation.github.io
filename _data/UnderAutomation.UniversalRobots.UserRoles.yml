@@ -19,7 +19,7 @@ items:
   type: Enum
   source:
     id: UserRoles
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 23
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -48,7 +48,7 @@ items:
   type: Field
   source:
     id: Programmer
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 27
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -78,7 +78,7 @@ items:
   type: Field
   source:
     id: Operator
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 32
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -108,7 +108,7 @@ items:
   type: Field
   source:
     id: None
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 37
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -138,7 +138,7 @@ items:
   type: Field
   source:
     id: Locked
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 42
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -168,7 +168,7 @@ items:
   type: Field
   source:
     id: restricted
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 47
   assemblies:
   - UnderAutomation.UniversalRobots

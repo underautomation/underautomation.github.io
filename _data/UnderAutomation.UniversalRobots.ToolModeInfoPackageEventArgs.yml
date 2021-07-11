@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: ToolModeInfoPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolModeInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolModeInfoPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -63,7 +63,7 @@ items:
   type: Property
   source:
     id: OutputMode
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolModeInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolModeInfoPackageEventArgs.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -96,7 +96,7 @@ items:
   type: Property
   source:
     id: DigitalOutputMode0
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolModeInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolModeInfoPackageEventArgs.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -129,7 +129,7 @@ items:
   type: Property
   source:
     id: DigitalOutputMode1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\ToolModeInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\ToolModeInfoPackageEventArgs.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots

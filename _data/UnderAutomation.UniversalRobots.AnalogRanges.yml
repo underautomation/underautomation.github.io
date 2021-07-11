@@ -16,7 +16,7 @@ items:
   type: Enum
   source:
     id: AnalogRanges
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 146
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -45,7 +45,7 @@ items:
   type: Field
   source:
     id: Current
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 151
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -75,7 +75,7 @@ items:
   type: Field
   source:
     id: Voltage
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 156
   assemblies:
   - UnderAutomation.UniversalRobots

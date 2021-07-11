@@ -18,7 +18,7 @@ This SDK has the following features:
 - Send and execute script on the remote robot : [see below](#remote-execute-urscript)
 - Send commands to the robot (Power on, Show popup message, Realease brake, ...) : [see below](#send-remote-commands)
 - Host an XML-RPC server allowing the robot to query your application (with arguments) and get an answer (number, string, pose, array, ...) : [see below](#xml-rpc--remote-procedure-call)
-- Manipulate and convert robot poses (RPY / Rotation Vector) [see below](#tools)
+- Manipulate and convert robot poses (RPY / Rotation Vector) : [see below](#tools)
 
 This SDK is licensed and *must* be purchased for use in your application.
 
@@ -464,11 +464,13 @@ If an unknown object is received, a ```XmlRpcUnknownValue``` value is returned t
 
 # Tools
 
-## Pose and conversions
+## Poses and conversions
 
 The class ```Pose``` contains the 6 coordinates of a cartesian position : 3 translations X, Y, Z in millimeters and 3 rotation RX, RY, RZ in radians. It also contains 3 rotations properties that exposes the 3 rotations in degrees, but it's not a storage, only a conversion of RX, RY and RZ.
 
 The methods ```FromRotationVectorToRPY()``` and ```FromRPYToRotationVector()``` transform the position in a new position with same translations X, Y, Z but different rotations.
+
+A ```Pose``` instance can be returned in a XML-RPC answer. It will be interpreted as a robot pose. 
 
 {% include properties.html class="Pose" %}
 

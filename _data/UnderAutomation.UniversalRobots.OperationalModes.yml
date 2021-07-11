@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     id: OperationalModes
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 3
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -46,7 +46,7 @@ items:
   type: Field
   source:
     id: Manual
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 7
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -76,7 +76,7 @@ items:
   type: Field
   source:
     id: Automatic
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 12
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -106,7 +106,7 @@ items:
   type: Field
   source:
     id: None
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DashboardCommands\Enums.vb
     startLine: 17
   assemblies:
   - UnderAutomation.UniversalRobots

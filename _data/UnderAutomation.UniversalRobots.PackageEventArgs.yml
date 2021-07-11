@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     id: PackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\PackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\PackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -75,7 +75,7 @@ items:
   type: Field
   source:
     id: ReceiveDate
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\PackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\PackageEventArgs.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots

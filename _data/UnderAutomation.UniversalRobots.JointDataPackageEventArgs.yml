@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     id: JointDataPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -66,7 +66,7 @@ items:
   type: Property
   source:
     id: Base
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 10
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -99,7 +99,7 @@ items:
   type: Property
   source:
     id: Shoulder
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 15
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -132,7 +132,7 @@ items:
   type: Property
   source:
     id: Elbow
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 20
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -165,7 +165,7 @@ items:
   type: Property
   source:
     id: Wrist1
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 25
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -198,7 +198,7 @@ items:
   type: Property
   source:
     id: Wrist2
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 30
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -231,7 +231,7 @@ items:
   type: Property
   source:
     id: Wrist3
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\JointDataPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\JointDataPackageEventArgs.vb
     startLine: 35
   assemblies:
   - UnderAutomation.UniversalRobots

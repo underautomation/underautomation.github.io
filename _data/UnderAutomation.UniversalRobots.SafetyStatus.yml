@@ -25,7 +25,7 @@ items:
   type: Enum
   source:
     id: SafetyStatus
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 185
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -54,7 +54,7 @@ items:
   type: Field
   source:
     id: Normal
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 190
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -84,7 +84,7 @@ items:
   type: Field
   source:
     id: Reduced
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 195
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -114,7 +114,7 @@ items:
   type: Field
   source:
     id: ProtectiveStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 200
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -144,7 +144,7 @@ items:
   type: Field
   source:
     id: Recovery
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 205
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -174,7 +174,7 @@ items:
   type: Field
   source:
     id: SafeguardStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 210
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -204,7 +204,7 @@ items:
   type: Field
   source:
     id: SystemEmergencyStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 215
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -234,7 +234,7 @@ items:
   type: Field
   source:
     id: RobotEmergencyStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 220
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -264,7 +264,7 @@ items:
   type: Field
   source:
     id: Violation
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 225
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -294,7 +294,7 @@ items:
   type: Field
   source:
     id: Fault
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 230
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -324,7 +324,7 @@ items:
   type: Field
   source:
     id: AutomaticModeSafeguardStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 232
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -352,7 +352,7 @@ items:
   type: Field
   source:
     id: SystemThreePositionEnablingStop
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\Enums.vb
     startLine: 234
   assemblies:
   - UnderAutomation.UniversalRobots

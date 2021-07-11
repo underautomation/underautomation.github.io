@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     id: XmlRpcUnknownValue
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcUnknownValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcUnknownValue.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -60,7 +60,7 @@ items:
   type: Field
   source:
     id: AdditionalInformation
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcUnknownValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcUnknownValue.vb
     startLine: 7
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -89,7 +89,7 @@ items:
   type: Property
   source:
     id: Type
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcUnknownValue.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\XmlRpc\XmlRpcUnknownValue.vb
     startLine: 14
   assemblies:
   - UnderAutomation.UniversalRobots

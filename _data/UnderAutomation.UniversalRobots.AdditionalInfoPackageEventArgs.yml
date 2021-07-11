@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     id: AdditionalInfoPackageEventArgs
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\AdditionalInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\AdditionalInfoPackageEventArgs.vb
     startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -63,7 +63,7 @@ items:
   type: Property
   source:
     id: FreedriveButtonPressed
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\AdditionalInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\AdditionalInfoPackageEventArgs.vb
     startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -96,7 +96,7 @@ items:
   type: Property
   source:
     id: FreedriveButtonEnabled
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\AdditionalInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\AdditionalInfoPackageEventArgs.vb
     startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
@@ -129,7 +129,7 @@ items:
   type: Property
   source:
     id: IOEnabledFreedrive
-    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\AdditionalInfoPackageEventArgs.vb
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobots\DataStreaming\AdditionalInfoPackageEventArgs.vb
     startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots
