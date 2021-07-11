@@ -17,13 +17,10 @@ items:
   type: Class
   source:
     id: ProgramSaveState
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 960
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramSaveState.vb
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
-  summary: "\nDescribes a program save state (its save state and its name)\n"
-  example: []
   syntax:
     content: public class ProgramSaveState
     content.vb: Public Class ProgramSaveState
@@ -56,8 +53,8 @@ items:
   type: Field
   source:
     id: IsSaved
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 964
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramSaveState.vb
+    startLine: 4
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -85,8 +82,8 @@ items:
   type: Field
   source:
     id: Name
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 969
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramSaveState.vb
+    startLine: 9
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -114,8 +111,8 @@ items:
   type: Method
   source:
     id: ToString
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 971
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\ProgramSaveState.vb
+    startLine: 11
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

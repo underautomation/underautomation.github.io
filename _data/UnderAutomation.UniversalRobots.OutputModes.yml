@@ -16,8 +16,8 @@ items:
   type: Enum
   source:
     id: OutputModes
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2702
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 296
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -45,8 +45,8 @@ items:
   type: Field
   source:
     id: StandardOutput
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2706
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 300
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -75,8 +75,8 @@ items:
   type: Field
   source:
     id: DualPinPower
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 2711
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 305
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

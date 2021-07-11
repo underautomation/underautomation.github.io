@@ -27,8 +27,8 @@ items:
   type: Class
   source:
     id: RobotModeDataPackageEventArgs
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1529
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 3
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -73,8 +73,8 @@ items:
   type: Property
   source:
     id: Timestamp
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1535
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 9
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -106,8 +106,8 @@ items:
   type: Property
   source:
     id: PhysicalRobotConnected
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1540
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 14
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -139,8 +139,8 @@ items:
   type: Property
   source:
     id: RealRobotEnabled
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1545
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 19
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -172,8 +172,8 @@ items:
   type: Property
   source:
     id: RobotPowerOn
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1550
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 24
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -205,8 +205,8 @@ items:
   type: Property
   source:
     id: EmergencyStopped
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1555
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 29
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -238,8 +238,8 @@ items:
   type: Property
   source:
     id: ProtectiveStopped
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1560
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 34
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -271,8 +271,8 @@ items:
   type: Property
   source:
     id: ProgramRunning
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1565
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 39
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -304,8 +304,8 @@ items:
   type: Property
   source:
     id: ProgramPaused
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1570
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 44
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -337,8 +337,8 @@ items:
   type: Property
   source:
     id: RobotMode
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1575
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 49
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -370,8 +370,8 @@ items:
   type: Property
   source:
     id: ControlMode
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1580
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 54
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -403,8 +403,8 @@ items:
   type: Property
   source:
     id: TargetSpeedFraction
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1585
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 59
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -436,8 +436,8 @@ items:
   type: Property
   source:
     id: SpeedScaling
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1590
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 64
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -469,8 +469,8 @@ items:
   type: Property
   source:
     id: TargetSpeedFractionLimit
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1595
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\RobotModeDataPackageEventArgs.vb
+    startLine: 69
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

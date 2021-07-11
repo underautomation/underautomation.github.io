@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts
+  commentId: T:UnderAutomation.UniversalRobots.DataStreamingPorts
+  id: DataStreamingPorts
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClient
+  - UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClientReadOnly
+  - UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClient
+  - UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClientReadOnly
+  langs:
+  - csharp
+  - vb
+  name: DataStreamingPorts
+  nameWithType: DataStreamingPorts
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts
+  type: Enum
+  source:
+    id: DataStreamingPorts
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 19
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nTCP ports to communicate with an UR controller\n"
+  example: []
+  syntax:
+    content: public enum DataStreamingPorts
+    content.vb: Public Enum DataStreamingPorts
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClient
+  commentId: F:UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClient
+  id: PrimaryClient
+  parent: UnderAutomation.UniversalRobots.DataStreamingPorts
+  langs:
+  - csharp
+  - vb
+  name: PrimaryClient
+  nameWithType: DataStreamingPorts.PrimaryClient
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClient
+  type: Field
+  source:
+    id: PrimaryClient
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 23
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe default port that allow reading data and sending URScript\n"
+  example: []
+  syntax:
+    content: PrimaryClient = 30001
+    return:
+      type: UnderAutomation.UniversalRobots.DataStreamingPorts
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClient
+  commentId: F:UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClient
+  id: SecondaryClient
+  parent: UnderAutomation.UniversalRobots.DataStreamingPorts
+  langs:
+  - csharp
+  - vb
+  name: SecondaryClient
+  nameWithType: DataStreamingPorts.SecondaryClient
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClient
+  type: Field
+  source:
+    id: SecondaryClient
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 28
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe secondary port with same features as PrimaryClient\n"
+  example: []
+  syntax:
+    content: SecondaryClient = 30002
+    return:
+      type: UnderAutomation.UniversalRobots.DataStreamingPorts
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClientReadOnly
+  commentId: F:UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClientReadOnly
+  id: PrimaryClientReadOnly
+  parent: UnderAutomation.UniversalRobots.DataStreamingPorts
+  langs:
+  - csharp
+  - vb
+  name: PrimaryClientReadOnly
+  nameWithType: DataStreamingPorts.PrimaryClientReadOnly
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts.PrimaryClientReadOnly
+  type: Field
+  source:
+    id: PrimaryClientReadOnly
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 33
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThis port can only read data. It is unable to send URScript.\n"
+  example: []
+  syntax:
+    content: PrimaryClientReadOnly = 30011
+    return:
+      type: UnderAutomation.UniversalRobots.DataStreamingPorts
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClientReadOnly
+  commentId: F:UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClientReadOnly
+  id: SecondaryClientReadOnly
+  parent: UnderAutomation.UniversalRobots.DataStreamingPorts
+  langs:
+  - csharp
+  - vb
+  name: SecondaryClientReadOnly
+  nameWithType: DataStreamingPorts.SecondaryClientReadOnly
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts.SecondaryClientReadOnly
+  type: Field
+  source:
+    id: SecondaryClientReadOnly
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DataStreaming\Enums.vb
+    startLine: 38
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nA secondary port that can only read data. It is unable to send URScript.\n"
+  example: []
+  syntax:
+    content: SecondaryClientReadOnly = 30012
+    return:
+      type: UnderAutomation.UniversalRobots.DataStreamingPorts
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts
+  commentId: T:UnderAutomation.UniversalRobots.DataStreamingPorts
+  parent: UnderAutomation.UniversalRobots
+  name: DataStreamingPorts
+  nameWithType: DataStreamingPorts
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts

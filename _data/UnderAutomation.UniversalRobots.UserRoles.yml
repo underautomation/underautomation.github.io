@@ -19,8 +19,8 @@ items:
   type: Enum
   source:
     id: UserRoles
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 911
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    startLine: 23
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -48,8 +48,8 @@ items:
   type: Field
   source:
     id: Programmer
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 915
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    startLine: 27
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -78,8 +78,8 @@ items:
   type: Field
   source:
     id: Operator
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 920
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    startLine: 32
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -108,8 +108,8 @@ items:
   type: Field
   source:
     id: None
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 925
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    startLine: 37
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -138,8 +138,8 @@ items:
   type: Field
   source:
     id: Locked
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 930
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    startLine: 42
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -168,8 +168,8 @@ items:
   type: Field
   source:
     id: restricted
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 935
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\Enums.vb
+    startLine: 47
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

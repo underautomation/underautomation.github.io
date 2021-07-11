@@ -17,8 +17,8 @@ items:
   type: Class
   source:
     id: CommandResponse
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1025
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    startLine: 5
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -67,8 +67,8 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1028
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    startLine: 8
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -98,8 +98,8 @@ items:
   type: Field
   source:
     id: Value
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1036
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    startLine: 16
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots
@@ -129,8 +129,8 @@ items:
   type: Method
   source:
     id: ToString
-    path: d:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\UR.vb
-    startLine: 1041
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\DashboardCommands\CommandResponse.vb
+    startLine: 21
   assemblies:
   - UnderAutomation.UniversalRobots
   namespace: UnderAutomation.UniversalRobots

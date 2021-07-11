@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.XmlRpcType
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcType
+  id: XmlRpcType
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.XmlRpcType.Array
+  - UnderAutomation.UniversalRobots.XmlRpcType.Boolean
+  - UnderAutomation.UniversalRobots.XmlRpcType.Double
+  - UnderAutomation.UniversalRobots.XmlRpcType.Integer
+  - UnderAutomation.UniversalRobots.XmlRpcType.Pose
+  - UnderAutomation.UniversalRobots.XmlRpcType.String
+  - UnderAutomation.UniversalRobots.XmlRpcType.Struct
+  - UnderAutomation.UniversalRobots.XmlRpcType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: XmlRpcType
+  nameWithType: XmlRpcType
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType
+  type: Enum
+  source:
+    id: XmlRpcType
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 3
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nAll supported types that can be transmitted by XML-RPC\n"
+  example: []
+  syntax:
+    content: public enum XmlRpcType
+    content.vb: Public Enum XmlRpcType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Unknown
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Unknown
+  id: Unknown
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: XmlRpcType.Unknown
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 7
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nType is not supported\n"
+  example: []
+  syntax:
+    content: Unknown = -1
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Array
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Array
+  id: Array
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Array
+  nameWithType: XmlRpcType.Array
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Array
+  type: Field
+  source:
+    id: Array
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 12
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcArrayValue\n"
+  example: []
+  syntax:
+    content: Array = 0
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Boolean
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Boolean
+  id: Boolean
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: XmlRpcType.Boolean
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Boolean
+  type: Field
+  source:
+    id: Boolean
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 17
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcBooleanValue\n"
+  example: []
+  syntax:
+    content: Boolean = 1
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Double
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Double
+  id: Double
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: XmlRpcType.Double
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Double
+  type: Field
+  source:
+    id: Double
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 22
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcDoubleValue\n"
+  example: []
+  syntax:
+    content: Double = 2
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Integer
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Integer
+  id: Integer
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: XmlRpcType.Integer
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Integer
+  type: Field
+  source:
+    id: Integer
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 27
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcIntegerValue\n"
+  example: []
+  syntax:
+    content: Integer = 3
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.String
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.String
+  id: String
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: XmlRpcType.String
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.String
+  type: Field
+  source:
+    id: String
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 32
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcStringValue\n"
+  example: []
+  syntax:
+    content: String = 4
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Struct
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Struct
+  id: Struct
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Struct
+  nameWithType: XmlRpcType.Struct
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Struct
+  type: Field
+  source:
+    id: Struct
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 37
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcStructValue\n"
+  example: []
+  syntax:
+    content: Struct = 5
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: UnderAutomation.UniversalRobots.XmlRpcType.Pose
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcType.Pose
+  id: Pose
+  parent: UnderAutomation.UniversalRobots.XmlRpcType
+  langs:
+  - csharp
+  - vb
+  name: Pose
+  nameWithType: XmlRpcType.Pose
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType.Pose
+  type: Field
+  source:
+    id: Pose
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcType.vb
+    startLine: 42
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nThe RPC type is a XmlRpcPoseValue\n"
+  example: []
+  syntax:
+    content: Pose = 6
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: UnderAutomation.UniversalRobots.XmlRpcType
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcType
+  parent: UnderAutomation.UniversalRobots
+  name: XmlRpcType
+  nameWithType: XmlRpcType
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType

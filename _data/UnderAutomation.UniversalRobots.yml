@@ -13,6 +13,7 @@ items:
   - UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
   - UnderAutomation.UniversalRobots.ControllerBoxTypes
   - UnderAutomation.UniversalRobots.ControlModes
+  - UnderAutomation.UniversalRobots.DataStreamingPorts
   - UnderAutomation.UniversalRobots.DigitalOutputConfigurations
   - UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
   - UnderAutomation.UniversalRobots.InternalErrorEventArgs
@@ -30,6 +31,7 @@ items:
   - UnderAutomation.UniversalRobots.OperationalModes
   - UnderAutomation.UniversalRobots.OutputModes
   - UnderAutomation.UniversalRobots.PackageEventArgs
+  - UnderAutomation.UniversalRobots.Pose
   - UnderAutomation.UniversalRobots.ProgramSaveState
   - UnderAutomation.UniversalRobots.ProgramState
   - UnderAutomation.UniversalRobots.ProgramStates
@@ -44,9 +46,20 @@ items:
   - UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
   - UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
   - UnderAutomation.UniversalRobots.ToolModes
-  - UnderAutomation.UniversalRobots.UniversalRobotPorts
   - UnderAutomation.UniversalRobots.UR
   - UnderAutomation.UniversalRobots.UserRoles
+  - UnderAutomation.UniversalRobots.XmlRpcArrayValue
+  - UnderAutomation.UniversalRobots.XmlRpcBooleanValue
+  - UnderAutomation.UniversalRobots.XmlRpcDoubleValue
+  - UnderAutomation.UniversalRobots.XmlRpcEventArg
+  - UnderAutomation.UniversalRobots.XmlRpcIntegerValue
+  - UnderAutomation.UniversalRobots.XmlRpcPoseValue
+  - UnderAutomation.UniversalRobots.XmlRpcStringValue
+  - UnderAutomation.UniversalRobots.XmlRpcStructMember
+  - UnderAutomation.UniversalRobots.XmlRpcStructValue
+  - UnderAutomation.UniversalRobots.XmlRpcType
+  - UnderAutomation.UniversalRobots.XmlRpcUnknownValue
+  - UnderAutomation.UniversalRobots.XmlRpcValue
   langs:
   - csharp
   - vb
@@ -57,45 +70,6 @@ items:
   assemblies:
   - UnderAutomation.UniversalRobots
 references:
-- uid: UnderAutomation.UniversalRobots.UR
-  commentId: T:UnderAutomation.UniversalRobots.UR
-  name: UR
-  nameWithType: UR
-  fullName: UnderAutomation.UniversalRobots.UR
-- uid: UnderAutomation.UniversalRobots.OperationalModes
-  commentId: T:UnderAutomation.UniversalRobots.OperationalModes
-  parent: UnderAutomation.UniversalRobots
-  name: OperationalModes
-  nameWithType: OperationalModes
-  fullName: UnderAutomation.UniversalRobots.OperationalModes
-- uid: UnderAutomation.UniversalRobots.UserRoles
-  commentId: T:UnderAutomation.UniversalRobots.UserRoles
-  parent: UnderAutomation.UniversalRobots
-  name: UserRoles
-  nameWithType: UserRoles
-  fullName: UnderAutomation.UniversalRobots.UserRoles
-- uid: UnderAutomation.UniversalRobots.ProgramState
-  commentId: T:UnderAutomation.UniversalRobots.ProgramState
-  name: ProgramState
-  nameWithType: ProgramState
-  fullName: UnderAutomation.UniversalRobots.ProgramState
-- uid: UnderAutomation.UniversalRobots.ProgramSaveState
-  commentId: T:UnderAutomation.UniversalRobots.ProgramSaveState
-  name: ProgramSaveState
-  nameWithType: ProgramSaveState
-  fullName: UnderAutomation.UniversalRobots.ProgramSaveState
-- uid: UnderAutomation.UniversalRobots.ProgramStates
-  commentId: T:UnderAutomation.UniversalRobots.ProgramStates
-  parent: UnderAutomation.UniversalRobots
-  name: ProgramStates
-  nameWithType: ProgramStates
-  fullName: UnderAutomation.UniversalRobots.ProgramStates
-- uid: UnderAutomation.UniversalRobots.CommandResponse
-  commentId: T:UnderAutomation.UniversalRobots.CommandResponse
-  parent: UnderAutomation.UniversalRobots
-  name: CommandResponse
-  nameWithType: CommandResponse
-  fullName: UnderAutomation.UniversalRobots.CommandResponse
 - uid: UnderAutomation.UniversalRobots.CommandResponse`1
   commentId: T:UnderAutomation.UniversalRobots.CommandResponse`1
   name: CommandResponse<T>
@@ -132,35 +106,75 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: UnderAutomation.UniversalRobots.StatusCode
-  commentId: T:UnderAutomation.UniversalRobots.StatusCode
+- uid: UnderAutomation.UniversalRobots.CommandResponse
+  commentId: T:UnderAutomation.UniversalRobots.CommandResponse
   parent: UnderAutomation.UniversalRobots
-  name: StatusCode
-  nameWithType: StatusCode
-  fullName: UnderAutomation.UniversalRobots.StatusCode
-- uid: UnderAutomation.UniversalRobots.UniversalRobotPorts
-  commentId: T:UnderAutomation.UniversalRobots.UniversalRobotPorts
+  name: CommandResponse
+  nameWithType: CommandResponse
+  fullName: UnderAutomation.UniversalRobots.CommandResponse
+- uid: UnderAutomation.UniversalRobots.OperationalModes
+  commentId: T:UnderAutomation.UniversalRobots.OperationalModes
   parent: UnderAutomation.UniversalRobots
-  name: UniversalRobotPorts
-  nameWithType: UniversalRobotPorts
-  fullName: UnderAutomation.UniversalRobots.UniversalRobotPorts
-- uid: UnderAutomation.UniversalRobots.InternalErrorEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.InternalErrorEventArgs
-  name: InternalErrorEventArgs
-  nameWithType: InternalErrorEventArgs
-  fullName: UnderAutomation.UniversalRobots.InternalErrorEventArgs
-- uid: UnderAutomation.UniversalRobots.PackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  name: OperationalModes
+  nameWithType: OperationalModes
+  fullName: UnderAutomation.UniversalRobots.OperationalModes
+- uid: UnderAutomation.UniversalRobots.UserRoles
+  commentId: T:UnderAutomation.UniversalRobots.UserRoles
   parent: UnderAutomation.UniversalRobots
-  name: PackageEventArgs
-  nameWithType: PackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
-- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  name: UserRoles
+  nameWithType: UserRoles
+  fullName: UnderAutomation.UniversalRobots.UserRoles
+- uid: UnderAutomation.UniversalRobots.ProgramStates
+  commentId: T:UnderAutomation.UniversalRobots.ProgramStates
   parent: UnderAutomation.UniversalRobots
-  name: RobotModeDataPackageEventArgs
-  nameWithType: RobotModeDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  name: ProgramStates
+  nameWithType: ProgramStates
+  fullName: UnderAutomation.UniversalRobots.ProgramStates
+- uid: UnderAutomation.UniversalRobots.ProgramSaveState
+  commentId: T:UnderAutomation.UniversalRobots.ProgramSaveState
+  name: ProgramSaveState
+  nameWithType: ProgramSaveState
+  fullName: UnderAutomation.UniversalRobots.ProgramSaveState
+- uid: UnderAutomation.UniversalRobots.ProgramState
+  commentId: T:UnderAutomation.UniversalRobots.ProgramState
+  name: ProgramState
+  nameWithType: ProgramState
+  fullName: UnderAutomation.UniversalRobots.ProgramState
+- uid: UnderAutomation.UniversalRobots.UR
+  commentId: T:UnderAutomation.UniversalRobots.UR
+  name: UR
+  nameWithType: UR
+  fullName: UnderAutomation.UniversalRobots.UR
+- uid: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: AdditionalInfoPackageEventArgs
+  nameWithType: AdditionalInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: CalibrationDataPackageEventArgs
+  nameWithType: CalibrationDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: CartesianInfoPackageEventArgs
+  nameWithType: CartesianInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ConfigurationDataPackageEventArgs
+  nameWithType: ConfigurationDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.DataStreamingPorts
+  commentId: T:UnderAutomation.UniversalRobots.DataStreamingPorts
+  parent: UnderAutomation.UniversalRobots
+  name: DataStreamingPorts
+  nameWithType: DataStreamingPorts
+  fullName: UnderAutomation.UniversalRobots.DataStreamingPorts
 - uid: UnderAutomation.UniversalRobots.RobotModes
   commentId: T:UnderAutomation.UniversalRobots.RobotModes
   parent: UnderAutomation.UniversalRobots
@@ -173,30 +187,12 @@ references:
   name: ControlModes
   nameWithType: ControlModes
   fullName: UnderAutomation.UniversalRobots.ControlModes
-- uid: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.JointDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: JointDataPackageEventArgs
-  nameWithType: JointDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.JointData
-  commentId: T:UnderAutomation.UniversalRobots.JointData
-  parent: UnderAutomation.UniversalRobots
-  name: JointData
-  nameWithType: JointData
-  fullName: UnderAutomation.UniversalRobots.JointData
 - uid: UnderAutomation.UniversalRobots.JointModes
   commentId: T:UnderAutomation.UniversalRobots.JointModes
   parent: UnderAutomation.UniversalRobots
   name: JointModes
   nameWithType: JointModes
   fullName: UnderAutomation.UniversalRobots.JointModes
-- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: ToolDataPackageEventArgs
-  nameWithType: ToolDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
 - uid: UnderAutomation.UniversalRobots.AnalogRanges
   commentId: T:UnderAutomation.UniversalRobots.AnalogRanges
   parent: UnderAutomation.UniversalRobots
@@ -209,54 +205,12 @@ references:
   name: ToolModes
   nameWithType: ToolModes
   fullName: UnderAutomation.UniversalRobots.ToolModes
-- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: MasterboardDataPackageEventArgs
-  nameWithType: MasterboardDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO
-  commentId: T:UnderAutomation.UniversalRobots.MasterboardDigitalIO
-  parent: UnderAutomation.UniversalRobots
-  name: MasterboardDigitalIO
-  nameWithType: MasterboardDigitalIO
-  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO
 - uid: UnderAutomation.UniversalRobots.SafetyStatus
   commentId: T:UnderAutomation.UniversalRobots.SafetyStatus
   parent: UnderAutomation.UniversalRobots
   name: SafetyStatus
   nameWithType: SafetyStatus
   fullName: UnderAutomation.UniversalRobots.SafetyStatus
-- uid: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: CartesianInfoPackageEventArgs
-  nameWithType: CartesianInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.CartesianInfoPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: KinematicsInfoPackageEventArgs
-  nameWithType: KinematicsInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.JointKinematicsInfo
-  commentId: T:UnderAutomation.UniversalRobots.JointKinematicsInfo
-  parent: UnderAutomation.UniversalRobots
-  name: JointKinematicsInfo
-  nameWithType: JointKinematicsInfo
-  fullName: UnderAutomation.UniversalRobots.JointKinematicsInfo
-- uid: UnderAutomation.UniversalRobots.JointConfiguration
-  commentId: T:UnderAutomation.UniversalRobots.JointConfiguration
-  parent: UnderAutomation.UniversalRobots
-  name: JointConfiguration
-  nameWithType: JointConfiguration
-  fullName: UnderAutomation.UniversalRobots.JointConfiguration
-- uid: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: ConfigurationDataPackageEventArgs
-  nameWithType: ConfigurationDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ConfigurationDataPackageEventArgs
 - uid: UnderAutomation.UniversalRobots.ControllerBoxTypes
   commentId: T:UnderAutomation.UniversalRobots.ControllerBoxTypes
   parent: UnderAutomation.UniversalRobots
@@ -275,42 +229,6 @@ references:
   name: RobotModels
   nameWithType: RobotModels
   fullName: UnderAutomation.UniversalRobots.RobotModels
-- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: ForceModeDataPackageEventArgs
-  nameWithType: ForceModeDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: AdditionalInfoPackageEventArgs
-  nameWithType: AdditionalInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.AdditionalInfoPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: CalibrationDataPackageEventArgs
-  nameWithType: CalibrationDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.CalibrationDataPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: SafetyDataPackageEventArgs
-  nameWithType: SafetyDataPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: ToolCommunicationInfoPackageEventArgs
-  nameWithType: ToolCommunicationInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
-- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
-  commentId: T:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
-  parent: UnderAutomation.UniversalRobots
-  name: ToolModeInfoPackageEventArgs
-  nameWithType: ToolModeInfoPackageEventArgs
-  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
 - uid: UnderAutomation.UniversalRobots.OutputModes
   commentId: T:UnderAutomation.UniversalRobots.OutputModes
   parent: UnderAutomation.UniversalRobots
@@ -323,6 +241,170 @@ references:
   name: DigitalOutputConfigurations
   nameWithType: DigitalOutputConfigurations
   fullName: UnderAutomation.UniversalRobots.DigitalOutputConfigurations
+- uid: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ForceModeDataPackageEventArgs
+  nameWithType: ForceModeDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ForceModeDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.JointConfiguration
+  commentId: T:UnderAutomation.UniversalRobots.JointConfiguration
+  parent: UnderAutomation.UniversalRobots
+  name: JointConfiguration
+  nameWithType: JointConfiguration
+  fullName: UnderAutomation.UniversalRobots.JointConfiguration
+- uid: UnderAutomation.UniversalRobots.JointData
+  commentId: T:UnderAutomation.UniversalRobots.JointData
+  parent: UnderAutomation.UniversalRobots
+  name: JointData
+  nameWithType: JointData
+  fullName: UnderAutomation.UniversalRobots.JointData
+- uid: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: JointDataPackageEventArgs
+  nameWithType: JointDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.JointDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.JointKinematicsInfo
+  commentId: T:UnderAutomation.UniversalRobots.JointKinematicsInfo
+  parent: UnderAutomation.UniversalRobots
+  name: JointKinematicsInfo
+  nameWithType: JointKinematicsInfo
+  fullName: UnderAutomation.UniversalRobots.JointKinematicsInfo
+- uid: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: KinematicsInfoPackageEventArgs
+  nameWithType: KinematicsInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.KinematicsInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: MasterboardDataPackageEventArgs
+  nameWithType: MasterboardDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.MasterboardDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  commentId: T:UnderAutomation.UniversalRobots.MasterboardDigitalIO
+  parent: UnderAutomation.UniversalRobots
+  name: MasterboardDigitalIO
+  nameWithType: MasterboardDigitalIO
+  fullName: UnderAutomation.UniversalRobots.MasterboardDigitalIO
+- uid: UnderAutomation.UniversalRobots.PackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.PackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: PackageEventArgs
+  nameWithType: PackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.PackageEventArgs
+- uid: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: RobotModeDataPackageEventArgs
+  nameWithType: RobotModeDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.RobotModeDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: SafetyDataPackageEventArgs
+  nameWithType: SafetyDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.SafetyDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ToolCommunicationInfoPackageEventArgs
+  nameWithType: ToolCommunicationInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolCommunicationInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ToolDataPackageEventArgs
+  nameWithType: ToolDataPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolDataPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+  parent: UnderAutomation.UniversalRobots
+  name: ToolModeInfoPackageEventArgs
+  nameWithType: ToolModeInfoPackageEventArgs
+  fullName: UnderAutomation.UniversalRobots.ToolModeInfoPackageEventArgs
+- uid: UnderAutomation.UniversalRobots.InternalErrorEventArgs
+  commentId: T:UnderAutomation.UniversalRobots.InternalErrorEventArgs
+  name: InternalErrorEventArgs
+  nameWithType: InternalErrorEventArgs
+  fullName: UnderAutomation.UniversalRobots.InternalErrorEventArgs
+- uid: UnderAutomation.UniversalRobots.StatusCode
+  commentId: T:UnderAutomation.UniversalRobots.StatusCode
+  parent: UnderAutomation.UniversalRobots
+  name: StatusCode
+  nameWithType: StatusCode
+  fullName: UnderAutomation.UniversalRobots.StatusCode
+- uid: UnderAutomation.UniversalRobots.Pose
+  commentId: T:UnderAutomation.UniversalRobots.Pose
+  parent: UnderAutomation.UniversalRobots
+  name: Pose
+  nameWithType: Pose
+  fullName: UnderAutomation.UniversalRobots.Pose
+- uid: UnderAutomation.UniversalRobots.XmlRpcArrayValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcArrayValue
+  name: XmlRpcArrayValue
+  nameWithType: XmlRpcArrayValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcArrayValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcBooleanValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcBooleanValue
+  name: XmlRpcBooleanValue
+  nameWithType: XmlRpcBooleanValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcBooleanValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcDoubleValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcDoubleValue
+  name: XmlRpcDoubleValue
+  nameWithType: XmlRpcDoubleValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcDoubleValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcEventArg
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcEventArg
+  name: XmlRpcEventArg
+  nameWithType: XmlRpcEventArg
+  fullName: UnderAutomation.UniversalRobots.XmlRpcEventArg
+- uid: UnderAutomation.UniversalRobots.XmlRpcIntegerValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcIntegerValue
+  name: XmlRpcIntegerValue
+  nameWithType: XmlRpcIntegerValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcIntegerValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcPoseValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcPoseValue
+  name: XmlRpcPoseValue
+  nameWithType: XmlRpcPoseValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcPoseValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcStringValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcStringValue
+  name: XmlRpcStringValue
+  nameWithType: XmlRpcStringValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStringValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructMember
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcStructMember
+  name: XmlRpcStructMember
+  nameWithType: XmlRpcStructMember
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructMember
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcStructValue
+  parent: UnderAutomation.UniversalRobots
+  name: XmlRpcStructValue
+  nameWithType: XmlRpcStructValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcType
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcType
+  parent: UnderAutomation.UniversalRobots
+  name: XmlRpcType
+  nameWithType: XmlRpcType
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType
+- uid: UnderAutomation.UniversalRobots.XmlRpcUnknownValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcUnknownValue
+  name: XmlRpcUnknownValue
+  nameWithType: XmlRpcUnknownValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcUnknownValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcValue
+  parent: UnderAutomation.UniversalRobots
+  name: XmlRpcValue
+  nameWithType: XmlRpcValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue
 - uid: UnderAutomation.UniversalRobots.LicenseInfo
   commentId: T:UnderAutomation.UniversalRobots.LicenseInfo
   parent: UnderAutomation.UniversalRobots

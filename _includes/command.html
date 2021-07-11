@@ -1,9 +1,5 @@
 
-{% assign member = site.data.UnderAutomationUniversalRobotsUR.items | where : "source.id", include.method | first %}
-{{ member.summary | strip_newlines }}
-```c#
-  {{ member.syntax.content }}
-```
+{% include ur.html method=include.method %}
 
 Example :
 ```c#

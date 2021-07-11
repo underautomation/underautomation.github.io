@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcStructValue
+  id: XmlRpcStructValue
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor
+  - UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor(System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember})
+  - UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString
+  - UnderAutomation.UniversalRobots.XmlRpcStructValue.Type
+  - UnderAutomation.UniversalRobots.XmlRpcStructValue.Value
+  langs:
+  - csharp
+  - vb
+  name: XmlRpcStructValue
+  nameWithType: XmlRpcStructValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  type: Class
+  source:
+    id: XmlRpcStructValue
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcStructValue.vb
+    startLine: 3
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRepresents a structure that can be exchange with the robot via XML-RPC\n"
+  example: []
+  syntax:
+    content: 'public class XmlRpcStructValue : XmlRpcValue'
+    content.vb: >-
+      Public Class XmlRpcStructValue
+          Inherits XmlRpcValue
+  inheritance:
+  - System.Object
+  - UnderAutomation.UniversalRobots.XmlRpcValue
+  derivedClasses:
+  - UnderAutomation.UniversalRobots.XmlRpcPoseValue
+  inheritedMembers:
+  - UnderAutomation.UniversalRobots.XmlRpcValue.Xml
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.Value
+  commentId: F:UnderAutomation.UniversalRobots.XmlRpcStructValue.Value
+  id: Value
+  parent: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: XmlRpcStructValue.Value
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.Value
+  type: Field
+  source:
+    id: Value
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcStructValue.vb
+    startLine: 6
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public readonly List<XmlRpcStructMember> Value
+    return:
+      type: System.Collections.Generic.List{UnderAutomation.UniversalRobots.XmlRpcStructMember}
+    content.vb: Public ReadOnly Value As List(Of XmlRpcStructMember)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor
+  id: '#ctor'
+  parent: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  langs:
+  - csharp
+  - vb
+  name: XmlRpcStructValue()
+  nameWithType: XmlRpcStructValue.XmlRpcStructValue()
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.XmlRpcStructValue()
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcStructValue.vb
+    startLine: 8
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public XmlRpcStructValue()
+    content.vb: Public Sub New
+  overload: UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor(System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember})
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor(System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember})
+  id: '#ctor(System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember})'
+  parent: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  langs:
+  - csharp
+  - vb
+  name: XmlRpcStructValue(IEnumerable<XmlRpcStructMember>)
+  nameWithType: XmlRpcStructValue.XmlRpcStructValue(IEnumerable<XmlRpcStructMember>)
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.XmlRpcStructValue(System.Collections.Generic.IEnumerable<UnderAutomation.UniversalRobots.XmlRpcStructMember>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcStructValue.vb
+    startLine: 12
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public XmlRpcStructValue(IEnumerable<XmlRpcStructMember> value)
+    parameters:
+    - id: value
+      type: System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember}
+    content.vb: Public Sub New(value As IEnumerable(Of XmlRpcStructMember))
+  overload: UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor*
+  nameWithType.vb: XmlRpcStructValue.XmlRpcStructValue(IEnumerable(Of XmlRpcStructMember))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: UnderAutomation.UniversalRobots.XmlRpcStructValue.XmlRpcStructValue(System.Collections.Generic.IEnumerable(Of UnderAutomation.UniversalRobots.XmlRpcStructMember))
+  name.vb: XmlRpcStructValue(IEnumerable(Of XmlRpcStructMember))
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.Type
+  commentId: P:UnderAutomation.UniversalRobots.XmlRpcStructValue.Type
+  id: Type
+  parent: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: XmlRpcStructValue.Type
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.Type
+  type: Property
+  source:
+    id: Type
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcStructValue.vb
+    startLine: 17
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public override XmlRpcType Type { get; }
+    parameters: []
+    return:
+      type: UnderAutomation.UniversalRobots.XmlRpcType
+    content.vb: Public Overrides ReadOnly Property Type As XmlRpcType
+  overridden: UnderAutomation.UniversalRobots.XmlRpcValue.Type
+  overload: UnderAutomation.UniversalRobots.XmlRpcStructValue.Type*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString
+  id: ToString
+  parent: UnderAutomation.UniversalRobots.XmlRpcStructValue
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: XmlRpcStructValue.ToString()
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\XmlRpc\XmlRpcStructValue.vb
+    startLine: 83
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+  overload: UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcValue
+  parent: UnderAutomation.UniversalRobots
+  name: XmlRpcValue
+  nameWithType: XmlRpcValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.Xml
+  commentId: P:UnderAutomation.UniversalRobots.XmlRpcValue.Xml
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  name: Xml
+  nameWithType: XmlRpcValue.Xml
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Xml
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{UnderAutomation.UniversalRobots.XmlRpcStructMember}
+  commentId: T:System.Collections.Generic.List{UnderAutomation.UniversalRobots.XmlRpcStructMember}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<XmlRpcStructMember>
+  nameWithType: List<XmlRpcStructMember>
+  fullName: System.Collections.Generic.List<UnderAutomation.UniversalRobots.XmlRpcStructMember>
+  nameWithType.vb: List(Of XmlRpcStructMember)
+  fullName.vb: System.Collections.Generic.List(Of UnderAutomation.UniversalRobots.XmlRpcStructMember)
+  name.vb: List(Of XmlRpcStructMember)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.XmlRpcStructMember
+    name: XmlRpcStructMember
+    nameWithType: XmlRpcStructMember
+    fullName: UnderAutomation.UniversalRobots.XmlRpcStructMember
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.XmlRpcStructMember
+    name: XmlRpcStructMember
+    nameWithType: XmlRpcStructMember
+    fullName: UnderAutomation.UniversalRobots.XmlRpcStructMember
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor*
+  commentId: Overload:UnderAutomation.UniversalRobots.XmlRpcStructValue.#ctor
+  name: XmlRpcStructValue
+  nameWithType: XmlRpcStructValue.XmlRpcStructValue
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.XmlRpcStructValue
+- uid: System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember}
+  commentId: T:System.Collections.Generic.IEnumerable{UnderAutomation.UniversalRobots.XmlRpcStructMember}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<XmlRpcStructMember>
+  nameWithType: IEnumerable<XmlRpcStructMember>
+  fullName: System.Collections.Generic.IEnumerable<UnderAutomation.UniversalRobots.XmlRpcStructMember>
+  nameWithType.vb: IEnumerable(Of XmlRpcStructMember)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnderAutomation.UniversalRobots.XmlRpcStructMember)
+  name.vb: IEnumerable(Of XmlRpcStructMember)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnderAutomation.UniversalRobots.XmlRpcStructMember
+    name: XmlRpcStructMember
+    nameWithType: XmlRpcStructMember
+    fullName: UnderAutomation.UniversalRobots.XmlRpcStructMember
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnderAutomation.UniversalRobots.XmlRpcStructMember
+    name: XmlRpcStructMember
+    nameWithType: XmlRpcStructMember
+    fullName: UnderAutomation.UniversalRobots.XmlRpcStructMember
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.Type
+  commentId: P:UnderAutomation.UniversalRobots.XmlRpcValue.Type
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  name: Type
+  nameWithType: XmlRpcValue.Type
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.Type
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.Type*
+  commentId: Overload:UnderAutomation.UniversalRobots.XmlRpcStructValue.Type
+  name: Type
+  nameWithType: XmlRpcStructValue.Type
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.Type
+- uid: UnderAutomation.UniversalRobots.XmlRpcType
+  commentId: T:UnderAutomation.UniversalRobots.XmlRpcType
+  parent: UnderAutomation.UniversalRobots
+  name: XmlRpcType
+  nameWithType: XmlRpcType
+  fullName: UnderAutomation.UniversalRobots.XmlRpcType
+- uid: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+  commentId: M:UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+  parent: UnderAutomation.UniversalRobots.XmlRpcValue
+  name: ToString()
+  nameWithType: XmlRpcValue.ToString()
+  fullName: UnderAutomation.UniversalRobots.XmlRpcValue.ToString()
+  spec.csharp:
+  - uid: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+    name: ToString
+    nameWithType: XmlRpcValue.ToString
+    fullName: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+    name: ToString
+    nameWithType: XmlRpcValue.ToString
+    fullName: UnderAutomation.UniversalRobots.XmlRpcValue.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString*
+  commentId: Overload:UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString
+  name: ToString
+  nameWithType: XmlRpcStructValue.ToString
+  fullName: UnderAutomation.UniversalRobots.XmlRpcStructValue.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

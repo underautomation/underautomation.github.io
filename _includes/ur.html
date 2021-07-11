@@ -1,0 +1,6 @@
+{% assign member = site.data.UnderAutomationUniversalRobotsUR.items | where : "source.id", include.method | first %}
+```c#
+  // {{ member.summary | strip_newlines }}
+  {{ member.syntax.content }}
+```
+

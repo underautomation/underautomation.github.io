@@ -80,7 +80,7 @@ permalink: /pricing/
     <td>
 		<div class="btn-container">
 		  <button title="Contact us" onclick="location.href='/contact'" class="btn-pill">
-			<span>Contact us to</span>
+			<span>Contact us to order</span>
 		  </button>
 		</div>
 	</td>

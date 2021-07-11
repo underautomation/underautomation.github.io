@@ -11,11 +11,26 @@ permalink: /documentation/
 </nav>
 
 # Introduction
+
+This SDK has the following features:
+
+- Receive a data stream from the robot (positions, IOs, status, ...): [see below](#data-streaming)
+- Send and execute script on the remote robot : [see below](#remote-execute-urscript)
+- Send commands to the robot (Power on, Show popup message, Realease brake, ...) : [see below](#send-remote-commands)
+- Host an XML-RPC server allowing the robot to query your application (with arguments) and get an answer (number, string, pose, array, ...) : [see below](#xml-rpc--remote-procedure-call)
+- Manipulate and convert robot poses (RPY / Rotation Vector) [see below](#tools)
+
+This SDK is licensed and *must* be purchased for use in your application.
+
+The SDK can be downloaded on the download page. The main DLL is available in many versions of .NET. Examples are also provided for Winforms, Console Windows, Linux and Mac as well as integration in LabView, Node.JS and Python.
+
 All C# examples below assume that the assembly ```UnderAutomation.UniversalRobots.dll``` is referenced in your project, and that the directive ```using UnderAutomation.UniversalRobots;``` is present. 
 
 # Connection
 ## Connect to a UR robot
 Initialize a TCP communication with a robot. The ```Connect()``` method take the hostname (ur-xxx) of the robot or its IP address that you can find in the "About Dialog-Box" in PolyScope.
+
+If this method is called with only the IP as parameter the XML-RPC server is started on port 50000 and the data streaming is enabled on Primary Port.
 ```c#
 using UnderAutomation.UniversalRobots;
 
@@ -28,32 +43,32 @@ ur.Connect("192.168.0.1");
 
 The ```Connect()``` method can throw a ```InvalidLicenseException``` if your trial period is over or if your license key is invalid.
 
-## Check if robot is still connected
-```c#
-// Create a new UR instance
-var ur = new UR();
-ur.Connect("192.168.0.1");
 
-// ...
+## Connection parameters
 
-// Ask if the robot is still connected
-bool isConnected = ur.Connected;
-```
+The ```Connect()``` method has optionnal parameters that can be used to set up the connection. If none of the optional parameters are used, the data streaming takes place on the ```Primary Port```, the XML-RPC server starts on port ```50000``` and the robot is pinged at the connection.
 
-## Connect to a specific TCP port
+{% include ur.html method="Connect" %}
+
 ```c#
 // Create a new UR instance
 var ur = new UR();
 
-var port = UniversalRobotPorts.SecondaryClient;
-ur.Connect("192.168.0.1", port);
+ur.Connect("192.168.0.1" // IP of the robot
+  ,true // Enable Data Streaming
+  ,DataStreamingPorts.SecondaryClient // Use secondary port for data streaming
+  ,true // Enable XML-RPC
+  ,40000 // Use local port 40000 instead of 50000 to host the XML-RPC server
+  ,false // Do not ping the robot
+  );
 ```
 
-When port is not specified,  ```UniversalRobotPorts.PrimaryClient``` is used.
-
-{% include properties.html class="UniversalRobotPorts" %}
+{% include properties.html class="DataStreamingPorts" %}
 
 ## Disconnect
+
+The ```Disconnect()``` method stops all services including the data streaming and the XML-RPC server.
+
 ```c#
 // Create a new UR instance
 var ur = new UR();
@@ -65,23 +80,27 @@ ur.Connect("192.168.0.1");
 ur.Disconnect();
 ```
 
-# Licensing
-## Register a license
-You have 30 days free trial. For a long term use, you need to buy a license ([See pricing](/pricing)). Then, we will send you a license key and you will just have to specify it with your company name with the static method ```RegisterLicense()``` of class ```UR```.
-```c#
-// Register your license
-UnderAutomation.UniversalRobots.UR.RegisterLicense("YourCompanyName", "YOUR_LICENSE_KEY");
-```
+## Start/Stop streaming and XML-RPC
+You can enable or disable data streaming and XML-RPC server at any time with the following methods:
 
-## Get current license information
-You can get full information about current license with the static property ```LicenseInfo``` of class ```UR```.
-```c#
-var info = UnderAutomation.UniversalRobots.UR.LicenseInfo;
-```
+{% include ur.html method="EnableDataStreaming" %}
 
-{% include properties.html class="LicenseInfo" %}
+{% include ur.html method="DisableDataStreaming" %}
 
-{% include properties.html class="LicenseState" %}
+{% include ur.html method="EnableXmlRpcServer" %}
+
+{% include ur.html method="DisableXmlRpcServer" %}
+
+
+You can then check if these services are enabled with the following properties :
+
+{% include ur.html method="DataStreamingEnabled" %}
+
+{% include ur.html method="XmlRpcServerEnabled" %}
+
+If you want to know with which of your local IP addresses you are connected to the robot, you can use the ```DataStreamingLocalEndPoint``` property. This property also allows to know which IP address to use in the robot's ```rpc_factory("xmlrpc", "http://????:50000")``` function.
+
+{% include ur.html method="DataStreamingLocalEndPoint" %}
 
 # Remote execute URScript
 
@@ -104,7 +123,7 @@ ur.Send(“set_digital_out(7,True)”);
 
 Please refer to the **Script Manual** to see all the functions you can remotely call : <a href="https://www.universal-robots.com/download/?option=61790#section61549" target="_blank">Download PDF Script Manual</a>.
 
-# Commands
+# Send remote commands
 
 ## Generality
 All commands described below use the TCP/IP Dashboard server protocol to remote control the robot.
@@ -229,7 +248,7 @@ In particular, for request that have a returned value, a ```CommandResponse<t>``
 {% include command.html method="RestartSafety" %}
 
 
-# Robot data
+# Data streaming
 Data described below are sent by the robot controller at 10Hz by the TCP/IP Client Interface protocol.
 
 ## Robot mode
@@ -313,3 +332,162 @@ For more information about DH (Denavit-Hartenberg) parameters, please refer the 
 
 {% include properties.html class="OutputModes" %}
 
+
+# XML-RPC : Remote Procedure Call
+
+## Overview
+
+This feature allows a robot to request or transmit information to the PC.
+
+The [XML-RPC protocol](http://xmlrpc.com/) is used. Via this SDK, the PC is a server and opens a TCP Listener on port 50000.
+This port can be changed either by calling ```ur.Connect("ip_robot", xmlRpcServerPort: 50001)``` or by calling ```ur.EnableXmlRpcServer(50001)```.
+
+
+When a request from the robot arrives, the SDK raises the event ``XmlRpcServerRequest`` which contains the name of the method called, its arguments, the IP of the robot and an ```Answer``` property which you can set and which contains the value returned to the robot.
+
+To communicate with the SDK, you should execute the following script on your robot. If you don't know your PC IP, you can check the property ```ur.DataStreamingLocalEndPoint```.
+
+```ruby
+# Connect to the SDK and specifie the IP and port of the PC
+rpc:=rpc_factory("xmlrpc","http://192.168.0.10:50000")
+
+# Call method get_answer and wait for the reply. The reply will be assigned in variable "answer"
+answer:=rpc.get_answer("Hello", True, False, 12, 12.2, p[100,100,120,0.1,0,0], [12,1.2,123])
+```
+
+
+## Example
+This script can be downloaded here : [xml_rpc_sample.urp](https://github.com/underautomation/UniversalRobots/blob/master/Examples/WindowsDesktop/Samples/xml_rpc_sample.urp)
+
+![](/assets/xml_rpc_sample.jpg)
+
+You can try it with this sample below or with the downloadable Winforms and console examples.
+
+
+```c#
+private ur = new UR();
+
+private void Example()
+{
+  // Connection to the robot with default parameters : XML-RPC server is started on port 50000
+  ur.Connect("192.168.0.1");
+
+  // Handle XML-RPC event
+  ur.XmlRpcServerRequest += Ur_XmlRpcServerRequest;
+}
+
+// Method called when the robot sends a request
+// You shoud execute on your robot : rpc:=rpc_factory("xmlrpc","http://192.168.0.10:50000")
+// Replace the IP address 192.168.0.10 with the IP of the machine running this .NET code
+// If you don't know your IP, you can find it in your interface properties or in with this SDK in the property : ur.DataStreamingLocalEndPoint
+private void Ur_XmlRpcServerRequest(object sender, XmlRpcEventArg request)
+{
+    Console.WriteLine("Robot IP : " + request.EndPoint.Address);
+    // Prints :
+    // Robot IP : 192.168.0.1
+
+    // Set the returned answer according to the method and its arguments
+    switch (request.MethodName)
+    {
+        case "get_answer":
+            // Robot script : answer1:=rpc.get_answer("Hello", True, False, 12, 12.2, p[100,100,120,0.1,0,0], [12,1.2,123])
+            // Reply : answer1:=TRUE    
+
+            foreach (var argument in request.Arguments)
+            {
+                Console.WriteLine(argument.ToString()); // Prints argument value : "Hello", "true", "false", "12", ...
+            }
+
+            request.Answer = true;
+            break;
+
+        case "GetPose":
+            // Robot script : answer2:=rpc.GetPose()
+            // Reply : answer2:=p[100,200,100,0,0,0]                    
+            request.Answer = new Pose(100, 200, 100, 0, 0, 0);
+            break;
+
+        case "HowAreYou":
+            // Robot script : answer3:=rpc.HowAreYou("Alfred")
+            // Reply : answer3:="Fine thx Alfred"                    
+            request.Answer = "Fine thx " + request.Arguments[0];
+            break;
+
+        case "SumFirstArray":
+            // Robot script : answer4:=rpc.SumFirstArray([1,3.5,-2])
+            // Reply : answer4:=2.5                    
+            double[] argument1 = request.Arguments[0];
+
+            double sum1 = 0;
+            for (int i = 0; i < argument1.Length; i++) sum1 += argument1[i];
+
+            request.Answer = sum1;
+
+            break;
+
+        case "SumMyArguments":
+            // Robot script : answer5:=rpc.SumMyArguments(1,3.5,-2)
+            // Reply : answer5:=2.5                    
+            double sum = 0;
+            for (int i = 0; i < request.Arguments.Length; i++)
+            {
+                double argValue = request.Arguments[i];
+                sum += argValue;
+            }
+
+            request.Answer = sum;
+            break;
+
+        default:
+            // Do not reply and the answer variable is not assigned
+            break;
+    }
+}
+```
+
+## XML-RPC types
+
+{% include ur.html method="XmlRpcServerRequest" %}
+
+{% include properties.html class="XmlRpcEventArg" %}
+
+
+The class ``XmlRpcValue`` has implicit operators that allow it to be implicitly casted in native types (int, double, string, Pose, array). This is why it is for example possible to write ```request.Answer = 12``` instead of ```request.Answer = new XmlRpcIntegerValue(12)```.
+
+{% include properties.html class="XmlRpcValue" %}
+
+The classes ```XmlRpcIntegerValue```, ```XmlRpcDoubleValue```, ```XmlRpcBooleanValue```, ```XmlRpcStringValue```, ```XmlRpcPoseValue```, ```XmlRpcArrayValue```, ```XmlRpcStructValue``` inherits from ```XmlRpcValue``` and have a ```Type``` field that contains the value in the right type.
+
+
+If an unknown object is received, a ```XmlRpcUnknownValue``` value is returned that contains a ```AdditionalInformation``` explaining why it is not supported.
+
+
+# Tools
+
+## Pose and conversions
+
+The class ```Pose``` contains the 6 coordinates of a cartesian position : 3 translations X, Y, Z in millimeters and 3 rotation RX, RY, RZ in radians. It also contains 3 rotations properties that exposes the 3 rotations in degrees, but it's not a storage, only a conversion of RX, RY and RZ.
+
+The methods ```FromRotationVectorToRPY()``` and ```FromRPYToRotationVector()``` transform the position in a new position with same translations X, Y, Z but different rotations.
+
+{% include properties.html class="Pose" %}
+
+
+
+# Licensing
+## Register a license
+You have 30 days free trial. For a long term use, you need to buy a license ([See pricing](/pricing)). Then, we will send you a license key and you will just have to specify it with your company name with the static method ```RegisterLicense()``` of class ```UR```.
+```c#
+// Register your license
+UnderAutomation.UniversalRobots.UR.RegisterLicense("YourCompanyName", "YOUR_LICENSE_KEY");
+```
+
+## Get current license information
+You can get full information about current license with the static property ```LicenseInfo``` of class ```UR```.
+```c#
+var info = UnderAutomation.UniversalRobots.UR.LicenseInfo;
+```
+
+{% include properties.html class="LicenseInfo" %}
+
+{% include properties.html class="LicenseState" %}

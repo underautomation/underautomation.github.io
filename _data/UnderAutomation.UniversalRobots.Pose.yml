@@ -1,0 +1,909 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnderAutomation.UniversalRobots.Pose
+  commentId: T:UnderAutomation.UniversalRobots.Pose
+  id: Pose
+  parent: UnderAutomation.UniversalRobots
+  children:
+  - UnderAutomation.UniversalRobots.Pose.#ctor
+  - UnderAutomation.UniversalRobots.Pose.#ctor(System.Double,System.Double,System.Double)
+  - UnderAutomation.UniversalRobots.Pose.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY
+  - UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector
+  - UnderAutomation.UniversalRobots.Pose.Rx
+  - UnderAutomation.UniversalRobots.Pose.RxDegrees
+  - UnderAutomation.UniversalRobots.Pose.Ry
+  - UnderAutomation.UniversalRobots.Pose.RyDegrees
+  - UnderAutomation.UniversalRobots.Pose.Rz
+  - UnderAutomation.UniversalRobots.Pose.RzDegrees
+  - UnderAutomation.UniversalRobots.Pose.ToString
+  - UnderAutomation.UniversalRobots.Pose.X
+  - UnderAutomation.UniversalRobots.Pose.Y
+  - UnderAutomation.UniversalRobots.Pose.Z
+  langs:
+  - csharp
+  - vb
+  name: Pose
+  nameWithType: Pose
+  fullName: UnderAutomation.UniversalRobots.Pose
+  type: Class
+  source:
+    id: Pose
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 4
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRepresents a cartesian pose with 3 translations and 3 rotations\n"
+  example: []
+  syntax:
+    content: public class Pose
+    content.vb: Public Class Pose
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.Finalize
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnderAutomation.UniversalRobots.Pose.#ctor
+  commentId: M:UnderAutomation.UniversalRobots.Pose.#ctor
+  id: '#ctor'
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Pose()
+  nameWithType: Pose.Pose()
+  fullName: UnderAutomation.UniversalRobots.Pose.Pose()
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 11
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCreate a new pose with null coordinates\n"
+  example: []
+  syntax:
+    content: public Pose()
+    content.vb: Public Sub New
+  overload: UnderAutomation.UniversalRobots.Pose.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.#ctor(System.Double,System.Double,System.Double)
+  commentId: M:UnderAutomation.UniversalRobots.Pose.#ctor(System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double)'
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Pose(Double, Double, Double)
+  nameWithType: Pose.Pose(Double, Double, Double)
+  fullName: UnderAutomation.UniversalRobots.Pose.Pose(System.Double, System.Double, System.Double)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 17
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCreates a new pose with translation informations and null rotations\n"
+  example: []
+  syntax:
+    content: public Pose(double x, double y, double z)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: z
+      type: System.Double
+    content.vb: Public Sub New(x As Double, y As Double, z As Double)
+  overload: UnderAutomation.UniversalRobots.Pose.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:UnderAutomation.UniversalRobots.Pose.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)'
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Pose(Double, Double, Double, Double, Double, Double)
+  nameWithType: Pose.Pose(Double, Double, Double, Double, Double, Double)
+  fullName: UnderAutomation.UniversalRobots.Pose.Pose(System.Double, System.Double, System.Double, System.Double, System.Double, System.Double)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 26
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nCreates a new pose with translations and rotations information\n"
+  example: []
+  syntax:
+    content: public Pose(double x, double y, double z, double rx, double ry, double rz)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: z
+      type: System.Double
+    - id: rx
+      type: System.Double
+    - id: ry
+      type: System.Double
+    - id: rz
+      type: System.Double
+    content.vb: Public Sub New(x As Double, y As Double, z As Double, rx As Double, ry As Double, rz As Double)
+  overload: UnderAutomation.UniversalRobots.Pose.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.X
+  commentId: F:UnderAutomation.UniversalRobots.Pose.X
+  id: X
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Pose.X
+  fullName: UnderAutomation.UniversalRobots.Pose.X
+  type: Field
+  source:
+    id: X
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 36
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nX coordinate in mm\n"
+  example: []
+  syntax:
+    content: public double X
+    return:
+      type: System.Double
+    content.vb: Public X As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.Y
+  commentId: F:UnderAutomation.UniversalRobots.Pose.Y
+  id: Y
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Pose.Y
+  fullName: UnderAutomation.UniversalRobots.Pose.Y
+  type: Field
+  source:
+    id: Y
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 41
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nX coordinate in mm\n"
+  example: []
+  syntax:
+    content: public double Y
+    return:
+      type: System.Double
+    content.vb: Public Y As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.Z
+  commentId: F:UnderAutomation.UniversalRobots.Pose.Z
+  id: Z
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Pose.Z
+  fullName: UnderAutomation.UniversalRobots.Pose.Z
+  type: Field
+  source:
+    id: Z
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 46
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nX coordinate in mm\n"
+  example: []
+  syntax:
+    content: public double Z
+    return:
+      type: System.Double
+    content.vb: Public Z As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.Rx
+  commentId: F:UnderAutomation.UniversalRobots.Pose.Rx
+  id: Rx
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Rx
+  nameWithType: Pose.Rx
+  fullName: UnderAutomation.UniversalRobots.Pose.Rx
+  type: Field
+  source:
+    id: Rx
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 52
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRX rotation in radians\n"
+  example: []
+  syntax:
+    content: public double Rx
+    return:
+      type: System.Double
+    content.vb: Public Rx As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.Ry
+  commentId: F:UnderAutomation.UniversalRobots.Pose.Ry
+  id: Ry
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Ry
+  nameWithType: Pose.Ry
+  fullName: UnderAutomation.UniversalRobots.Pose.Ry
+  type: Field
+  source:
+    id: Ry
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 57
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRY rotation in radians\n"
+  example: []
+  syntax:
+    content: public double Ry
+    return:
+      type: System.Double
+    content.vb: Public Ry As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.Rz
+  commentId: F:UnderAutomation.UniversalRobots.Pose.Rz
+  id: Rz
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: Rz
+  nameWithType: Pose.Rz
+  fullName: UnderAutomation.UniversalRobots.Pose.Rz
+  type: Field
+  source:
+    id: Rz
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 62
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRZ rotation in radians\n"
+  example: []
+  syntax:
+    content: public double Rz
+    return:
+      type: System.Double
+    content.vb: Public Rz As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.RxDegrees
+  commentId: P:UnderAutomation.UniversalRobots.Pose.RxDegrees
+  id: RxDegrees
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: RxDegrees
+  nameWithType: Pose.RxDegrees
+  fullName: UnderAutomation.UniversalRobots.Pose.RxDegrees
+  type: Property
+  source:
+    id: RxDegrees
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 68
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRX rotation in degrees\n"
+  example: []
+  syntax:
+    content: public double RxDegrees { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RxDegrees As Double
+  overload: UnderAutomation.UniversalRobots.Pose.RxDegrees*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.RyDegrees
+  commentId: P:UnderAutomation.UniversalRobots.Pose.RyDegrees
+  id: RyDegrees
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: RyDegrees
+  nameWithType: Pose.RyDegrees
+  fullName: UnderAutomation.UniversalRobots.Pose.RyDegrees
+  type: Property
+  source:
+    id: RyDegrees
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 80
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRY rotation in degrees\n"
+  example: []
+  syntax:
+    content: public double RyDegrees { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RyDegrees As Double
+  overload: UnderAutomation.UniversalRobots.Pose.RyDegrees*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.RzDegrees
+  commentId: P:UnderAutomation.UniversalRobots.Pose.RzDegrees
+  id: RzDegrees
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: RzDegrees
+  nameWithType: Pose.RzDegrees
+  fullName: UnderAutomation.UniversalRobots.Pose.RzDegrees
+  type: Property
+  source:
+    id: RzDegrees
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 92
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nRZ rotation in degrees\n"
+  example: []
+  syntax:
+    content: public double RzDegrees { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RzDegrees As Double
+  overload: UnderAutomation.UniversalRobots.Pose.RzDegrees*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY
+  commentId: M:UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY
+  id: FromRotationVectorToRPY
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: FromRotationVectorToRPY()
+  nameWithType: Pose.FromRotationVectorToRPY()
+  fullName: UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY()
+  type: Method
+  source:
+    id: FromRotationVectorToRPY
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 104
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nConsider this pose as a Rotation Vector And convert it to a new RPY position \n"
+  example: []
+  syntax:
+    content: public Pose FromRotationVectorToRPY()
+    return:
+      type: UnderAutomation.UniversalRobots.Pose
+    content.vb: Public Function FromRotationVectorToRPY As Pose
+  overload: UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector
+  commentId: M:UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector
+  id: FromRPYToRotationVector
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: FromRPYToRotationVector()
+  nameWithType: Pose.FromRPYToRotationVector()
+  fullName: UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector()
+  type: Method
+  source:
+    id: FromRPYToRotationVector
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 153
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  summary: "\nConsider this pose as RPY And convert it to a new Rotation Vector\n"
+  example: []
+  syntax:
+    content: public Pose FromRPYToRotationVector()
+    return:
+      type: UnderAutomation.UniversalRobots.Pose
+    content.vb: Public Function FromRPYToRotationVector As Pose
+  overload: UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UnderAutomation.UniversalRobots.Pose.ToString
+  commentId: M:UnderAutomation.UniversalRobots.Pose.ToString
+  id: ToString
+  parent: UnderAutomation.UniversalRobots.Pose
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Pose.ToString()
+  fullName: UnderAutomation.UniversalRobots.Pose.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: D:\a\UnderAutomationDev\UnderAutomationDev\UniversalRobot\Pose.vb
+    startLine: 180
+  assemblies:
+  - UnderAutomation.UniversalRobots
+  namespace: UnderAutomation.UniversalRobots
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: UnderAutomation.UniversalRobots.Pose.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: UnderAutomation.UniversalRobots
+  commentId: N:UnderAutomation.UniversalRobots
+  name: UnderAutomation.UniversalRobots
+  nameWithType: UnderAutomation.UniversalRobots
+  fullName: UnderAutomation.UniversalRobots
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Finalize
+  commentId: M:System.Object.Finalize
+  parent: System.Object
+  isExternal: true
+  name: Finalize()
+  nameWithType: Object.Finalize()
+  fullName: System.Object.Finalize()
+  spec.csharp:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Finalize
+    name: Finalize
+    nameWithType: Object.Finalize
+    fullName: System.Object.Finalize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnderAutomation.UniversalRobots.Pose.#ctor*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.#ctor
+  name: Pose
+  nameWithType: Pose.Pose
+  fullName: UnderAutomation.UniversalRobots.Pose.Pose
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: UnderAutomation.UniversalRobots.Pose.RxDegrees*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.RxDegrees
+  name: RxDegrees
+  nameWithType: Pose.RxDegrees
+  fullName: UnderAutomation.UniversalRobots.Pose.RxDegrees
+- uid: UnderAutomation.UniversalRobots.Pose.RyDegrees*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.RyDegrees
+  name: RyDegrees
+  nameWithType: Pose.RyDegrees
+  fullName: UnderAutomation.UniversalRobots.Pose.RyDegrees
+- uid: UnderAutomation.UniversalRobots.Pose.RzDegrees*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.RzDegrees
+  name: RzDegrees
+  nameWithType: Pose.RzDegrees
+  fullName: UnderAutomation.UniversalRobots.Pose.RzDegrees
+- uid: UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY
+  name: FromRotationVectorToRPY
+  nameWithType: Pose.FromRotationVectorToRPY
+  fullName: UnderAutomation.UniversalRobots.Pose.FromRotationVectorToRPY
+- uid: UnderAutomation.UniversalRobots.Pose
+  commentId: T:UnderAutomation.UniversalRobots.Pose
+  parent: UnderAutomation.UniversalRobots
+  name: Pose
+  nameWithType: Pose
+  fullName: UnderAutomation.UniversalRobots.Pose
+- uid: UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector
+  name: FromRPYToRotationVector
+  nameWithType: Pose.FromRPYToRotationVector
+  fullName: UnderAutomation.UniversalRobots.Pose.FromRPYToRotationVector
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnderAutomation.UniversalRobots.Pose.ToString*
+  commentId: Overload:UnderAutomation.UniversalRobots.Pose.ToString
+  name: ToString
+  nameWithType: Pose.ToString
+  fullName: UnderAutomation.UniversalRobots.Pose.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
