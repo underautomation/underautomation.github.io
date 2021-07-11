@@ -445,6 +445,11 @@ private void Ur_XmlRpcServerRequest(object sender, XmlRpcEventArg request)
 }
 ```
 
+In the Winforms example, a popup is displayed and contains all information about the request and allows you to return a typed object to the robot with buttons.
+
+![](/assets/xml_rpc_winforms.jpg)
+
+
 ## XML-RPC types
 
 {% include ur.html method="XmlRpcServerRequest" %}
